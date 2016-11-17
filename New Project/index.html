@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <meta charset="UTF-8">
+    <title>Index Page</title>
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">История</a>
+    <a href="#">Галерия</a>
+    <a href="#">Родословно дърво</a>
+    <a href="#">За нас</a>
+    <a href="#">Контакти</a>
+    <br>
+    <br>
+    <br>
+    <a href="#">Вход</a>
+    <a href="#">Регистрсация</a>
+</div>
+
+<div id="main">
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+    <img src="pictures/background.png" class="img-responsive" width="1360" height="auto">
+</div>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+    }
+</script>
+
+</body>
+</html>
