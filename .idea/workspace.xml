@@ -39,11 +39,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/untitled2/register.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="71" lean-forward="true" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/untitled2/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -69,7 +79,6 @@
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/untitled2/styles/rerister.css" />
         <option value="$PROJECT_DIR$/untitled2/styles/register.css" />
-        <option value="$PROJECT_DIR$/untitled2/login.html" />
         <option value="$PROJECT_DIR$/galery.html" />
         <option value="$PROJECT_DIR$/untitled2/galery.html" />
         <option value="$PROJECT_DIR$/contacts.html" />
@@ -78,6 +87,7 @@
         <option value="$PROJECT_DIR$/untitled2/index.html" />
         <option value="$PROJECT_DIR$/untitled2/familyTree.html" />
         <option value="$PROJECT_DIR$/untitled2/register.html" />
+        <option value="$PROJECT_DIR$/untitled2/login.html" />
       </list>
     </option>
   </component>
@@ -225,12 +235,12 @@
       <updated>1479554957134</updated>
       <workItem from="1479554978065" duration="6190000" />
       <workItem from="1479906420738" duration="415000" />
-      <workItem from="1480189433300" duration="834000" />
+      <workItem from="1480189433300" duration="904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7439000" />
+    <option name="totallyTimeSpent" value="7509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -497,14 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled2/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="74" lean-forward="false" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/galery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -573,6 +575,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="71" lean-forward="true" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/untitled2/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding />
         </state>
       </provider>
