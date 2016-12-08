@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    <div class="container body-content span=8 offset=2">
+        <div class="well">
+            <form class="form-horizontal" action="{{ path('admin_category_create') }}" method="post">
+                <fieldset>
+                    <legend>Create category</legend>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label" for="category_name">Name</label>
+                        <div class="col-sm-4 ">
+                            <input class="form-control" id="category_name" placeholder="Category name" name="category[name]" required type="text">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <a class="btn btn-default" href="{{ path('admin_category_all') }}">Cancel</a>
+                            <button type="submit" class="btn btn-primary">Save chages</button>
+                        </div>
+                    </div>
+                    {{  form_row(form._token) }}
+                </fieldset>
+            </form>
+        </div>
+    </div>
+{% endblock %}
+
