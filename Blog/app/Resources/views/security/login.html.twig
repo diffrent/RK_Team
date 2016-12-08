@@ -11,17 +11,17 @@
                 <h3>Вход</h3>
                 <div>
                     <label class="col-sm-4 control-label" for="user_email">E-mail</label>
-                    <input type="text" class="form-control" id="user_email" placeholder="Email" name="_username">
+                    <input type="email" class="form-control" id="user_email" placeholder="Email" name="_username" required>
                 </div>
                 <div class="form-group">
                     <label class="col-sm-4 control-label" for="password">Парола</label>
-                    <input type="password" class="form-control" id="password" placeholder="Password" name="_password">
+                    <input type="password" class="form-control" id="password" placeholder="Password" name="_password" required>
                 </div>
                 <input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}"/>
                 <div>
                     <label></label>
+                    <button type="submit" class="button" style="margin: 0% 2% 0% 0%;">Вход</button>
                     <a class="button" href="{{ path('blog_index') }}">Отказ</a>
-                    <button type="submit" class="button">Вход</button>
                 </div>
             </form>
         </div>

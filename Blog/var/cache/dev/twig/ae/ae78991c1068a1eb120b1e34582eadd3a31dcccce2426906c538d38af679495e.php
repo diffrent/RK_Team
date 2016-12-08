@@ -22,32 +22,32 @@ class __TwigTemplate_b005523ee0f47e1622aeadfaffd1de50d43a419818fea21d2f79842f1a8
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_374ecc00caca9ac17e84f0ce83068edbf70d6f4990b8be4226f40e10476f7691 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_374ecc00caca9ac17e84f0ce83068edbf70d6f4990b8be4226f40e10476f7691->enter($__internal_374ecc00caca9ac17e84f0ce83068edbf70d6f4990b8be4226f40e10476f7691_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "user/register.html.twig"));
+        $__internal_d7fb8f0bd06761f514ad5a572e224e1954b93a46ced1ee31bb738674e922a31d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d7fb8f0bd06761f514ad5a572e224e1954b93a46ced1ee31bb738674e922a31d->enter($__internal_d7fb8f0bd06761f514ad5a572e224e1954b93a46ced1ee31bb738674e922a31d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "user/register.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_374ecc00caca9ac17e84f0ce83068edbf70d6f4990b8be4226f40e10476f7691->leave($__internal_374ecc00caca9ac17e84f0ce83068edbf70d6f4990b8be4226f40e10476f7691_prof);
+        $__internal_d7fb8f0bd06761f514ad5a572e224e1954b93a46ced1ee31bb738674e922a31d->leave($__internal_d7fb8f0bd06761f514ad5a572e224e1954b93a46ced1ee31bb738674e922a31d_prof);
 
     }
 
     // line 3
     public function block_body_id($context, array $blocks = array())
     {
-        $__internal_a10f2e680c038c19360130bfd281de72a2ad8331e456ab7ccfef18fe380f2051 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_a10f2e680c038c19360130bfd281de72a2ad8331e456ab7ccfef18fe380f2051->enter($__internal_a10f2e680c038c19360130bfd281de72a2ad8331e456ab7ccfef18fe380f2051_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body_id"));
+        $__internal_2970dc4bd1851afe631932f7a0ed9f6ea551bb928a69c7c282585b737c077c36 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2970dc4bd1851afe631932f7a0ed9f6ea551bb928a69c7c282585b737c077c36->enter($__internal_2970dc4bd1851afe631932f7a0ed9f6ea551bb928a69c7c282585b737c077c36_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body_id"));
 
         echo "register";
         
-        $__internal_a10f2e680c038c19360130bfd281de72a2ad8331e456ab7ccfef18fe380f2051->leave($__internal_a10f2e680c038c19360130bfd281de72a2ad8331e456ab7ccfef18fe380f2051_prof);
+        $__internal_2970dc4bd1851afe631932f7a0ed9f6ea551bb928a69c7c282585b737c077c36->leave($__internal_2970dc4bd1851afe631932f7a0ed9f6ea551bb928a69c7c282585b737c077c36_prof);
 
     }
 
     // line 5
     public function block_main($context, array $blocks = array())
     {
-        $__internal_e8f333cae695546a9badbff20fd180aba3fde4578460808bb5f76db4da0415fe = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_e8f333cae695546a9badbff20fd180aba3fde4578460808bb5f76db4da0415fe->enter($__internal_e8f333cae695546a9badbff20fd180aba3fde4578460808bb5f76db4da0415fe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+        $__internal_206a96541bcde28669f1831510a15257d9582831280ffa37cd75481e42858da6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_206a96541bcde28669f1831510a15257d9582831280ffa37cd75481e42858da6->enter($__internal_206a96541bcde28669f1831510a15257d9582831280ffa37cd75481e42858da6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
 
         // line 6
         echo "    <link rel=\"stylesheet\" href=\"";
@@ -79,11 +79,11 @@ class __TwigTemplate_b005523ee0f47e1622aeadfaffd1de50d43a419818fea21d2f79842f1a8
                     </div>
                     <div>
                         <label></label>
+                        <button type=\"submit\" class=\"button\" style=\"margin: 0% 2% 0% 0%;\">Създай Профил</button>
                         <a class=\"button\" href=\"";
-        // line 30
+        // line 31
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("blog_index");
         echo "\">Отказ</a>
-                        <a type=\"submit\" class=\"button\">Създай Профил</a>
                     </div>
 
                     ";
@@ -95,7 +95,7 @@ class __TwigTemplate_b005523ee0f47e1622aeadfaffd1de50d43a419818fea21d2f79842f1a8
     </div>
 ";
         
-        $__internal_e8f333cae695546a9badbff20fd180aba3fde4578460808bb5f76db4da0415fe->leave($__internal_e8f333cae695546a9badbff20fd180aba3fde4578460808bb5f76db4da0415fe_prof);
+        $__internal_206a96541bcde28669f1831510a15257d9582831280ffa37cd75481e42858da6->leave($__internal_206a96541bcde28669f1831510a15257d9582831280ffa37cd75481e42858da6_prof);
 
     }
 
@@ -111,7 +111,7 @@ class __TwigTemplate_b005523ee0f47e1622aeadfaffd1de50d43a419818fea21d2f79842f1a8
 
     public function getDebugInfo()
     {
-        return array (  91 => 34,  84 => 30,  61 => 10,  53 => 6,  47 => 5,  35 => 3,  11 => 1,);
+        return array (  91 => 34,  85 => 31,  61 => 10,  53 => 6,  47 => 5,  35 => 3,  11 => 1,);
     }
 
     public function getSource()
@@ -145,8 +145,8 @@ class __TwigTemplate_b005523ee0f47e1622aeadfaffd1de50d43a419818fea21d2f79842f1a8
                     </div>
                     <div>
                         <label></label>
+                        <button type=\"submit\" class=\"button\" style=\"margin: 0% 2% 0% 0%;\">Създай Профил</button>
                         <a class=\"button\" href=\"{{ path('blog_index') }}\">Отказ</a>
-                        <a type=\"submit\" class=\"button\">Създай Профил</a>
                     </div>
 
                     {{  form_row(form._token) }}

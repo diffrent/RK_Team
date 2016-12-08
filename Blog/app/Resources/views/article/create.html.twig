@@ -1,57 +1,60 @@
+
 {% extends 'base.html.twig' %}
 
 {% block main %}
-    <div class="container body-content span=8 offset=2">
-        <div class="well">
-            <form enctype="multipart/form-data" class="form-horizontal" action="{{ path('article_create') }}" method="POST">
-                <fieldset>
-                    <legend>New Post</legend>
+    <link rel="stylesheet" href="{{ asset('css/articleCreate.css') }}">
 
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label" for="article_title">Post Title</label>
-                        <div class="col-sm-4 ">
-                            <input type="text" class="form-control" id="article_title" placeholder="Post Title"
-                                   name="article[title]">
-                        </div>
+    <div class="main">
+        <div class="one">
+            <form enctype="multipart/form-data" class="register" action="{{ path('article_create') }}" method="POST">
+                <h3>Нова Статия</h3>
+
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="article_title">Заглавие</label>
+                    <div class="col-sm-4 ">
+                        <input type="text" class="form-control" id="article_title" placeholder="Post Title"
+                               name="article[title]">
                     </div>
+                </div>
 
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label" for="article_content">Content</label>
-                        <div class="col-sm-6">
-                            <textarea class="form-control" rows="6" id="article_content"
+                <div>
+                    <label class="col-sm-4 control-label" for="article_content">Съдържание</label>
+                    <div class="col-sm-6">
+                            <textarea class="form-control" rows="17" id="article_content"
                                       name="article[content]"></textarea>
-                        </div>
                     </div>
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label" for="article_title">Category</label>
-                        <div class="col-sm-4 ">
-                            <select class="form-control" id="article_title"
-                                   name="article[category]">
-                                 {% for category in categories%}
-                                     <option value="{{ category.id }}">{{ category }}</option>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="article_title">Category</label>
+                    <div class="col-sm-4 ">
+                        <select class="form-control" id="article_title"
+                                name="article[category]">
+                            {% for category in categories%}
+                                <option value="{{ category.id }}">{{ category }}</option>
 
-                                 {% endfor %}
-                            </select>
-                        </div>
+                            {% endfor %}
+                        </select>
                     </div>
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label" for="article_tags">Tags</label>
-                        <div class="col-sm-4 ">
-                            <input type="text" class="form-control" id="article_tags" placeholder="Create tag"
-                                   name="tags">
-                        </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="article_tags">Tags</label>
+                    <div class="col-sm-4 ">
+                        <input type="text" class="form-control" id="article_tags" placeholder="Create tag"
+                               name="tags">
                     </div>
+                </div>
 
-                    {{ form_row(form.coverPhoto) }}
-                    {{ form_row(form._token) }}
+                {{ form_row(form.coverPhoto) }}
+                {{ form_row(form._token) }}
 
-                    <div class="form-group">
-                        <div class="col-sm-4 col-sm-offset-4">
-                            <a class="btn btn-default" href="{{ path('blog_index') }}">Cancel</a>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </div>
+
+                <div>
+                    <div>
+                        <label></label>
+                        <button style="float: right;" type="submit" class="button">Изпрати</button>
+                        <a style="float: right; padding: 14px; margin: -4% 3% 5% 0%; background-color: tomato;" class="button" href="{{ path('blog_index') }}">Отказ</a>
                     </div>
-                </fieldset>
+                </div>
             </form>
         </div>
     </div>
