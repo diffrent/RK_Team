@@ -37,20 +37,7 @@ class ArticleController extends Controller
 
         if ($form->isSubmitted() && $form->isValid()) {
             $em = $this->getDoctrine()->getManager();
-            $tagsString = $request->get('tags');
-            $tags = explode(",", $tagsString);
-            $tagRepo = $this->getDoctrine()->getRepository(Tag::class);
-            $tagsToSave = new ArrayCollection();
-            foreach ($tags as $tagName) {
-                $tagName = trim($tagName);
-                $tag = $tagRepo->findOneBy(['name' => $tagName]);
-                if($tag == null) {
-                    $tag = new Tag();
-                    $tag->setName($tagName);
-                    $em->persist($tag);
-                }
-                $tagsToSave->add($tag);
-            }
+
           /** @var UploadedFile $file */
             $file = $article->getCoverPhoto();
 
@@ -62,7 +49,6 @@ class ArticleController extends Controller
 
 
             $article->setCoverPhoto($fileName);
-            $article->setTags($tagsToSave);
             $article->setAuthor($this->getUser());
 
             $em->persist($article);
@@ -71,10 +57,8 @@ class ArticleController extends Controller
             return $this->redirectToRoute('blog_index');
         }
 
-        $categories = $this->getDoctrine()->getRepository(Category::class)->findAll();
-
         return $this->render('article/create.html.twig',
-            array('form' => $form->createView(), 'categories' => $categories));
+            array('form' => $form->createView()));
     }
 
     /**
@@ -119,28 +103,11 @@ class ArticleController extends Controller
         if ($form->isSubmitted() && $form->isValid())
         {
             $em = $this->getDoctrine()->getManager();
-            $tagsString = $request->get('tags');
-            $tags = explode(",", $tagsString);
-            $tagRepo = $this->getDoctrine()->getRepository(Tag::class);
-            $tagsToSave = new ArrayCollection();
-            foreach ($tags as $tagName) {
-                $tagName = trim($tagName);
-                $tag = $tagRepo->findOneBy(['name' => $tagName]);
-                if($tag == null) {
-                    $tag = new Tag();
-                    $tag->setName($tagName);
-                    $em->persist($tag);
-                }
-                $tagsToSave->add($tag);
-            }
-
-            $article->setTags($tagsToSave);
             $em->persist($article);
             $em->flush();
 
             return $this->redirectToRoute('article_view', array('id' => $article->getId()));
         }
-        $categories = $this->getDoctrine()->getRepository(Category::class)->findAll();
 
         return $this->render('article/edit.html.twig',
             array('article' => $article,

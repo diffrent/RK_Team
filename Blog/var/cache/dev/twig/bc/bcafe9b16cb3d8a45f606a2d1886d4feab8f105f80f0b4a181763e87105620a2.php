@@ -21,20 +21,20 @@ class __TwigTemplate_36a0f544f4db15635067e01ccf255c79d71104ed2ca5b7eca3997e98116
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_0592145f7510174c34ecb2a3947f06abf78a9b8f31ea19beea3ab0c9b4e58d75 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_0592145f7510174c34ecb2a3947f06abf78a9b8f31ea19beea3ab0c9b4e58d75->enter($__internal_0592145f7510174c34ecb2a3947f06abf78a9b8f31ea19beea3ab0c9b4e58d75_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "article/create.html.twig"));
+        $__internal_974aa5c569d39cf4243f906c4ecddb84cd682db4bb76ba36522c9105425e90d6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_974aa5c569d39cf4243f906c4ecddb84cd682db4bb76ba36522c9105425e90d6->enter($__internal_974aa5c569d39cf4243f906c4ecddb84cd682db4bb76ba36522c9105425e90d6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "article/create.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_0592145f7510174c34ecb2a3947f06abf78a9b8f31ea19beea3ab0c9b4e58d75->leave($__internal_0592145f7510174c34ecb2a3947f06abf78a9b8f31ea19beea3ab0c9b4e58d75_prof);
+        $__internal_974aa5c569d39cf4243f906c4ecddb84cd682db4bb76ba36522c9105425e90d6->leave($__internal_974aa5c569d39cf4243f906c4ecddb84cd682db4bb76ba36522c9105425e90d6_prof);
 
     }
 
     // line 4
     public function block_main($context, array $blocks = array())
     {
-        $__internal_68d1456c74abfb823b46fd71f34beee3e0da06b6228c6295842f2a157c09a0fb = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_68d1456c74abfb823b46fd71f34beee3e0da06b6228c6295842f2a157c09a0fb->enter($__internal_68d1456c74abfb823b46fd71f34beee3e0da06b6228c6295842f2a157c09a0fb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+        $__internal_7ba4440fa0681eb6bc4997ffea1bdbf560edde8ee3613991e02503abb761778d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_7ba4440fa0681eb6bc4997ffea1bdbf560edde8ee3613991e02503abb761778d->enter($__internal_7ba4440fa0681eb6bc4997ffea1bdbf560edde8ee3613991e02503abb761778d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
 
         // line 5
         echo "    <link rel=\"stylesheet\" href=\"";
@@ -64,46 +64,13 @@ class __TwigTemplate_36a0f544f4db15635067e01ccf255c79d71104ed2ca5b7eca3997e98116
                                       name=\"article[content]\"></textarea>
                     </div>
                 </div>
-                <div class=\"form-group\">
-                    <label class=\"col-sm-4 control-label\" for=\"article_title\">Category</label>
-                    <div class=\"col-sm-4 \">
-                        <select class=\"form-control\" id=\"article_title\"
-                                name=\"article[category]\">
-                            ";
-        // line 32
-        $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["categories"]) ? $context["categories"] : $this->getContext($context, "categories")));
-        foreach ($context['_seq'] as $context["_key"] => $context["category"]) {
-            // line 33
-            echo "                                <option value=\"";
-            echo twig_escape_filter($this->env, $this->getAttribute($context["category"], "id", array()), "html", null, true);
-            echo "\">";
-            echo twig_escape_filter($this->env, $context["category"], "html", null, true);
-            echo "</option>
-
-                            ";
-        }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['category'], $context['_parent'], $context['loop']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 36
-        echo "                        </select>
-                    </div>
-                </div>
-                <div class=\"form-group\">
-                    <label class=\"col-sm-4 control-label\" for=\"article_tags\">Tags</label>
-                    <div class=\"col-sm-4 \">
-                        <input type=\"text\" class=\"form-control\" id=\"article_tags\" placeholder=\"Create tag\"
-                               name=\"tags\">
-                    </div>
-                </div>
 
                 ";
-        // line 47
+        // line 28
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "coverPhoto", array()), 'row');
         echo "
                 ";
-        // line 48
+        // line 29
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "_token", array()), 'row');
         echo "
 
@@ -113,7 +80,7 @@ class __TwigTemplate_36a0f544f4db15635067e01ccf255c79d71104ed2ca5b7eca3997e98116
                         <label></label>
                         <button style=\"float: right;\" type=\"submit\" class=\"button\">Изпрати</button>
                         <a style=\"float: right; padding: 14px; margin: -4% 3% 5% 0%; background-color: tomato;\" class=\"button\" href=\"";
-        // line 55
+        // line 36
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("blog_index");
         echo "\">Отказ</a>
                     </div>
@@ -123,7 +90,7 @@ class __TwigTemplate_36a0f544f4db15635067e01ccf255c79d71104ed2ca5b7eca3997e98116
     </div>
 ";
         
-        $__internal_68d1456c74abfb823b46fd71f34beee3e0da06b6228c6295842f2a157c09a0fb->leave($__internal_68d1456c74abfb823b46fd71f34beee3e0da06b6228c6295842f2a157c09a0fb_prof);
+        $__internal_7ba4440fa0681eb6bc4997ffea1bdbf560edde8ee3613991e02503abb761778d->leave($__internal_7ba4440fa0681eb6bc4997ffea1bdbf560edde8ee3613991e02503abb761778d_prof);
 
     }
 
@@ -139,7 +106,7 @@ class __TwigTemplate_36a0f544f4db15635067e01ccf255c79d71104ed2ca5b7eca3997e98116
 
     public function getDebugInfo()
     {
-        return array (  117 => 55,  107 => 48,  103 => 47,  90 => 36,  78 => 33,  74 => 32,  48 => 9,  40 => 5,  34 => 4,  11 => 2,);
+        return array (  84 => 36,  74 => 29,  70 => 28,  48 => 9,  40 => 5,  34 => 4,  11 => 2,);
     }
 
     public function getSource()
@@ -168,25 +135,6 @@ class __TwigTemplate_36a0f544f4db15635067e01ccf255c79d71104ed2ca5b7eca3997e98116
                     <div class=\"col-sm-6\">
                             <textarea class=\"form-control\" rows=\"17\" id=\"article_content\"
                                       name=\"article[content]\"></textarea>
-                    </div>
-                </div>
-                <div class=\"form-group\">
-                    <label class=\"col-sm-4 control-label\" for=\"article_title\">Category</label>
-                    <div class=\"col-sm-4 \">
-                        <select class=\"form-control\" id=\"article_title\"
-                                name=\"article[category]\">
-                            {% for category in categories%}
-                                <option value=\"{{ category.id }}\">{{ category }}</option>
-
-                            {% endfor %}
-                        </select>
-                    </div>
-                </div>
-                <div class=\"form-group\">
-                    <label class=\"col-sm-4 control-label\" for=\"article_tags\">Tags</label>
-                    <div class=\"col-sm-4 \">
-                        <input type=\"text\" class=\"form-control\" id=\"article_tags\" placeholder=\"Create tag\"
-                               name=\"tags\">
                     </div>
                 </div>
 

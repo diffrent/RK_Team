@@ -178,11 +178,6 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
-        // articles_in_category
-        if (0 === strpos($pathinfo, '/category') && preg_match('#^/category/(?P<id>[^/]++)/articles$#s', $pathinfo, $matches)) {
-            return $this->mergeDefaults(array_replace($matches, array('_route' => 'articles_in_category')), array (  '_controller' => 'SoftUniBlogBundle\\Controller\\CategoryController::indexAction',));
-        }
-
         // blog_index
         if (rtrim($pathinfo, '/') === '') {
             if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
@@ -220,11 +215,6 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
                 return array (  '_controller' => 'SoftUniBlogBundle\\Controller\\SecurityController::logoutAction',  '_route' => 'security_logout',);
             }
 
-        }
-
-        // articles_in_tag
-        if (0 === strpos($pathinfo, '/tags') && preg_match('#^/tags/(?P<name>[^/]++)$#s', $pathinfo, $matches)) {
-            return $this->mergeDefaults(array_replace($matches, array('_route' => 'articles_in_tag')), array (  '_controller' => 'SoftUniBlogBundle\\Controller\\TagController::articles',));
         }
 
         // user_register

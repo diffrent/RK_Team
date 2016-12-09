@@ -8,6 +8,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 use SoftUniBlogBundle\Entity\Article;
 use SoftUniBlogBundle\Entity\Category;
+use SoftUniBlogBundle\Repository\ArticleRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class HomeController extends Controller
@@ -18,9 +19,17 @@ class HomeController extends Controller
      */
     public function indexAction()
     {
-        $categories = $this->getDoctrine()->getRepository(Category::class)->findAll();
+        $articleRepository
+            = $this->getDoctrine()->getRepository(Article::class);
 
-        return $this->render('blog/index.html.twig', ['categories' => $categories]);
+        /**
+         * @var $articles Article[]
+         */
+       $articles = $articleRepository->findAll();
+
+        return $this->render('blog/index.html.twig',[
+            "articles" => $articles
+        ]);
     }
 
     /**

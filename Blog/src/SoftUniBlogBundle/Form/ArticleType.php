@@ -17,10 +17,7 @@ class ArticleType extends AbstractType
         $builder
             ->add('title', TextType::class)
             ->add('content', TextType::class)
-            ->add("category", EntityType::class, [
-                'class' => Category::class,
-                'label_attr' => ['class' => 'col-sm-4 control-label']
-        ])
+
         ->add('coverPhoto', FileType::class, array('label' => 'Cover Photo (PNG file)'));
     }
 

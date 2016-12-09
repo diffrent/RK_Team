@@ -21,20 +21,20 @@ class __TwigTemplate_d1270af036a329894d26f9e53697a22fb47856d615934f92941b6d01324
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_ef6ba4fb0ea936834afe1c96368f046a57518b909767ad14f88dbb315da633ed = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ef6ba4fb0ea936834afe1c96368f046a57518b909767ad14f88dbb315da633ed->enter($__internal_ef6ba4fb0ea936834afe1c96368f046a57518b909767ad14f88dbb315da633ed_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "article/article.html.twig"));
+        $__internal_805f7a907dcf16a3835967e4ac83365bcd69edbb4dfe84c8bcf21ff0807ca70d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_805f7a907dcf16a3835967e4ac83365bcd69edbb4dfe84c8bcf21ff0807ca70d->enter($__internal_805f7a907dcf16a3835967e4ac83365bcd69edbb4dfe84c8bcf21ff0807ca70d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "article/article.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_ef6ba4fb0ea936834afe1c96368f046a57518b909767ad14f88dbb315da633ed->leave($__internal_ef6ba4fb0ea936834afe1c96368f046a57518b909767ad14f88dbb315da633ed_prof);
+        $__internal_805f7a907dcf16a3835967e4ac83365bcd69edbb4dfe84c8bcf21ff0807ca70d->leave($__internal_805f7a907dcf16a3835967e4ac83365bcd69edbb4dfe84c8bcf21ff0807ca70d_prof);
 
     }
 
     // line 3
     public function block_main($context, array $blocks = array())
     {
-        $__internal_5b67141fbc73998b1d02af40897cc442953b7a97639e011f42fe725e79b35758 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_5b67141fbc73998b1d02af40897cc442953b7a97639e011f42fe725e79b35758->enter($__internal_5b67141fbc73998b1d02af40897cc442953b7a97639e011f42fe725e79b35758_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+        $__internal_a61f6f886a9e0630428765012260c82a47999293f92e54ac3a0496f8b0514cd4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a61f6f886a9e0630428765012260c82a47999293f92e54ac3a0496f8b0514cd4->enter($__internal_a61f6f886a9e0630428765012260c82a47999293f92e54ac3a0496f8b0514cd4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
 
         // line 4
         echo "    <div class=\"container body-content\">
@@ -72,47 +72,27 @@ class __TwigTemplate_d1270af036a329894d26f9e53697a22fb47856d615934f92941b6d01324
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["article"]) ? $context["article"] : $this->getContext($context, "article")), "author", array()), "html", null, true);
         echo "
                     </small>
-                    <p>
-                        ";
-        // line 25
-        $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["article"]) ? $context["article"] : $this->getContext($context, "article")), "tags", array()));
-        foreach ($context['_seq'] as $context["_key"] => $context["tag"]) {
-            // line 26
-            echo "                            <a class=\"btn btn-default btn-xs\"
-                               href=\"";
-            // line 27
-            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("articles_in_tag", array("name" => $this->getAttribute($context["tag"], "name", array()))), "html", null, true);
-            echo "\">";
-            echo twig_escape_filter($this->env, $this->getAttribute($context["tag"], "name", array()), "html", null, true);
-            echo "</a>
-                        ";
-        }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['tag'], $context['_parent'], $context['loop']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 29
-        echo "                    </p>
+
                     <footer>
                         <div class=\"pull-right\">
 
                             ";
-        // line 33
+        // line 28
         if (($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "getUser", array(), "method") && ($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "getUser", array(), "method"), "isAuthor", array(0 => (isset($context["article"]) ? $context["article"] : $this->getContext($context, "article"))), "method") || $this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "getUser", array(), "method"), "isAdmin", array(), "method")))) {
-            // line 34
+            // line 29
             echo "                            <a class=\"btn btn-success btn-xs\" href=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("article_edit", array("id" => $this->getAttribute((isset($context["article"]) ? $context["article"] : $this->getContext($context, "article")), "id", array()))), "html", null, true);
             echo "\">Edit</a>
                             <a class=\"btn btn-danger btn-xs\" href=\"";
-            // line 35
+            // line 30
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("article_delete", array("id" => $this->getAttribute((isset($context["article"]) ? $context["article"] : $this->getContext($context, "article")), "id", array()))), "html", null, true);
             echo "\">Delete</a>
                             ";
         }
-        // line 37
+        // line 32
         echo "
                             <a class=\"btn btn-default btn-xs\" href=\"";
-        // line 38
+        // line 33
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("blog_index");
         echo "\">back &raquo;</a>
                         </div>
@@ -123,7 +103,7 @@ class __TwigTemplate_d1270af036a329894d26f9e53697a22fb47856d615934f92941b6d01324
     </div>
 ";
         
-        $__internal_5b67141fbc73998b1d02af40897cc442953b7a97639e011f42fe725e79b35758->leave($__internal_5b67141fbc73998b1d02af40897cc442953b7a97639e011f42fe725e79b35758_prof);
+        $__internal_a61f6f886a9e0630428765012260c82a47999293f92e54ac3a0496f8b0514cd4->leave($__internal_a61f6f886a9e0630428765012260c82a47999293f92e54ac3a0496f8b0514cd4_prof);
 
     }
 
@@ -139,7 +119,7 @@ class __TwigTemplate_d1270af036a329894d26f9e53697a22fb47856d615934f92941b6d01324
 
     public function getDebugInfo()
     {
-        return array (  116 => 38,  113 => 37,  108 => 35,  103 => 34,  101 => 33,  95 => 29,  85 => 27,  82 => 26,  78 => 25,  72 => 22,  65 => 18,  57 => 13,  53 => 12,  47 => 9,  40 => 4,  34 => 3,  11 => 1,);
+        return array (  96 => 33,  93 => 32,  88 => 30,  83 => 29,  81 => 28,  72 => 22,  65 => 18,  57 => 13,  53 => 12,  47 => 9,  40 => 4,  34 => 3,  11 => 1,);
     }
 
     public function getSource()
@@ -167,12 +147,7 @@ class __TwigTemplate_d1270af036a329894d26f9e53697a22fb47856d615934f92941b6d01324
                     <small class=\"author\">
                         {{ article.author }}
                     </small>
-                    <p>
-                        {% for tag in article.tags %}
-                            <a class=\"btn btn-default btn-xs\"
-                               href=\"{{ path('articles_in_tag', {'name': tag.name}) }}\">{{ tag.name }}</a>
-                        {% endfor %}
-                    </p>
+
                     <footer>
                         <div class=\"pull-right\">
 

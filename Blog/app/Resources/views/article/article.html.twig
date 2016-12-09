@@ -21,12 +21,7 @@
                     <small class="author">
                         {{ article.author }}
                     </small>
-                    <p>
-                        {% for tag in article.tags %}
-                            <a class="btn btn-default btn-xs"
-                               href="{{ path('articles_in_tag', {'name': tag.name}) }}">{{ tag.name }}</a>
-                        {% endfor %}
-                    </p>
+
                     <footer>
                         <div class="pull-right">
 
