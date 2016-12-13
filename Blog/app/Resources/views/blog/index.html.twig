@@ -14,6 +14,7 @@
 
                 <footer>
                     <p class="post-info">This post is written by {{ article.author }}</p>
+                    <p class="post-info">Posted On: {{ article.dateAdded|date("H:i:s d/m/Y") }}</p>        
                 </footer>
                 <content>
                     <p>{{ article.content }}</p>
