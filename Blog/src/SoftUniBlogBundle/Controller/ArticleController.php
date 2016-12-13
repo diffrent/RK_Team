@@ -111,7 +111,7 @@ class ArticleController extends Controller
 
         return $this->render('article/edit.html.twig',
             array('article' => $article,
-                'form' => $form->createView(),
+                'form' => $form->createView()));
              
     }
 

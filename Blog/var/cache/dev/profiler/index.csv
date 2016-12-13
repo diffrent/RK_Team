@@ -3070,3 +3070,5 @@ ad52f9,127.0.0.1,GET,http://localhost:8000/profile,1481252631,,200
 27d7be,127.0.0.1,GET,http://localhost:8000/profile,1481252634,,200
 075674,127.0.0.1,GET,http://localhost:8000/article/create,1481252640,,200
 f54637,127.0.0.1,GET,http://localhost:8000/,1481252677,,200
+a9c35d,127.0.0.1,GET,http://localhost:8000/,1481654355,1cb78e,200
+1cb78e,127.0.0.1,GET,http://localhost:8000/,1481654356,,500
