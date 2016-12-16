@@ -239,6 +239,5 @@ class Article
         $this->coverPhoto = $coverPhoto;
     }
 
-
 }
 

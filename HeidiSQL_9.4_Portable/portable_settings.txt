@@ -4,7 +4,7 @@ ColWidths_connform.ListSessions<|||>1<|||>163,50,50,50,50,50,53
 ColsVisible_connform.ListSessions<|||>1<|||>0
 ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
 ColSort_connform.ListSessions<|||>1<|||>0,0
-ColWidths_frmTableEditor.listColumns<|||>1<|||>54,100,156,90,60,65,50,119,130,140,100,100
+ColWidths_frmTableEditor.listColumns<|||>1<|||>70,100,156,90,60,65,50,119,130,140,100,100
 ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
 ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
 ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
@@ -18,10 +18,10 @@ ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
 ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
 CoolBand0Index<|||>3<|||>0
 CoolBand0Break<|||>3<|||>1
-CoolBand0Width<|||>3<|||>928
+CoolBand0Width<|||>3<|||>1046
 CoolBand1Index<|||>3<|||>1
 CoolBand1Break<|||>3<|||>1
-CoolBand1Width<|||>3<|||>928
+CoolBand1Width<|||>3<|||>1046
 MainWinOnMonitor<|||>3<|||>0
 ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
 ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
@@ -35,7 +35,7 @@ ColWidths_MainForm.ListStatus<|||>1<|||>160,275,100,100
 ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
 ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
 ColSort_MainForm.ListStatus<|||>1<|||>0,0
-ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,154
+ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,272
 ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
 ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
 ColSort_MainForm.ListProcesses<|||>1<|||>0,1
@@ -49,8 +49,10 @@ ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
 ColSort_MainForm.ListTables<|||>1<|||>0,0
 SessionManager_WindowWidth<|||>3<|||>870
 SessionManager_WindowHeight<|||>3<|||>523
-MainWinLeft<|||>3<|||>396
-MainWinTop<|||>3<|||>135
+MainWinLeft<|||>3<|||>138
+MainWinTop<|||>3<|||>5
+MainWinWidth<|||>3<|||>1068
+MainWinHeight<|||>3<|||>722
 Servers\Unnamed\SessionCreated<|||>1<|||>2016-10-31 14:03:39
 Servers\Unnamed\Host<|||>1<|||>127.0.0.1
 Servers\Unnamed\WindowsAuth<|||>3<|||>0
@@ -80,9 +82,11 @@ Servers\Unnamed\SSL_Cert<|||>1<|||>
 Servers\Unnamed\SSL_CA<|||>1<|||>
 Servers\Unnamed\SSL_Cipher<|||>1<|||>
 Servers\Unnamed\ServerVersionFull<|||>1<|||>10.1.13-MariaDB - mariadb.org binary distribution
-Servers\Unnamed\ConnectCount<|||>3<|||>32
+Servers\Unnamed\ConnectCount<|||>3<|||>38
 Servers\Unnamed\ServerVersion<|||>3<|||>100113
-Servers\Unnamed\LastConnect<|||>1<|||>2016-12-09 00:00:36
+Servers\Unnamed\LastConnect<|||>1<|||>2016-12-16 21:12:19
 Servers\Unnamed\lastUsedDB<|||>1<|||>blog
 Servers\Unnamed\RefusedCount<|||>3<|||>1
+Servers\Unnamed\blog|articles\Sort<|||>1<|||>0_id|
 Servers\Unnamed\blog|users_roles\Sort<|||>1<|||>1_user_id|
+Servers\Unnamed\QueryHistory\1<|||>1<|||>2016-12-11 20:38:14|blog|0|SELECT  `id`,  `title`,  LEFT(`content`, 256),  `dateAdded`,  `authorId`,  `coverPhoto` FROM `blog`.`articles` ORDER BY `dateAdded` DESC LIMIT 1000;

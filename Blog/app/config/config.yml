@@ -89,4 +89,4 @@ doctrine:
 vich_uploader:
     db_driver: orm
 parameters:
-    articles_directory: 'C:\Project\Blog\web\uploads\articles'
+    articles_directory: 'C:\RK_Team\Blog\web\uploads\articles'

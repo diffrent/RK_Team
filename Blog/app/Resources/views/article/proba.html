@@ -1,49 +1,37 @@
 {% extends 'base.html.twig' %}
 
 {% block main %}
-{% for article in articles %}
+<link rel="stylesheet" href="{{ asset('css/articleView.css') }}">
+<div class="main">
+    <div class="one">
+        <div class="register">
+            <article>
+                <header>
+                    <h2>{{ article.title }}</h2>
+                </header>
+                    <textarea class="form-control" rows="12">
+                        <p>
+                        <a href="{{ asset('uploads/articles/' ~ article.coverPhoto ) }}">
+                            <img src="{{ asset('uploads/articles/' ~ article.coverPhoto ) }}"/>
+                        </a>
+                    </p>
+                        {{ article.content }}
+                            </textarea>
+                    <h1 style="font-family: 'Calibri Light';font-style: italic;
+                         font-size: smaller">Този пост бе написан от {{ article.author }}</h1>
+                <footer>
+                    <div>
+                        <label></label>
+                        <a style="float: right; background-color: lightgray" class="button" href="{{ path('blog_index') }}">Назад &raquo;</a>
+                        {% if app.getUser() and (app.getUser().isAuthor(article) or app.getUser().isAdmin())  %}
 
-<div class="mainContent">
-
-    <div class="content">
-
-        <article class="topcontent">
-
-            <header>
-                <h2>{{ article.title }}</h2>
-            </header>
-
-            <footer>
-                <p class="post-info">Този пост бе написан от {{ article.author }}</p>
-            </footer>
-
-            <p>{{ article.content }}</p>
-
-        </article>
+                        <a style="float: right; background-color: springgreen" class="button" href="{{ path('article_edit', {'id': article.id}) }}">Редактирай</a>
+                        <a style="float: right; background-color: tomato" class="button" href="{{ path('article_delete', {'id': article.id}) }}">Изтрий</a>
+                        {% endif %}
+                    </div>
+                </footer>
+            </article>
+        </div>
     </div>
 </div>
-{% endfor %}
-
-<aside class="top-sidebar">
-    <article>
-        <h2>Top sidebar</h2>
-        <p>Класическото тесто за пица се приготвя от брашно, мая, захар, сол, зехтин и вода. Тестото се меси на ръка, след което втасва определено време и се разточва на тънък пласт (обикновено с дебелина 0,5 см.). Майсторите на пица използват зрелищен начин за разточване на тестото, </p>
-    </article>
-</aside>
-
-<aside class="middle-sidebar">
-    <article>
-        <h2>Middle sidebar</h2>
-        <p>Класическото тесто за пица се приготвя от брашно, мая, захар, сол, зехтин и вода. Тестото се меси на ръка, след което втасва определено време и се разточва на тънък пласт (обикновено с дебелина 0,5 см.). Майсторите на пица използват зрелищен начин за разточване на тестото, </p>
-    </article>
-</aside>
-
-<aside class="bottom-sidebar">
-    <article>
-        <h2>Bottom sidebar</h2>
-        <p>Класическото тесто за пица се приготвя от брашно, мая, захар, сол, зехтин и вода. Тестото се меси на ръка, след което втасва определено време и се разточва на тънък пласт (обикновено с дебелина 0,5 см.). Майсторите на пица използват зрелищен начин за разточване на тестото, </p>
-    </article>
-</aside>
-
 {% endblock %}
-

@@ -18,7 +18,7 @@ class ArticleType extends AbstractType
             ->add('title', TextType::class)
             ->add('content', TextType::class)
 
-        ->add('coverPhoto', FileType::class, array('label' => 'Cover Photo (PNG file)'));
+        ->add('coverPhoto', FileType::class, array('data_class' => null));
     }
 
     public function configureOptions(OptionsResolver $resolver)

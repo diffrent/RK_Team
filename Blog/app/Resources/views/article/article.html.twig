@@ -1,41 +1,36 @@
 {% extends 'base.html.twig' %}
 
 {% block main %}
-    <div class="container body-content">
-        <div class="row">
-            <div class="col-md-12">
-                <article>
+    <link rel="stylesheet" href="{{ asset('css/articleView.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lightbox.css') }}">
+
+            <div class="mainDiv">
                     <header>
                         <h2>{{ article.title }}</h2>
                     </header>
-                    <p>
-                        <a href="{{ asset('uploads/articles/' ~ article.coverPhoto ) }}">
-                            <img src="{{ asset('uploads/articles/' ~ article.coverPhoto ) }}"/>
-                        </a>
-                    </p>
 
-                    <p>
+
+                    <div class="white-div">
+                        <div class="photo-container">
+                        <p>
+                            <a href="{{ asset('uploads/articles/' ~ article.coverPhoto ) }}" data-lightbox="gallery">
+                                <img style="display: block;width: 100%;height: auto;"
+                                     src="{{ asset('uploads/articles/' ~ article.coverPhoto ) }}"/>
+                            </a>
+                        </p>
+                        </div>
+                        <textarea class="form-control" rows="12">
                         {{ article.content }}
-                    </p>
-
-                    <small class="author">
-                        {{ article.author }}
-                    </small>
-
-                    <footer>
-                        <div class="pull-right">
+                            </textarea>
+                        <h1 style="font-family: 'Calibri Light';font-style: italic;
+                         font-size: smaller">Този пост бе написан от {{ article.author }}</h1>
+                    </div>
+                            <label></label>
 
                             {% if app.getUser() and (app.getUser().isAuthor(article) or app.getUser().isAdmin())  %}
-                            <a class="btn btn-success btn-xs" href="{{ path('article_edit', {'id': article.id}) }}">Edit</a>
-                            <a class="btn btn-danger btn-xs" href="{{ path('article_delete', {'id': article.id}) }}">Delete</a>
+                                <a class="button" href="{{ path('article_delete', {'id': article.id}) }}">Изтрий</a>
+                                <a class="button" href="{{ path('article_edit', {'id': article.id}) }}">Редактирай</a>
                             {% endif %}
-
-                            <a class="btn btn-default btn-xs" href="{{ path('blog_index') }}">back &raquo;</a>
-                        </div>
-                    </footer>
-                </article>
+                                <a class="button" href="{{ path('blog_index') }}">Назад &raquo;</a>
             </div>
-        </div>
-    </div>
 {% endblock %}
-

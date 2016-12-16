@@ -19,17 +19,18 @@ class HomeController extends Controller
      */
     public function indexAction()
     {
-        $articleRepository
-            = $this->getDoctrine()->getRepository(Article::class);
+        $articleRepository = $this->getDoctrine()->getRepository(Article::class);
+
 
         /**
          * @var $articles Article[]
          */
-       $articles = $articleRepository->findAll();
-
+        $articles = $articleRepository->findAll();
+        rsort($articles);
         return $this->render('blog/index.html.twig',[
             "articles" => $articles
         ]);
+
     }
 
     /**
@@ -40,4 +41,6 @@ class HomeController extends Controller
     {
         return $this->render('gallery/gallery.html.twig');
     }
+
+
 }

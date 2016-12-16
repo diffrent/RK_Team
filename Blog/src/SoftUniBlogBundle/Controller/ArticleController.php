@@ -42,7 +42,7 @@ class ArticleController extends Controller
             $file = $article->getCoverPhoto();
 
             $fileName= md5(uniqid()).'.'.$file->guessExtension();
-            $articlesDirectory = "C:\\Project\\Blog\\web\\uploads\\articles";
+            $articlesDirectory = "C:\\RK_Team\\Blog\\web\\uploads\\articles";
             $file->move(
                $articlesDirectory,
                 $fileName);
@@ -50,6 +50,7 @@ class ArticleController extends Controller
 
             $article->setCoverPhoto($fileName);
             $article->setAuthor($this->getUser());
+
 
             $em->persist($article);
             $em->flush();
@@ -112,7 +113,6 @@ class ArticleController extends Controller
         return $this->render('article/edit.html.twig',
             array('article' => $article,
                 'form' => $form->createView()));
-             
     }
 
     /**

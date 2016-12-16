@@ -1,6 +1,7 @@
 {% extends 'base.html.twig' %}
 
 {% block main %}
+    <link rel="stylesheet" href="{{ asset('css/lightbox.css') }}">
     <form class="register">
 
     <div class="mainContent">
@@ -9,15 +10,19 @@
             {% for article in articles %}
             <article class="topcontent">
                 <header>
-                    <h2><a href="#"title="First post">{{ article.title }}t</a></h2>
+                    <h2><a href="{{ path('article_view', {'id': article.id}) }}" title="First post">{{ article.title }}</a></h2>
                 </header>
 
                 <footer>
                     <p class="post-info">This post is written by {{ article.author }}</p>
-                    <p class="post-info">Posted On: {{ article.dateAdded|date("H:i:s d/m/Y") }}</p>        
                 </footer>
                 <content>
-                    <p>{{ article.content }}</p>
+                    <a href="{{ asset('uploads/articles/' ~ article.coverPhoto ) }}" data-lightbox="gallery">
+                        <img style="display: block;width: 100%;height: auto;"
+                             src="{{ asset('uploads/articles/' ~ article.coverPhoto ) }}"/></a>
+
+                    <p>{{ article.summary }}</p>
+                    {# може да се напише и {{ article.content }} за да покаже целия пост #}
                 </content>
             </article>
             {% endfor %}
@@ -43,6 +48,5 @@
             <p>Класическото тесто за пица се приготвя от брашно, мая, захар, сол, </p>
         </article>
     </aside>
-    </form>
 {% endblock %}
 
