@@ -15,8 +15,18 @@ class __TwigTemplate_8b99d258b0b1cb42dd9e9b29d0c9e5c23475d1e92f0b84cca04e7916a1c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_69cd60a16865d4d36ef794c151b70b0868fd8b405d1cc07260166ef0d0486af0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_69cd60a16865d4d36ef794c151b70b0868fd8b405d1cc07260166ef0d0486af0->enter($__internal_69cd60a16865d4d36ef794c151b70b0868fd8b405d1cc07260166ef0d0486af0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/base_js.html.twig"));
+=======
+<<<<<<< HEAD
+        $__internal_9d8248381218ad72cd40378c3e879a2c9ec2e8a570a279572326d61ae2f68f28 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_9d8248381218ad72cd40378c3e879a2c9ec2e8a570a279572326d61ae2f68f28->enter($__internal_9d8248381218ad72cd40378c3e879a2c9ec2e8a570a279572326d61ae2f68f28_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/base_js.html.twig"));
+=======
+        $__internal_84a4757f43a7bfaadefd8a995d30358e5b01689e8dccdac7391367ee07e7ff90 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_84a4757f43a7bfaadefd8a995d30358e5b01689e8dccdac7391367ee07e7ff90->enter($__internal_84a4757f43a7bfaadefd8a995d30358e5b01689e8dccdac7391367ee07e7ff90_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/base_js.html.twig"));
+>>>>>>> 616e38a3edb6686d43fd48167124353bf7147417
+>>>>>>> origin/master
 
         // line 1
         echo "<script>/*<![CDATA[*/
@@ -501,7 +511,15 @@ class __TwigTemplate_8b99d258b0b1cb42dd9e9b29d0c9e5c23475d1e92f0b84cca04e7916a1c
 /*]]>*/</script>
 ";
         
+<<<<<<< HEAD
         $__internal_69cd60a16865d4d36ef794c151b70b0868fd8b405d1cc07260166ef0d0486af0->leave($__internal_69cd60a16865d4d36ef794c151b70b0868fd8b405d1cc07260166ef0d0486af0_prof);
+=======
+<<<<<<< HEAD
+        $__internal_9d8248381218ad72cd40378c3e879a2c9ec2e8a570a279572326d61ae2f68f28->leave($__internal_9d8248381218ad72cd40378c3e879a2c9ec2e8a570a279572326d61ae2f68f28_prof);
+=======
+        $__internal_84a4757f43a7bfaadefd8a995d30358e5b01689e8dccdac7391367ee07e7ff90->leave($__internal_84a4757f43a7bfaadefd8a995d30358e5b01689e8dccdac7391367ee07e7ff90_prof);
+>>>>>>> 616e38a3edb6686d43fd48167124353bf7147417
+>>>>>>> origin/master
 
     }
 
