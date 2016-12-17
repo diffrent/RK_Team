@@ -15,18 +15,8 @@ class __TwigTemplate_173f926a4b9e944e090de89f73a98431a15e4c91884671d32ac33480a61
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
         $__internal_71e60c1e61d77743f17f5c4640a97ceb6e58d92a02b570aaba0c541f46309dfc = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_71e60c1e61d77743f17f5c4640a97ceb6e58d92a02b570aaba0c541f46309dfc->enter($__internal_71e60c1e61d77743f17f5c4640a97ceb6e58d92a02b570aaba0c541f46309dfc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/logs.html.twig"));
-=======
-<<<<<<< HEAD
-        $__internal_b8fed9dd50c8a4fd1f81595023938b5d98579f4544269c5a9d3e993a331e7ee5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_b8fed9dd50c8a4fd1f81595023938b5d98579f4544269c5a9d3e993a331e7ee5->enter($__internal_b8fed9dd50c8a4fd1f81595023938b5d98579f4544269c5a9d3e993a331e7ee5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/logs.html.twig"));
-=======
-        $__internal_910f800d60c6905a4abeec358d5a80443ec4a83ef18fcf95476d8be6fcb306c3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_910f800d60c6905a4abeec358d5a80443ec4a83ef18fcf95476d8be6fcb306c3->enter($__internal_910f800d60c6905a4abeec358d5a80443ec4a83ef18fcf95476d8be6fcb306c3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@Twig/Exception/logs.html.twig"));
->>>>>>> 616e38a3edb6686d43fd48167124353bf7147417
->>>>>>> origin/master
 
         // line 1
         echo "<ol class=\"traces logs\">
@@ -59,15 +49,7 @@ class __TwigTemplate_173f926a4b9e944e090de89f73a98431a15e4c91884671d32ac33480a61
         echo "</ol>
 ";
         
-<<<<<<< HEAD
         $__internal_71e60c1e61d77743f17f5c4640a97ceb6e58d92a02b570aaba0c541f46309dfc->leave($__internal_71e60c1e61d77743f17f5c4640a97ceb6e58d92a02b570aaba0c541f46309dfc_prof);
-=======
-<<<<<<< HEAD
-        $__internal_b8fed9dd50c8a4fd1f81595023938b5d98579f4544269c5a9d3e993a331e7ee5->leave($__internal_b8fed9dd50c8a4fd1f81595023938b5d98579f4544269c5a9d3e993a331e7ee5_prof);
-=======
-        $__internal_910f800d60c6905a4abeec358d5a80443ec4a83ef18fcf95476d8be6fcb306c3->leave($__internal_910f800d60c6905a4abeec358d5a80443ec4a83ef18fcf95476d8be6fcb306c3_prof);
->>>>>>> 616e38a3edb6686d43fd48167124353bf7147417
->>>>>>> origin/master
 
     }
 

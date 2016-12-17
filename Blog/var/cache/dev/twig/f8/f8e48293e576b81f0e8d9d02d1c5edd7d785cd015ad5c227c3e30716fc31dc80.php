@@ -15,18 +15,8 @@ class __TwigTemplate_803c47a5eeedde23eb095ea920c9fcef3ea1e1e310fd8cbe5a7e0d47c24
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-<<<<<<< HEAD
         $__internal_a04e9ad9d4db2fd8c5d2574e991aa94697f1397cbbe0ca295fc91e8755ea9ce3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_a04e9ad9d4db2fd8c5d2574e991aa94697f1397cbbe0ca295fc91e8755ea9ce3->enter($__internal_a04e9ad9d4db2fd8c5d2574e991aa94697f1397cbbe0ca295fc91e8755ea9ce3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/ajax.svg"));
-=======
-<<<<<<< HEAD
-        $__internal_01b1b77d7df55a543dd2b75425c1f8fe7eba61a67acb07a61c8bfa18ef066bf1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_01b1b77d7df55a543dd2b75425c1f8fe7eba61a67acb07a61c8bfa18ef066bf1->enter($__internal_01b1b77d7df55a543dd2b75425c1f8fe7eba61a67acb07a61c8bfa18ef066bf1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/ajax.svg"));
-=======
-        $__internal_0b1259bfc6b5fa59cb8b6504af390142194f45003c4bd3690ccd685a671bf5f0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_0b1259bfc6b5fa59cb8b6504af390142194f45003c4bd3690ccd685a671bf5f0->enter($__internal_0b1259bfc6b5fa59cb8b6504af390142194f45003c4bd3690ccd685a671bf5f0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Icon/ajax.svg"));
->>>>>>> 616e38a3edb6686d43fd48167124353bf7147417
->>>>>>> origin/master
 
         // line 1
         echo "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" enable-background=\"new 0 0 24 24\" xml:space=\"preserve\">
@@ -37,15 +27,7 @@ class __TwigTemplate_803c47a5eeedde23eb095ea920c9fcef3ea1e1e310fd8cbe5a7e0d47c24
 </svg>
 ";
         
-<<<<<<< HEAD
         $__internal_a04e9ad9d4db2fd8c5d2574e991aa94697f1397cbbe0ca295fc91e8755ea9ce3->leave($__internal_a04e9ad9d4db2fd8c5d2574e991aa94697f1397cbbe0ca295fc91e8755ea9ce3_prof);
-=======
-<<<<<<< HEAD
-        $__internal_01b1b77d7df55a543dd2b75425c1f8fe7eba61a67acb07a61c8bfa18ef066bf1->leave($__internal_01b1b77d7df55a543dd2b75425c1f8fe7eba61a67acb07a61c8bfa18ef066bf1_prof);
-=======
-        $__internal_0b1259bfc6b5fa59cb8b6504af390142194f45003c4bd3690ccd685a671bf5f0->leave($__internal_0b1259bfc6b5fa59cb8b6504af390142194f45003c4bd3690ccd685a671bf5f0_prof);
->>>>>>> 616e38a3edb6686d43fd48167124353bf7147417
->>>>>>> origin/master
 
     }
 
