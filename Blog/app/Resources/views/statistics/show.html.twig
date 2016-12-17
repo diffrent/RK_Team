@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    <link rel="stylesheet" href="{{ asset('css/articleView.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lightbox.css') }}">
+
+
+    <div class="mainDiv">
+        <header>
+            <h3>Статистика</h3>
+        </header>
+
+        <div class="white-div">
+
+            <textarea class="form-control" rows="12">{{ statistics.content }}</textarea>
+        </div>
+        <label></label>
+        <a class="button" href="{{ path('blog_index') }}">Назад &raquo;</a>
+        {% if app.getUser() and app.getUser().isAdmin()  %}
+            <a class="button" href="{{ path('statistics_edit', {'id': 1}) }}">Редактирай</a>
+        {% endif %}
+
+    </div>
+{% endblock %}

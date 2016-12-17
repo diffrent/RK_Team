@@ -2,63 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e21fdb3a-de79-44dc-8656-f19510a1323f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/aria_log.00000001" afterPath="$PROJECT_DIR$/mysql/data/aria_log.00000001" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/aria_log_control" afterPath="$PROJECT_DIR$/mysql/data/aria_log_control" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/blog/articles.ibd" afterPath="$PROJECT_DIR$/mysql/data/blog/articles.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/blog/users.ibd" afterPath="$PROJECT_DIR$/mysql/data/blog/users.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/blog/users_roles.ibd" afterPath="$PROJECT_DIR$/mysql/data/blog/users_roles.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/statistics/create.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/statistics/edit.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/statistics/show.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/StatisticsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Statistics.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/StatisticsType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Repository/StatisticsRepository.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/aboutUs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/contacts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/familyTree.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/pisane na statia.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/styles/aboutUs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/styles/contacts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/styles/familyTree.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/ib_logfile0" afterPath="$PROJECT_DIR$/mysql/data/ib_logfile0" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/ibdata1" afterPath="$PROJECT_DIR$/mysql/data/ibdata1" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/mysql/innodb_index_stats.ibd" afterPath="$PROJECT_DIR$/mysql/data/mysql/innodb_index_stats.ibd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/mysql/innodb_table_stats.ibd" afterPath="$PROJECT_DIR$/mysql/data/mysql/innodb_table_stats.ibd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/.htaccess" afterPath="$PROJECT_DIR$/Blog/app/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/AppCache.php" afterPath="$PROJECT_DIR$/Blog/app/AppCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/AppKernel.php" afterPath="$PROJECT_DIR$/Blog/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/TwigBundle/views/Exception/error.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/TwigBundle/views/Exception/error.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/TwigBundle/views/Exception/error403.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/TwigBundle/views/Exception/error403.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/TwigBundle/views/Exception/error404.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/TwigBundle/views/Exception/error404.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/TwigBundle/views/Exception/error500.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/TwigBundle/views/Exception/error500.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/aboutUs.html" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/aboutUs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/article/proba.html" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/article/proba.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/base.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/blog/index.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/blog/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/category/articles.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/category/articles.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/contacts.html" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/contacts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/familyTree.html" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/familyTree.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/form/fields.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/form/fields.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/gallery/gallery.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/gallery/gallery.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/autoload.php" afterPath="$PROJECT_DIR$/Blog/app/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/config/config.yml" afterPath="$PROJECT_DIR$/Blog/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/Blog/app/config/config_dev.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/config/config_prod.yml" afterPath="$PROJECT_DIR$/Blog/app/config/config_prod.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/config/config_test.yml" afterPath="$PROJECT_DIR$/Blog/app/config/config_test.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/config/parameters.yml" afterPath="$PROJECT_DIR$/Blog/app/config/parameters.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/Blog/app/config/parameters.yml.dist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/config/routing.yml" afterPath="$PROJECT_DIR$/Blog/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/config/routing_dev.yml" afterPath="$PROJECT_DIR$/Blog/app/config/routing_dev.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/config/security.yml" afterPath="$PROJECT_DIR$/Blog/app/config/security.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/config/services.yml" afterPath="$PROJECT_DIR$/Blog/app/config/services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/.htaccess" afterPath="$PROJECT_DIR$/Blog/src/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ArticleController.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ArticleController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/HomeController.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/SecurityController.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/SecurityController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Article.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Article.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Role.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Role.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/User.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/ArticleType.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/ArticleType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Repository/ArticleRepository.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Repository/ArticleRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Repository/RoleRepository.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Repository/RoleRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Repository/UserRepository.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Repository/UserRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Resources/config/services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/SoftUniBlogBundle.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/SoftUniBlogBundle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/styles/aboutUs.css" afterPath="$PROJECT_DIR$/Blog/styles/aboutUs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/styles/contacts.css" afterPath="$PROJECT_DIR$/Blog/styles/contacts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/styles/familyTree.css" afterPath="$PROJECT_DIR$/Blog/styles/familyTree.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/05/5b5b435d53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/05/5b5b435d53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/09/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/09/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/14/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c65722365646974416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/14/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c65722365646974416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/14/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c55736572436f6e74726f6c6c65722370726f66696c65416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/14/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c55736572436f6e74726f6c6c65722370726f66696c65416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/14/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722372656e64657256696577405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/14/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722372656e64657256696577405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/1e/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c5573657224726f6c6573405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/1e/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c5573657224726f6c6573405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/21/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524617574686f724964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/21/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524617574686f724964405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/22/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574506172616d65746572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/22/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574506172616d65746572405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/27/5b5b435d53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c65722373686f77416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/27/5b5b435d53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c65722373686f77416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
@@ -66,44 +35,69 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/31/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c65247469746c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/31/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c65247469746c65405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/34/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722367657455736572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/34/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722367657455736572405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/35/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223686173405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/35/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223686173405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/3e/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c526f6c65246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/3e/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c526f6c65246964405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/40/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722369734772616e746564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/40/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722369734772616e746564405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/49/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572236c6f67696e416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/49/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572236c6f67696e416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/4a/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572237265646972656374546f526f757465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/4a/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572237265646972656374546f526f757465405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/55/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722363726561746541636365737344656e696564457863657074696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/55/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722363726561746541636365737344656e696564457863657074696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/57/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c55736572436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/57/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c55736572436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/59/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722364656e79416363657373556e6c6573734772616e746564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/59/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722364656e79416363657373556e6c6573734772616e746564405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5a/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c557365722466756c6c4e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5a/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c557365722466756c6c4e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5c/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524646174654164646564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5c/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524646174654164646564405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/62/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572237669657741727469636c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/62/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572237669657741727469636c65405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/65/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c65722367616c6c657279405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/65/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c65722367616c6c657279405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/65/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524636f76657250686f746f405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/65/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524636f76657250686f746f405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/6a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572236564697441727469636c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/6a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572236564697441727469636c65405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/71/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223697343737266546f6b656e56616c6964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/71/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223697343737266546f6b656e56616c6964405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/73/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/73/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/79/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c55736572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/79/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c55736572405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7d/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572236a736f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7d/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572236a736f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/83/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c55736572436f6e74726f6c6c65722365646974416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/83/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c55736572436f6e74726f6c6c65722365646974416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/84/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524617574686f72405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/84/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524617574686f72405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/84/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/84/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/85/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572237265646972656374405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/85/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572237265646972656374405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/86/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c55736572246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/86/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c55736572246964405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/87/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c55736572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/87/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c55736572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/87/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722372656e646572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/87/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722372656e646572405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8c/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223666f7277617264405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8c/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223666f7277617264405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8d/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223616464466c617368405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8d/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223616464466c617368405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/96/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/96/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/96/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722373747265616d405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/96/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722373747265616d405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9b/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c657223637265617465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9b/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c657223637265617465405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9d/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c657223746f6f6c626172416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9d/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c657223746f6f6c626172416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9f/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c652473756d6d617279405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9f/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c652473756d6d617279405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/a1/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524636f6e74656e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/a1/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524636f6e74656e74405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/a5/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223637265617465466f726d4275696c646572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/a5/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223637265617465466f726d4275696c646572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ae/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c557365722470617373776f7264405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ae/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c557365722470617373776f7264405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b0/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223637265617465466f726d405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b0/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223637265617465466f726d405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b0/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223736574436f6e7461696e6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b0/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223736574436f6e7461696e6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b7/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c557365722461727469636c6573405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b7/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c557365722461727469636c6573405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b8/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b8/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ba/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ba/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c65722364656c657465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c65722364656c657465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c65722364656c657465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c65722364656c657465405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c7/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722367656e657261746555726c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c7/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722367656e657261746555726c405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c9/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c9/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c55736572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c55736572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d4/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c5573657224656d61696c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d4/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c5573657224656d61696c405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d5/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c526f6c65247573657273405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d5/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c526f6c65247573657273405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d5/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c526f6c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d5/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c526f6c65405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/da/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c55736572436f6e74726f6c6c6572237265676973746572416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/da/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c55736572436f6e74726f6c6c6572237265676973746572416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/db/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572236c6f676f7574416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/db/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572236c6f676f7574416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/e9/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c65246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/e9/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c65246964405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ed/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c55736572436f6e74726f6c6c65722364656c657465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ed/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c55736572436f6e74726f6c6c65722364656c657465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f2/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c526f6c65246e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f2/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c526f6c65246e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/fd/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572236372656174654e6f74466f756e64457863657074696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/fd/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572236372656174654e6f74466f756e64457863657074696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/fe/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574446f637472696e65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/fe/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574446f637472696e65405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/appDevDebugProjectContainer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/appDevDebugProjectContainer.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/appDevDebugProjectContainerCompiler.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/appDevUrlGenerator.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/appDevUrlGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/appDevUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/appDevUrlGenerator.php.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/appDevUrlMatcher.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/appDevUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/appDevUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/appDevUrlMatcher.php.meta" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/classes.map" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/classes.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/classes.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/classes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/doctrine/orm/Proxies/__CG__SoftUniBlogBundleEntityUser.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/doctrine/orm/Proxies/__CG__SoftUniBlogBundleEntityUser.php" />
@@ -130,6 +124,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/69/699781ecd92a406ab6000df3233157c890b0091f37d36f68bf2408f05c5e4754.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/69/699781ecd92a406ab6000df3233157c890b0091f37d36f68bf2408f05c5e4754.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/6a/6a659058d6320e35beab30bfaa7a6c14dd4e1c529a927b38f877a15823ec0c00.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/6a/6a659058d6320e35beab30bfaa7a6c14dd4e1c529a927b38f877a15823ec0c00.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/6a/6adacfc7ec0fe0be2eea46b9e6fa4a76461937156c61ff725c7ec679a895fcb8.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/6a/6adacfc7ec0fe0be2eea46b9e6fa4a76461937156c61ff725c7ec679a895fcb8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/72/721b5f538b0d62833ac736390f6ba975560c03f735195f885bfa2e2d2b8b0d73.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/72/721b5f538b0d62833ac736390f6ba975560c03f735195f885bfa2e2d2b8b0d73.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/76/76dc4059c8e283a36bbf0dd6b2a067960b116637d470a75947f80a5fd4aa0f53.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/76/76dc4059c8e283a36bbf0dd6b2a067960b116637d470a75947f80a5fd4aa0f53.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/84/8451c8010914d92523f875cd0fa55bb6585afd29a7b947815b2f4507fc460a50.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/84/8451c8010914d92523f875cd0fa55bb6585afd29a7b947815b2f4507fc460a50.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/85/855c6ee02be3efa845304e5f200255bd55a01eecc2b2c073fff850c8152f3f11.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/85/855c6ee02be3efa845304e5f200255bd55a01eecc2b2c073fff850c8152f3f11.php" />
@@ -150,79 +145,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/de/de8cccb5647d268d7e92a2c778eb50bec8e5e8c4ff59dfeb3d7aa785aecb5719.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/de/de8cccb5647d268d7e92a2c778eb50bec8e5e8c4ff59dfeb3d7aa785aecb5719.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/e5/e53555836c64334a809fa8b5951f6fbf8fce0157790a2f99b143d0ba3b3bad85.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/e5/e53555836c64334a809fa8b5951f6fbf8fce0157790a2f99b143d0ba3b3bad85.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/ee/ee3d89d0b9e64e873ff5b00c86ec0fb1d1114a1e3f2b85311d20b76c5476a9a2.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/ee/ee3d89d0b9e64e873ff5b00c86ec0fb1d1114a1e3f2b85311d20b76c5476a9a2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/ee/ee6388d84879a6f6c4faef774ad86efdffec30c2689e479eed904104bb355fee.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/ee/ee6388d84879a6f6c4faef774ad86efdffec30c2689e479eed904104bb355fee.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/f8/f8e48293e576b81f0e8d9d02d1c5edd7d785cd015ad5c227c3e30716fc31dc80.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/f8/f8e48293e576b81f0e8d9d02d1c5edd7d785cd015ad5c227c3e30716fc31dc80.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/logs/dev.log" afterPath="$PROJECT_DIR$/Blog/var/logs/dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/.htaccess" afterPath="$PROJECT_DIR$/Blog/web/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/app.php" afterPath="$PROJECT_DIR$/Blog/web/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/app_dev.php" afterPath="$PROJECT_DIR$/Blog/web/app_dev.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/bundles/framework/css/body.css" afterPath="$PROJECT_DIR$/Blog/web/bundles/framework/css/body.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/bundles/framework/css/exception.css" afterPath="$PROJECT_DIR$/Blog/web/bundles/framework/css/exception.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/bundles/framework/css/structure.css" afterPath="$PROJECT_DIR$/Blog/web/bundles/framework/css/structure.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/bundles/sensiodistribution/webconfigurator/css/configurator.css" afterPath="$PROJECT_DIR$/Blog/web/bundles/sensiodistribution/webconfigurator/css/configurator.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/bundles/sensiodistribution/webconfigurator/css/install.css" afterPath="$PROJECT_DIR$/Blog/web/bundles/sensiodistribution/webconfigurator/css/install.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/bundles/whiteoctoberpagerfanta/css/pagerfantaDefault.css" afterPath="$PROJECT_DIR$/Blog/web/bundles/whiteoctoberpagerfanta/css/pagerfantaDefault.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/config.php" afterPath="$PROJECT_DIR$/Blog/web/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/css/bootstrap-datetimepicker.min.css" afterPath="$PROJECT_DIR$/Blog/web/css/bootstrap-datetimepicker.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/css/gallery.css" afterPath="$PROJECT_DIR$/Blog/web/css/gallery.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/css/index.css" afterPath="$PROJECT_DIR$/Blog/web/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/fonts/font-awesome/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/Blog/web/fonts/font-awesome/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/js/bootstrap-datetimepicker.min.js" afterPath="$PROJECT_DIR$/Blog/web/js/bootstrap-datetimepicker.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/js/bootstrap.js" afterPath="$PROJECT_DIR$/Blog/web/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/js/jquery-2.2.4.min.js" afterPath="$PROJECT_DIR$/Blog/web/js/jquery-2.2.4.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/js/moment.min.js" afterPath="$PROJECT_DIR$/Blog/web/js/moment.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/robots.txt" afterPath="$PROJECT_DIR$/Blog/web/robots.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HeidiSQL_9.4_Portable/portable_settings.txt" afterPath="$PROJECT_DIR$/HeidiSQL_9.4_Portable/portable_settings.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/COPYING" afterPath="$PROJECT_DIR$/mysql/COPYING" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/COPYING.LESSER" afterPath="$PROJECT_DIR$/mysql/COPYING.LESSER" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/COPYING.thirdparty" afterPath="$PROJECT_DIR$/mysql/COPYING.thirdparty" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/CREDITS" afterPath="$PROJECT_DIR$/mysql/CREDITS" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/EXCEPTIONS-CLIENT" afterPath="$PROJECT_DIR$/mysql/EXCEPTIONS-CLIENT" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/README" afterPath="$PROJECT_DIR$/mysql/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/backup/auto.cnf" afterPath="$PROJECT_DIR$/mysql/backup/auto.cnf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/backup/performance_schema/db.opt" afterPath="$PROJECT_DIR$/mysql/backup/performance_schema/db.opt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/backup/test/db.opt" afterPath="$PROJECT_DIR$/mysql/backup/test/db.opt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/DESKTOP-DTA1ATJ.pid" afterPath="$PROJECT_DIR$/mysql/data/DESKTOP-DTA1ATJ.pid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/DESKTOP-QOL82B8.pid" afterPath="$PROJECT_DIR$/mysql/data/DESKTOP-QOL82B8.pid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/auto.cnf" afterPath="$PROJECT_DIR$/mysql/data/auto.cnf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/blog/db.opt" afterPath="$PROJECT_DIR$/mysql/data/blog/db.opt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/mysql.pid" afterPath="$PROJECT_DIR$/mysql/data/mysql.pid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/performance_schema/db.opt" afterPath="$PROJECT_DIR$/mysql/data/performance_schema/db.opt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/phpmyadmin/db.opt" afterPath="$PROJECT_DIR$/mysql/data/phpmyadmin/db.opt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/test/db.opt" afterPath="$PROJECT_DIR$/mysql/data/test/db.opt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/Index.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/Index.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/README" afterPath="$PROJECT_DIR$/mysql/share/charsets/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/armscii8.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/armscii8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/ascii.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/ascii.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/cp1250.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/cp1250.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/cp1251.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/cp1251.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/cp1256.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/cp1256.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/cp1257.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/cp1257.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/cp850.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/cp850.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/cp852.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/cp852.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/cp866.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/cp866.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/dec8.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/dec8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/geostd8.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/geostd8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/greek.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/greek.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/hebrew.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/hebrew.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/hp8.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/hp8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/keybcs2.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/keybcs2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/koi8r.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/koi8r.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/koi8u.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/koi8u.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/latin1.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/latin1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/latin2.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/latin2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/latin5.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/latin5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/latin7.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/latin7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/macce.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/macce.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/macroman.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/macroman.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/charsets/swe7.xml" afterPath="$PROJECT_DIR$/mysql/share/charsets/swe7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/errmsg-utf8.txt" afterPath="$PROJECT_DIR$/mysql/share/errmsg-utf8.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/fill_help_tables.sql" afterPath="$PROJECT_DIR$/mysql/share/fill_help_tables.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/install_spider.sql" afterPath="$PROJECT_DIR$/mysql/share/install_spider.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/mysql_performance_tables.sql" afterPath="$PROJECT_DIR$/mysql/share/mysql_performance_tables.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/mysql_system_tables.sql" afterPath="$PROJECT_DIR$/mysql/share/mysql_system_tables.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/mysql_system_tables_data.sql" afterPath="$PROJECT_DIR$/mysql/share/mysql_system_tables_data.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/share/mysql_test_data_timezone.sql" afterPath="$PROJECT_DIR$/mysql/share/mysql_test_data_timezone.sql" />
     </list>
     <ignored path="RK_Team.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -243,48 +168,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="article.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="14" />
-              <folding>
-                <marker date="1481564637331" expanded="true" signature="32:1787" ph="{% block main ...%}" />
-                <marker date="1481564637331" expanded="true" signature="219:1771" ph="..." />
-                <marker date="1481564637331" expanded="true" signature="248:331" ph="..." />
-                <marker date="1481564637331" expanded="true" signature="377:1214" ph="..." />
-                <marker date="1481564637331" expanded="true" signature="431:856" ph="..." />
-                <marker date="1481564637331" expanded="true" signature="459:825" ph="..." />
-                <marker date="1481564637331" expanded="true" signature="577:796" ph="..." />
-                <marker date="1481564637331" expanded="false" signature="623:663" ph="..." />
-                <marker date="1481564637331" expanded="true" signature="664:763" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/create.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/blog/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding>
-                <marker date="1481510036874" expanded="true" signature="218:1137" ph="{% for article in articles ...%}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Blog/web/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -295,37 +178,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/user/register.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="80" selection-start-line="29" selection-start-column="80" selection-end-line="29" selection-end-column="80" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/web/css/register.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2193">
-              <caret line="129" column="15" selection-start-line="129" selection-start-column="15" selection-end-line="129" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="proba.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/proba.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -335,14 +188,82 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/HomeController.php">
+      <file leaf-file-name="StatisticsRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Repository/StatisticsRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-              <folding>
-                <element signature="e#48#79#0#PHP" expanded="false" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatisticsType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/StatisticsType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Statistics.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Statistics.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatisticsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/StatisticsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/statistics/edit.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/statistics/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/statistics/create.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -369,7 +290,6 @@
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/login.html" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/gallery.html" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/gallery/gallery.html.twig" />
-        <option value="$PROJECT_DIR$/Blog/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/Blog/web/css/register.css" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/security/login.html.twig" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/user/register.html.twig" />
@@ -386,6 +306,7 @@
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/blog/index.html.twig" />
         <option value="$PROJECT_DIR$/Blog/web/css/index.css" />
         <option value="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ArticleController.php" />
+        <option value="$PROJECT_DIR$/Blog/app/Resources/views/base.html.twig" />
       </list>
     </option>
   </component>
@@ -398,7 +319,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1378" />
+    <option name="width" value="1370" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -408,7 +329,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -539,24 +460,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RK_Team" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RK_Team" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -932,6 +835,36 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="statistics" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RK_Team" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RK_Team" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="security" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -1144,8 +1077,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1159,17 +1092,17 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\RK_Team\Blog\app\Resources\views" />
+      <recent name="C:\RK_Team\Blog\src\SoftUniBlogBundle\Controller" />
+      <recent name="C:\RK_Team\Blog\src\SoftUniBlogBundle\Entity" />
+      <recent name="C:\RK_Team\Blog\src\SoftUniBlogBundle\Form" />
+      <recent name="C:\RK_Team\Blog\src\SoftUniBlogBundle\Repository" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\RK_Team\Blog\src\SoftUniBlogBundle\Resources\public" />
       <recent name="C:\RK_Team\Blog\app\Resources\views\gallery\gallery" />
       <recent name="C:\RK_Team\Blog\web" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\RK_Team\Blog\web" />
-      <recent name="C:\RK_Team\Blog\src\SoftUniBlogBundle\Resources\public" />
-      <recent name="C:\RK_Team\Blog\app\Resources\views\gallery" />
-      <recent name="C:\RK_Team\Blog\web\css" />
-      <recent name="C:\RK_Team\Blog" />
     </key>
   </component>
   <component name="RunManager">
@@ -1238,23 +1171,24 @@
       <workItem from="1481234472786" duration="17754000" />
       <workItem from="1481654157267" duration="367000" />
       <workItem from="1481920269670" duration="602000" />
+      <workItem from="1481951196219" duration="727000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59611000" />
+    <option name="totallyTimeSpent" value="60338000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="1" />
-    <editor active="false" />
+    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26479515" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2687023" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1283,40 +1217,8 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="12" column="67" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/web/css/articleCreate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="160" column="23" selection-start-line="160" selection-start-column="23" selection-end-line="160" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/web/uploads/articles/1d52c4e0e1cc618affae7b2276203e0a.png" />
-    <entry file="file://$PROJECT_DIR$/Blog/web/uploads/articles/7e371b38d5888eb0720129dd6f5f1b08.png" />
-    <entry file="file://$PROJECT_DIR$/Blog/web/uploads/articles/553a039de68748678d4763ecaf4c5e33.png" />
-    <entry file="file://$PROJECT_DIR$/Blog/web/uploads/articles/675e4c93223716b3cc07b768c80b4e57.png" />
-    <entry file="file://$PROJECT_DIR$/Blog/web/uploads/articles/b7e4c98c40fc6be754965fb685262db8.png" />
     <entry file="file://$PROJECT_DIR$/Blog/web/uploads/articles/ee4625c917e096fe443553ffcdfb421a.png" />
-    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/pisane na statia.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/pisane na statia.html" />
     <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/admin/category/all.html.twig" />
     <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/admin/category/delete.html.twig" />
     <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/admin/category/edit.html.twig" />
@@ -1427,7 +1329,7 @@
         <state relative-caret-position="255">
           <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding>
-            <element signature="e#42#80#0#PHP" expanded="true" />
+            <element signature="e#42#80#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1494,19 +1396,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
+        <state relative-caret-position="85">
           <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="14" />
-          <folding>
-            <marker date="1481564637331" expanded="true" signature="32:1787" ph="{% block main ...%}" />
-            <marker date="1481564637331" expanded="true" signature="219:1771" ph="..." />
-            <marker date="1481564637331" expanded="true" signature="248:331" ph="..." />
-            <marker date="1481564637331" expanded="true" signature="377:1214" ph="..." />
-            <marker date="1481564637331" expanded="true" signature="431:856" ph="..." />
-            <marker date="1481564637331" expanded="true" signature="459:825" ph="..." />
-            <marker date="1481564637331" expanded="true" signature="577:796" ph="..." />
-            <marker date="1481564637331" expanded="false" signature="623:663" ph="..." />
-            <marker date="1481564637331" expanded="true" signature="664:763" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1538,9 +1430,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <marker date="1481510036874" expanded="true" signature="218:1137" ph="{% for article in articles ...%}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1563,6 +1453,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="113" column="40" selection-start-line="113" selection-start-column="40" selection-end-line="113" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Repository/StatisticsRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/StatisticsType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Statistics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/StatisticsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/statistics/create.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/statistics/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/statistics/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
           <folding />
         </state>
       </provider>

@@ -217,6 +217,24 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
+        if (0 === strpos($pathinfo, '/statistics')) {
+            // statistics_create
+            if ($pathinfo === '/statistics/create') {
+                return array (  '_controller' => 'SoftUniBlogBundle\\Controller\\StatisticsController::createAction',  '_route' => 'statistics_create',);
+            }
+
+            // statistics_view
+            if (preg_match('#^/statistics/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'statistics_view')), array (  '_controller' => 'SoftUniBlogBundle\\Controller\\StatisticsController::viewAction',));
+            }
+
+            // statistics_edit
+            if (0 === strpos($pathinfo, '/statistics/edit') && preg_match('#^/statistics/edit/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'statistics_edit')), array (  '_controller' => 'SoftUniBlogBundle\\Controller\\StatisticsController::editStatistics',));
+            }
+
+        }
+
         // user_register
         if ($pathinfo === '/register') {
             return array (  '_controller' => 'SoftUniBlogBundle\\Controller\\UserController::registerAction',  '_route' => 'user_register',);

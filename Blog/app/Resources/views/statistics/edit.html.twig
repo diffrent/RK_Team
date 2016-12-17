@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    <link rel="stylesheet" href="{{ asset('css/articleView.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lightbox.css') }}">
+
+    <div class="mainDiv">
+        <form action="{{ path('statistics_edit', {id: 1}) }}" method="POST">
+            <header>
+                <h3>Редактиране на Статистика</h3>
+            </header>
+            <div class="white-div">
+
+
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="statistics_content">Content</label>
+                    <div class="col-sm-6">
+                            <textarea class="form-control" rows="6" id="statistics_content"
+                                      name="statistics[content]">{{ statistics.content }}</textarea>
+                    </div>
+                </div>
+
+                {{ form_row(form._token) }}
+                {% if app.getUser().isAdmin()  %}
+                    <label></label>
+                    <div class="form-group">
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <a class="button" href="{{ path('statistics_view', {id: 1}) }}">Cancel</a>
+                            <button type="submit" class="button">Edit</button>
+                        </div>
+                    </div>
+                {% endif %}
+                </fieldset>
+            </div>
+        </form>
+    </div>
+    </div>
+{% endblock %}
+
+
+
