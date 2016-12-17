@@ -27,10 +27,12 @@ See http://symfony.com/doc/current/book/templating.html#template-inheritance-and
                 <li><a href="{{ path('church_gallery') }}">Галерия</a></li>
                 <li><a href="{{ path('statistics_view',{'id': 1}) }}">Статистика</a></li>
                 <li><a href="{{ path('user_profile') }}">За Нас</a></li>
-                <li><a href="{{ path('user_profile') }}">Контакти</a></li>
+                <li><a href="{{ path('contacts_view',{id:1}) }}">Контакти</a></li>
+
                 {% if app.user %}
                     {% if app.user.isAdmin() %}
                         <li style="float: right"><a href="{{ path('article_create') }}">Добави Статия</a></li>
+                        <li style="float: right"><a href="{{ path('user_profile') }}">Профил</a></li>
                     {% endif %}
                     <li style="float: right"><a href="{{ path('security_logout') }}">Изход</a></li>
                 {% else %}
