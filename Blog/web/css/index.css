@@ -1,5 +1,13 @@
+html {
+    background: url(http://3.bp.blogspot.com/-x37pbVPAOSw/VzmDFZy_KtI/AAAAAAAA0MY/3DnTD1lgnbg4oAjEO9YQ_VoSqlBqPIB1ACHM/s1600/hd-website-backgrounds-wallpaper-best-background-wallpaper.jpg) no-repeat center center fixed;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
 body {
-    background-color: lightgray;
+    background-color: transparent;
     color: #000305;
     font-size: 87.5%; /* base font size is 14px */
     font-family: Arial, "Lucida Sans Unicode";
@@ -27,7 +35,7 @@ a:hover, a:active {
 }
 
 .mainheader img {
-    width: 30%;
+    width: 100%;
     height: auto;
     margin: 2% 0;
 }
@@ -156,6 +164,8 @@ a:hover, a:active {
     margin: 10px auto;
     color: white;
 }
+
+
 
 @media only screen and (min-width: 150px) and (max-width: 600px)
 {
