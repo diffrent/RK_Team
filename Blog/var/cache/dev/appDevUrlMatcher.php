@@ -178,6 +178,24 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
+        if (0 === strpos($pathinfo, '/contacts')) {
+            // contacts_create
+            if ($pathinfo === '/contacts/create') {
+                return array (  '_controller' => 'SoftUniBlogBundle\\Controller\\ContactsController::createAction',  '_route' => 'contacts_create',);
+            }
+
+            // contacts_view
+            if (preg_match('#^/contacts/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'contacts_view')), array (  '_controller' => 'SoftUniBlogBundle\\Controller\\ContactsController::viewAction',));
+            }
+
+            // contacts_edit
+            if (0 === strpos($pathinfo, '/contacts/edit') && preg_match('#^/contacts/edit/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'contacts_edit')), array (  '_controller' => 'SoftUniBlogBundle\\Controller\\ContactsController::editcontacts',));
+            }
+
+        }
+
         // blog_index
         if (rtrim($pathinfo, '/') === '') {
             if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {

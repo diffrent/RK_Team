@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    <link rel="stylesheet" href="{{ asset('css/articleView.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/lightbox.css') }}">
+
+    <div class="mainDiv">
+        <form action="{{ path('contacts_edit', {id: 1}) }}" method="POST">
+            <header>
+                <h3>Редактиране на Контакти</h3>
+            </header>
+            <div class="white-div">
+
+
+                <div class="form-group">
+                    <label class="col-sm-4 control-label" for="contacts_content">Content</label>
+                    <div class="col-sm-6">
+                            <textarea class="form-control" rows="6" id="contacts_content"
+                                      name="contacts[content]">{{ contacts.content }}</textarea>
+                    </div>
+                </div>
+
+                {{ form_row(form._token) }}
+                {% if app.getUser().isAdmin()  %}
+                    <label></label>
+                    <div class="form-group">
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <a class="button" href="{{ path('contacts_view', {id: 1}) }}">Cancel</a>
+                            <button type="submit" class="button">Edit</button>
+                        </div>
+                    </div>
+                {% endif %}
+                </fieldset>
+            </div>
+        </form>
+    </div>
+    </div>
+{% endblock %}
+
+
+
