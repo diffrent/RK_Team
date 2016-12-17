@@ -3622,3 +3622,12 @@ e5cd4f,127.0.0.1,GET,http://localhost:8000/images/close.png,1481998387,5721f5,20
 5721f5,127.0.0.1,GET,http://localhost:8000/images/close.png,1481998387,,404
 813078,127.0.0.1,GET,http://localhost:8000/images/loading.gif,1481998389,56da1a,200
 56da1a,127.0.0.1,GET,http://localhost:8000/images/loading.gif,1481998389,,404
+a7388b,127.0.0.1,GET,http://127.0.0.1:8000/,1482008537,,200
+94ee4b,127.0.0.1,GET,http://127.0.0.1:8000/images/close.png,1482008542,f3cf7e,200
+f3cf7e,127.0.0.1,GET,http://127.0.0.1:8000/images/close.png,1482008542,,404
+fbfbed,127.0.0.1,GET,http://127.0.0.1:8000/images/loading.gif,1482008545,6800cb,200
+6800cb,127.0.0.1,GET,http://127.0.0.1:8000/images/loading.gif,1482008545,,404
+3fb9d4,127.0.0.1,GET,http://127.0.0.1:8000/images/prev.png,1482008550,c11e93,200
+c11e93,127.0.0.1,GET,http://127.0.0.1:8000/images/prev.png,1482008550,,404
+93a55f,127.0.0.1,GET,http://127.0.0.1:8000/images/next.png,1482008551,734339,200
+734339,127.0.0.1,GET,http://127.0.0.1:8000/images/next.png,1482008551,,404
