@@ -16,12 +16,17 @@ class __TwigTemplate_9c890513964c8ed7c34bb3b29233ae27a0bce72561dd0de4d91ceaa13f3
     protected function doDisplay(array $context, array $blocks = array())
     {
 <<<<<<< HEAD
+        $__internal_fa444a5eef10ad73c45285c677ec6cc2181d9bd8bde91f0c29c654888da2da89 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_fa444a5eef10ad73c45285c677ec6cc2181d9bd8bde91f0c29c654888da2da89->enter($__internal_fa444a5eef10ad73c45285c677ec6cc2181d9bd8bde91f0c29c654888da2da89_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar.css.twig"));
+=======
+<<<<<<< HEAD
         $__internal_fcdbef75fb753d1ec91d54e3755827aae785b8e98ff62d5838c35cd1891d6de0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_fcdbef75fb753d1ec91d54e3755827aae785b8e98ff62d5838c35cd1891d6de0->enter($__internal_fcdbef75fb753d1ec91d54e3755827aae785b8e98ff62d5838c35cd1891d6de0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar.css.twig"));
 =======
         $__internal_52ad21d3fc017954fe757583a968d74f2f5a38dc47fa5cc9fbcd3c6c45fd732b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_52ad21d3fc017954fe757583a968d74f2f5a38dc47fa5cc9fbcd3c6c45fd732b->enter($__internal_52ad21d3fc017954fe757583a968d74f2f5a38dc47fa5cc9fbcd3c6c45fd732b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Profiler/toolbar.css.twig"));
 >>>>>>> 616e38a3edb6686d43fd48167124353bf7147417
+>>>>>>> origin/master
 
         // line 2
         $context["colors"] = array("success" => "#4F805D", "warning" => "#A46A1F", "error" => "#B0413E");
@@ -560,10 +565,14 @@ class __TwigTemplate_9c890513964c8ed7c34bb3b29233ae27a0bce72561dd0de4d91ceaa13f3
 ";
         
 <<<<<<< HEAD
+        $__internal_fa444a5eef10ad73c45285c677ec6cc2181d9bd8bde91f0c29c654888da2da89->leave($__internal_fa444a5eef10ad73c45285c677ec6cc2181d9bd8bde91f0c29c654888da2da89_prof);
+=======
+<<<<<<< HEAD
         $__internal_fcdbef75fb753d1ec91d54e3755827aae785b8e98ff62d5838c35cd1891d6de0->leave($__internal_fcdbef75fb753d1ec91d54e3755827aae785b8e98ff62d5838c35cd1891d6de0_prof);
 =======
         $__internal_52ad21d3fc017954fe757583a968d74f2f5a38dc47fa5cc9fbcd3c6c45fd732b->leave($__internal_52ad21d3fc017954fe757583a968d74f2f5a38dc47fa5cc9fbcd3c6c45fd732b_prof);
 >>>>>>> 616e38a3edb6686d43fd48167124353bf7147417
+>>>>>>> origin/master
 
     }
 
