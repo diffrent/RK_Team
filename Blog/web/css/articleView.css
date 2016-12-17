@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: transparent;
     color: #000305;
     font-size: 87.5%; /* base font size is 14px */
     font-family: Arial, "Lucida Sans Unicode";
@@ -44,7 +44,7 @@ button {
 }
 
 .mainheader img {
-    width: 30%;
+    width: 100%;
     height: auto;
     margin: 2% 0;
 }

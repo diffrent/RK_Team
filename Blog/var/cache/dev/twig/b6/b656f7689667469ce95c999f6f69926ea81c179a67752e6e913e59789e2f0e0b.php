@@ -21,20 +21,20 @@ class __TwigTemplate_973be2bf368050d27fa8c3d55fa90086bf5a559e9d6512a89bb63812b04
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_4593b1272ce6698630cb47ec9f82437fabff95f8bccfcd07097deff47790637f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4593b1272ce6698630cb47ec9f82437fabff95f8bccfcd07097deff47790637f->enter($__internal_4593b1272ce6698630cb47ec9f82437fabff95f8bccfcd07097deff47790637f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "gallery/gallery.html.twig"));
+        $__internal_d94f01cef70604c91fe7c9714aff82c3b02e2cd439a7e5aee18981727a011d27 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d94f01cef70604c91fe7c9714aff82c3b02e2cd439a7e5aee18981727a011d27->enter($__internal_d94f01cef70604c91fe7c9714aff82c3b02e2cd439a7e5aee18981727a011d27_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "gallery/gallery.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_4593b1272ce6698630cb47ec9f82437fabff95f8bccfcd07097deff47790637f->leave($__internal_4593b1272ce6698630cb47ec9f82437fabff95f8bccfcd07097deff47790637f_prof);
+        $__internal_d94f01cef70604c91fe7c9714aff82c3b02e2cd439a7e5aee18981727a011d27->leave($__internal_d94f01cef70604c91fe7c9714aff82c3b02e2cd439a7e5aee18981727a011d27_prof);
 
     }
 
     // line 3
     public function block_main($context, array $blocks = array())
     {
-        $__internal_e36d141ba9bf325ac140e7182c22c5268a7d8e536ba322f3a69d4025f464057d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_e36d141ba9bf325ac140e7182c22c5268a7d8e536ba322f3a69d4025f464057d->enter($__internal_e36d141ba9bf325ac140e7182c22c5268a7d8e536ba322f3a69d4025f464057d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+        $__internal_beb5265382fa324b4a1b3379196a7070a6615123c4582e6422c26b6a3666444c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_beb5265382fa324b4a1b3379196a7070a6615123c4582e6422c26b6a3666444c->enter($__internal_beb5265382fa324b4a1b3379196a7070a6615123c4582e6422c26b6a3666444c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
 
         // line 4
         echo "<head>
@@ -98,7 +98,7 @@ class __TwigTemplate_973be2bf368050d27fa8c3d55fa90086bf5a559e9d6512a89bb63812b04
             function ScaleSlider() {
                 var refSize = jssor_1_slider.\$Elmt.parentNode.clientWidth;
                 if (refSize) {
-                    refSize = Math.min(refSize, 800);
+                    refSize = Math.min(refSize, 930);
                     jssor_1_slider.\$ScaleWidth(refSize);
                 }
                 else {
@@ -126,7 +126,7 @@ class __TwigTemplate_973be2bf368050d27fa8c3d55fa90086bf5a559e9d6512a89bb63812b04
                     <div style=\"filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;\"></div>
                     <div style=\"position:absolute;display:block;background:url('../../../../web/gallery/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;\"></div>
                 </div>
-                <div data-u=\"slides\" style=\"cursor: default; position: relative; top: 0px; left: 0px; width: 800px; height: 356px; overflow: hidden;\">
+                <div data-u=\"slides\" style=\"cursor: default; position: relative; top: 0px; left: 0px; width: 930px; height: 356px; overflow: hidden;\">
                     <div data-p=\"144.50\">
                         <img data-u=\"image\" src=\"";
         // line 92
@@ -272,7 +272,7 @@ class __TwigTemplate_973be2bf368050d27fa8c3d55fa90086bf5a559e9d6512a89bb63812b04
 </div>
 ";
         
-        $__internal_e36d141ba9bf325ac140e7182c22c5268a7d8e536ba322f3a69d4025f464057d->leave($__internal_e36d141ba9bf325ac140e7182c22c5268a7d8e536ba322f3a69d4025f464057d_prof);
+        $__internal_beb5265382fa324b4a1b3379196a7070a6615123c4582e6422c26b6a3666444c->leave($__internal_beb5265382fa324b4a1b3379196a7070a6615123c4582e6422c26b6a3666444c_prof);
 
     }
 
@@ -354,7 +354,7 @@ class __TwigTemplate_973be2bf368050d27fa8c3d55fa90086bf5a559e9d6512a89bb63812b04
             function ScaleSlider() {
                 var refSize = jssor_1_slider.\$Elmt.parentNode.clientWidth;
                 if (refSize) {
-                    refSize = Math.min(refSize, 800);
+                    refSize = Math.min(refSize, 930);
                     jssor_1_slider.\$ScaleWidth(refSize);
                 }
                 else {
@@ -382,7 +382,7 @@ class __TwigTemplate_973be2bf368050d27fa8c3d55fa90086bf5a559e9d6512a89bb63812b04
                     <div style=\"filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;\"></div>
                     <div style=\"position:absolute;display:block;background:url('../../../../web/gallery/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;\"></div>
                 </div>
-                <div data-u=\"slides\" style=\"cursor: default; position: relative; top: 0px; left: 0px; width: 800px; height: 356px; overflow: hidden;\">
+                <div data-u=\"slides\" style=\"cursor: default; position: relative; top: 0px; left: 0px; width: 930px; height: 356px; overflow: hidden;\">
                     <div data-p=\"144.50\">
                         <img data-u=\"image\" src=\"{{ asset('gallery/01.jpg') }}\"/>
                         <img data-u=\"thumb\" src=\"{{ asset('gallery/thumb-01.jpg') }}\"/>
