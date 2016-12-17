@@ -21,20 +21,34 @@ class __TwigTemplate_d03768899f64a003df592831bb971c65f399feec94202205283dff76cdb
 
     protected function doDisplay(array $context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_fe2e3fdad5944c3ab09e867267919c6cc01db3dcd3f7517f07f547aea794dfe4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_fe2e3fdad5944c3ab09e867267919c6cc01db3dcd3f7517f07f547aea794dfe4->enter($__internal_fe2e3fdad5944c3ab09e867267919c6cc01db3dcd3f7517f07f547aea794dfe4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "blog/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
         $__internal_fe2e3fdad5944c3ab09e867267919c6cc01db3dcd3f7517f07f547aea794dfe4->leave($__internal_fe2e3fdad5944c3ab09e867267919c6cc01db3dcd3f7517f07f547aea794dfe4_prof);
+=======
+        $__internal_ae8e68f25c5a4d2651880bfa8b1f8b371ac29825bb91dfee3d315f578064e5e9 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ae8e68f25c5a4d2651880bfa8b1f8b371ac29825bb91dfee3d315f578064e5e9->enter($__internal_ae8e68f25c5a4d2651880bfa8b1f8b371ac29825bb91dfee3d315f578064e5e9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "blog/index.html.twig"));
+
+        $this->parent->display($context, array_merge($this->blocks, $blocks));
+        
+        $__internal_ae8e68f25c5a4d2651880bfa8b1f8b371ac29825bb91dfee3d315f578064e5e9->leave($__internal_ae8e68f25c5a4d2651880bfa8b1f8b371ac29825bb91dfee3d315f578064e5e9_prof);
+>>>>>>> 616e38a3edb6686d43fd48167124353bf7147417
 
     }
 
     // line 3
     public function block_main($context, array $blocks = array())
     {
+<<<<<<< HEAD
         $__internal_4d687ba3ec43ddac3600b81098e7e53da79ce4702a9969b80e74522bc0047d25 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
         $__internal_4d687ba3ec43ddac3600b81098e7e53da79ce4702a9969b80e74522bc0047d25->enter($__internal_4d687ba3ec43ddac3600b81098e7e53da79ce4702a9969b80e74522bc0047d25_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+=======
+        $__internal_0c7ee0ce01b60cbc5e2489912efa3071cdfe863af7ba3ef84f2e52aac778255f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0c7ee0ce01b60cbc5e2489912efa3071cdfe863af7ba3ef84f2e52aac778255f->enter($__internal_0c7ee0ce01b60cbc5e2489912efa3071cdfe863af7ba3ef84f2e52aac778255f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+>>>>>>> 616e38a3edb6686d43fd48167124353bf7147417
 
         // line 4
         echo "    <link rel=\"stylesheet\" href=\"";
@@ -92,7 +106,9 @@ class __TwigTemplate_d03768899f64a003df592831bb971c65f399feec94202205283dff76cdb
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['article'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 29
-        echo "
+        echo "        </div>
+    </div>
+
 
     <aside class=\"top-sidebar\">
         <article>
@@ -116,7 +132,11 @@ class __TwigTemplate_d03768899f64a003df592831bb971c65f399feec94202205283dff76cdb
     </aside>
 ";
         
+<<<<<<< HEAD
         $__internal_4d687ba3ec43ddac3600b81098e7e53da79ce4702a9969b80e74522bc0047d25->leave($__internal_4d687ba3ec43ddac3600b81098e7e53da79ce4702a9969b80e74522bc0047d25_prof);
+=======
+        $__internal_0c7ee0ce01b60cbc5e2489912efa3071cdfe863af7ba3ef84f2e52aac778255f->leave($__internal_0c7ee0ce01b60cbc5e2489912efa3071cdfe863af7ba3ef84f2e52aac778255f_prof);
+>>>>>>> 616e38a3edb6686d43fd48167124353bf7147417
 
     }
 
@@ -165,6 +185,8 @@ class __TwigTemplate_d03768899f64a003df592831bb971c65f399feec94202205283dff76cdb
                 </content>
             </article>
             {% endfor %}
+        </div>
+    </div>
 
 
     <aside class=\"top-sidebar\">
