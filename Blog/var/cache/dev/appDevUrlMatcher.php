@@ -101,6 +101,24 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
         }
 
         if (0 === strpos($pathinfo, '/a')) {
+            if (0 === strpos($pathinfo, '/about')) {
+                // about_create
+                if ($pathinfo === '/about/create') {
+                    return array (  '_controller' => 'SoftUniBlogBundle\\Controller\\AboutController::createAction',  '_route' => 'about_create',);
+                }
+
+                // about_view
+                if (preg_match('#^/about/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'about_view')), array (  '_controller' => 'SoftUniBlogBundle\\Controller\\AboutController::viewAction',));
+                }
+
+                // about_edit
+                if (0 === strpos($pathinfo, '/about/edit') && preg_match('#^/about/edit/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                    return $this->mergeDefaults(array_replace($matches, array('_route' => 'about_edit')), array (  '_controller' => 'SoftUniBlogBundle\\Controller\\AboutController::editabout',));
+                }
+
+            }
+
             if (0 === strpos($pathinfo, '/admin')) {
                 if (0 === strpos($pathinfo, '/admin/category')) {
                     // admin_category_all
