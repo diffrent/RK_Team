@@ -21,20 +21,20 @@ class __TwigTemplate_d1270af036a329894d26f9e53697a22fb47856d615934f92941b6d01324
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_b220769f4a81b2bff2046c1dfbc7c76a08695989a4f5d0b9bc23663c43832c8d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_b220769f4a81b2bff2046c1dfbc7c76a08695989a4f5d0b9bc23663c43832c8d->enter($__internal_b220769f4a81b2bff2046c1dfbc7c76a08695989a4f5d0b9bc23663c43832c8d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "article/article.html.twig"));
+        $__internal_a78e588c88a695de361e79ee0683dd03aa4f13d9c93c4443478a5efde0d27504 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a78e588c88a695de361e79ee0683dd03aa4f13d9c93c4443478a5efde0d27504->enter($__internal_a78e588c88a695de361e79ee0683dd03aa4f13d9c93c4443478a5efde0d27504_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "article/article.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_b220769f4a81b2bff2046c1dfbc7c76a08695989a4f5d0b9bc23663c43832c8d->leave($__internal_b220769f4a81b2bff2046c1dfbc7c76a08695989a4f5d0b9bc23663c43832c8d_prof);
+        $__internal_a78e588c88a695de361e79ee0683dd03aa4f13d9c93c4443478a5efde0d27504->leave($__internal_a78e588c88a695de361e79ee0683dd03aa4f13d9c93c4443478a5efde0d27504_prof);
 
     }
 
     // line 3
     public function block_main($context, array $blocks = array())
     {
-        $__internal_dc4e365d8d1385250f284a36b302f1e0fd560d6cb9aebc673a03c165c717cee8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_dc4e365d8d1385250f284a36b302f1e0fd560d6cb9aebc673a03c165c717cee8->enter($__internal_dc4e365d8d1385250f284a36b302f1e0fd560d6cb9aebc673a03c165c717cee8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+        $__internal_a50d5aabadb5d27590f17bc9490f565694579d67c29ba19b3a4a74ed6440b897 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a50d5aabadb5d27590f17bc9490f565694579d67c29ba19b3a4a74ed6440b897->enter($__internal_a50d5aabadb5d27590f17bc9490f565694579d67c29ba19b3a4a74ed6440b897_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
 
         // line 4
         echo "    <link rel=\"stylesheet\" href=\"";
@@ -56,7 +56,7 @@ class __TwigTemplate_d1270af036a329894d26f9e53697a22fb47856d615934f92941b6d01324
 
                     <div class=\"white-div\">
                         <div class=\"photo-container\">
-                        <p>
+                           <div class=\"photoDiv\">
                             <a href=\"";
         // line 16
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl(("uploads/articles/" . $this->getAttribute((isset($context["article"]) ? $context["article"] : $this->getContext($context, "article")), "coverPhoto", array()))), "html", null, true);
@@ -67,7 +67,7 @@ class __TwigTemplate_d1270af036a329894d26f9e53697a22fb47856d615934f92941b6d01324
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl(("uploads/articles/" . $this->getAttribute((isset($context["article"]) ? $context["article"] : $this->getContext($context, "article")), "coverPhoto", array()))), "html", null, true);
         echo "\"/>
                             </a>
-                        </p>
+                           </div>
                         </div>
                         <textarea class=\"form-control\" rows=\"12\">
                         ";
@@ -103,7 +103,7 @@ class __TwigTemplate_d1270af036a329894d26f9e53697a22fb47856d615934f92941b6d01324
             </div>
 ";
         
-        $__internal_dc4e365d8d1385250f284a36b302f1e0fd560d6cb9aebc673a03c165c717cee8->leave($__internal_dc4e365d8d1385250f284a36b302f1e0fd560d6cb9aebc673a03c165c717cee8_prof);
+        $__internal_a50d5aabadb5d27590f17bc9490f565694579d67c29ba19b3a4a74ed6440b897->leave($__internal_a50d5aabadb5d27590f17bc9490f565694579d67c29ba19b3a4a74ed6440b897_prof);
 
     }
 
@@ -138,12 +138,12 @@ class __TwigTemplate_d1270af036a329894d26f9e53697a22fb47856d615934f92941b6d01324
 
                     <div class=\"white-div\">
                         <div class=\"photo-container\">
-                        <p>
+                           <div class=\"photoDiv\">
                             <a href=\"{{ asset('uploads/articles/' ~ article.coverPhoto ) }}\" data-lightbox=\"gallery\">
                                 <img style=\"display: block;width: 100%;height: auto;\"
                                      src=\"{{ asset('uploads/articles/' ~ article.coverPhoto ) }}\"/>
                             </a>
-                        </p>
+                           </div>
                         </div>
                         <textarea class=\"form-control\" rows=\"12\">
                         {{ article.content }}

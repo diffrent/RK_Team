@@ -21,63 +21,87 @@ class __TwigTemplate_fe33de6fe28ca32f9ef601f1bf274038c68614af17ea2541a0cbce7e6da
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_ab5db3407b7c861851e19ddb608110424a63b28edf937f46605646e5f61ea487 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ab5db3407b7c861851e19ddb608110424a63b28edf937f46605646e5f61ea487->enter($__internal_ab5db3407b7c861851e19ddb608110424a63b28edf937f46605646e5f61ea487_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "statistics/show.html.twig"));
+        $__internal_823de0cc7f04109f0c5a79ff9964e375f7c86d91abd903701e9d15fb37d1cdaf = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_823de0cc7f04109f0c5a79ff9964e375f7c86d91abd903701e9d15fb37d1cdaf->enter($__internal_823de0cc7f04109f0c5a79ff9964e375f7c86d91abd903701e9d15fb37d1cdaf_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "statistics/show.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_ab5db3407b7c861851e19ddb608110424a63b28edf937f46605646e5f61ea487->leave($__internal_ab5db3407b7c861851e19ddb608110424a63b28edf937f46605646e5f61ea487_prof);
+        $__internal_823de0cc7f04109f0c5a79ff9964e375f7c86d91abd903701e9d15fb37d1cdaf->leave($__internal_823de0cc7f04109f0c5a79ff9964e375f7c86d91abd903701e9d15fb37d1cdaf_prof);
 
     }
 
     // line 3
     public function block_main($context, array $blocks = array())
     {
-        $__internal_441c650b1a181a9d6e1fbdd87a6965f2e22ddeceddb1ff1a46a1be33f82ad4f7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_441c650b1a181a9d6e1fbdd87a6965f2e22ddeceddb1ff1a46a1be33f82ad4f7->enter($__internal_441c650b1a181a9d6e1fbdd87a6965f2e22ddeceddb1ff1a46a1be33f82ad4f7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+        $__internal_2a8a80a9fbd5c39c30b80612c983cdbce13b4d9399032144e389e4b62e397bf1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_2a8a80a9fbd5c39c30b80612c983cdbce13b4d9399032144e389e4b62e397bf1->enter($__internal_2a8a80a9fbd5c39c30b80612c983cdbce13b4d9399032144e389e4b62e397bf1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
 
         // line 4
         echo "    <link rel=\"stylesheet\" href=\"";
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/articleView.css"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/statistics.css"), "html", null, true);
         echo "\">
     <link rel=\"stylesheet\" href=\"";
         // line 5
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/lightbox.css"), "html", null, true);
         echo "\">
 
-
     <div class=\"mainDiv\">
         <header>
             <h3>Статистика</h3>
         </header>
-
-        <div class=\"white-div\">
-
-            <textarea class=\"form-control\" rows=\"12\">";
-        // line 15
+        <div class=\"content\">
+                <div class=\"white-div\">
+                    <textarea class=\"form-control\" rows=\"25\">";
+        // line 13
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["statistics"]) ? $context["statistics"] : $this->getContext($context, "statistics")), "content", array()), "html", null, true);
         echo "</textarea>
-        </div>
-        <label></label>
-        <a class=\"button\" href=\"";
-        // line 18
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("blog_index");
-        echo "\">Назад &raquo;</a>
-        ";
+                 </div>
+
+                <div class=\"white-div-right\">
+                     <a href=\"";
+        // line 17
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/bulka.jpg"), "html", null, true);
+        echo "\" data-lightbox=\"gallery\">
+                     <img style=\"display: block;width: 100%;height: auto;\"
+                         src=\"";
         // line 19
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/bulka.jpg"), "html", null, true);
+        echo "\"/>
+                     </a>
+                </div>
+
+                <div class=\"white-div-right\">
+                    <a href=\"";
+        // line 24
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/bebe.jpg"), "html", null, true);
+        echo "\" data-lightbox=\"gallery\">
+                    <img style=\"display: block;width: 100%;height: auto;\"
+                    src=\"";
+        // line 26
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/bebe.jpg"), "html", null, true);
+        echo "\"/>
+                    </a>
+                </div>
+        </div>
+
+            <label></label>
+            ";
+        // line 32
         if (($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "getUser", array(), "method") && $this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "getUser", array(), "method"), "isAdmin", array(), "method"))) {
-            // line 20
-            echo "            <a class=\"button\" href=\"";
+            // line 33
+            echo "                <a class=\"button\" style=\"padding: 15px\" href=\"";
             echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("statistics_edit", array("id" => 1));
             echo "\">Редактирай</a>
-        ";
+            ";
         }
-        // line 22
-        echo "
+        // line 35
+        echo "                <a class=\"button\" style=\"padding: 15px\" href=\"";
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("blog_index");
+        echo "\">Назад &raquo;</a>
     </div>
 ";
         
-        $__internal_441c650b1a181a9d6e1fbdd87a6965f2e22ddeceddb1ff1a46a1be33f82ad4f7->leave($__internal_441c650b1a181a9d6e1fbdd87a6965f2e22ddeceddb1ff1a46a1be33f82ad4f7_prof);
+        $__internal_2a8a80a9fbd5c39c30b80612c983cdbce13b4d9399032144e389e4b62e397bf1->leave($__internal_2a8a80a9fbd5c39c30b80612c983cdbce13b4d9399032144e389e4b62e397bf1_prof);
 
     }
 
@@ -93,7 +117,7 @@ class __TwigTemplate_fe33de6fe28ca32f9ef601f1bf274038c68614af17ea2541a0cbce7e6da
 
     public function getDebugInfo()
     {
-        return array (  76 => 22,  70 => 20,  68 => 19,  64 => 18,  58 => 15,  45 => 5,  40 => 4,  34 => 3,  11 => 1,);
+        return array (  98 => 35,  92 => 33,  90 => 32,  81 => 26,  76 => 24,  68 => 19,  63 => 17,  56 => 13,  45 => 5,  40 => 4,  34 => 3,  11 => 1,);
     }
 
     public function getSource()
@@ -101,25 +125,38 @@ class __TwigTemplate_fe33de6fe28ca32f9ef601f1bf274038c68614af17ea2541a0cbce7e6da
         return "{% extends 'base.html.twig' %}
 
 {% block main %}
-    <link rel=\"stylesheet\" href=\"{{ asset('css/articleView.css') }}\">
+    <link rel=\"stylesheet\" href=\"{{ asset('css/statistics.css') }}\">
     <link rel=\"stylesheet\" href=\"{{ asset('css/lightbox.css') }}\">
-
 
     <div class=\"mainDiv\">
         <header>
             <h3>Статистика</h3>
         </header>
+        <div class=\"content\">
+                <div class=\"white-div\">
+                    <textarea class=\"form-control\" rows=\"25\">{{ statistics.content }}</textarea>
+                 </div>
 
-        <div class=\"white-div\">
+                <div class=\"white-div-right\">
+                     <a href=\"{{ asset('images/bulka.jpg') }}\" data-lightbox=\"gallery\">
+                     <img style=\"display: block;width: 100%;height: auto;\"
+                         src=\"{{ asset('images/bulka.jpg') }}\"/>
+                     </a>
+                </div>
 
-            <textarea class=\"form-control\" rows=\"12\">{{ statistics.content }}</textarea>
+                <div class=\"white-div-right\">
+                    <a href=\"{{ asset('images/bebe.jpg') }}\" data-lightbox=\"gallery\">
+                    <img style=\"display: block;width: 100%;height: auto;\"
+                    src=\"{{ asset('images/bebe.jpg') }}\"/>
+                    </a>
+                </div>
         </div>
-        <label></label>
-        <a class=\"button\" href=\"{{ path('blog_index') }}\">Назад &raquo;</a>
-        {% if app.getUser() and app.getUser().isAdmin()  %}
-            <a class=\"button\" href=\"{{ path('statistics_edit', {'id': 1}) }}\">Редактирай</a>
-        {% endif %}
 
+            <label></label>
+            {% if app.getUser() and app.getUser().isAdmin()  %}
+                <a class=\"button\" style=\"padding: 15px\" href=\"{{ path('statistics_edit', {'id': 1}) }}\">Редактирай</a>
+            {% endif %}
+                <a class=\"button\" style=\"padding: 15px\" href=\"{{ path('blog_index') }}\">Назад &raquo;</a>
     </div>
 {% endblock %}";
     }
