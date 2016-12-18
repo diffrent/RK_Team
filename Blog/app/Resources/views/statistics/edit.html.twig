@@ -1,7 +1,7 @@
 {% extends 'base.html.twig' %}
 
 {% block main %}
-    <link rel="stylesheet" href="{{ asset('css/articleView.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/statistics.css') }}">
     <link rel="stylesheet" href="{{ asset('css/lightbox.css') }}">
 
     <div class="mainDiv">
@@ -9,31 +9,34 @@
             <header>
                 <h3>Редактиране на Статистика</h3>
             </header>
-            <div class="white-div">
-
-
-                <div class="form-group">
-                    <label class="col-sm-4 control-label" for="statistics_content">Content</label>
-                    <div class="col-sm-6">
-                            <textarea class="form-control" rows="6" id="statistics_content"
-                                      name="statistics[content]">{{ statistics.content }}</textarea>
-                    </div>
+            <div class="content">
+                <div class="white-div">
+                    <textarea class="form-control" rows="25" id="statistics_content"
+                    name="statistics[content]">{{ statistics.content }}</textarea>
                 </div>
+
+                <div class="white-div-right">
+                    <a href="{{ asset('images/bulka.jpg') }}" data-lightbox="gallery">
+                        <img style="display: block;width: 100%;height: auto;"
+                             src="{{ asset('images/bulka.jpg') }}"/>
+                    </a>
+                </div>
+
+                <div class="white-div-right">
+                    <a href="{{ asset('images/bebe.jpg') }}" data-lightbox="gallery">
+                        <img style="display: block;width: 100%;height: auto;"
+                             src="{{ asset('images/bebe.jpg') }}"/>
+                    </a>
+                </div>
+            </div>
 
                 {{ form_row(form._token) }}
                 {% if app.getUser().isAdmin()  %}
-                    <label></label>
-                    <div class="form-group">
-                        <div class="col-sm-4 col-sm-offset-4">
-                            <a class="button" href="{{ path('statistics_view', {id: 1}) }}">Cancel</a>
-                            <button type="submit" class="button">Edit</button>
-                        </div>
-                    </div>
+                <label></label>
+                <button type="submit" class="button">Готово</button>
+                <a class="button" href="{{ path('statistics_view', {id: 1}) }}">Отказ</a>
                 {% endif %}
-                </fieldset>
-            </div>
         </form>
-    </div>
     </div>
 {% endblock %}
 

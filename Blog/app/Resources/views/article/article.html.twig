@@ -12,12 +12,12 @@
 
                     <div class="white-div">
                         <div class="photo-container">
-                        <p>
+                           <div class="photoDiv">
                             <a href="{{ asset('uploads/articles/' ~ article.coverPhoto ) }}" data-lightbox="gallery">
                                 <img style="display: block;width: 100%;height: auto;"
                                      src="{{ asset('uploads/articles/' ~ article.coverPhoto ) }}"/>
                             </a>
-                        </p>
+                           </div>
                         </div>
                         <textarea class="form-control" rows="12">
                         {{ article.content }}

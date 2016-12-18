@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e21fdb3a-de79-44dc-8656-f19510a1323f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/web/css/statistics.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/css/articleView.css" afterPath="$PROJECT_DIR$/Blog/web/css/articleView.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/web/Images/bebe.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/web/Images/bulka.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/article/delete.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/article/delete.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/article/edit.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/article/edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/statistics/create.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/statistics/create.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/statistics/edit.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/statistics/edit.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/statistics/show.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/statistics/show.html.twig" />
     </list>
     <ignored path="RK_Team.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Blog/web/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/statistics/edit.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -236,6 +253,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RK_Team" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RK_Team" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -281,6 +320,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RK_Team" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RK_Team" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="statistics" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,11 +425,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\RK_Team\Blog\web" />
       <recent name="C:\RK_Team\Blog\app\Resources\views" />
+      <recent name="C:\RK_Team\Blog\web\Images" />
+      <recent name="C:\RK_Team\Blog\web" />
       <recent name="C:\RK_Team\Blog\src\SoftUniBlogBundle\Repository" />
       <recent name="C:\RK_Team\Blog\src\SoftUniBlogBundle\Form" />
-      <recent name="C:\RK_Team\Blog\src\SoftUniBlogBundle\Entity" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\RK_Team\Blog\src\SoftUniBlogBundle\Resources\public" />
@@ -441,12 +510,12 @@
       <workItem from="1482002852209" duration="5804000" />
       <workItem from="1482009936327" duration="1521000" />
       <workItem from="1482015274900" duration="107000" />
-      <workItem from="1482041135503" duration="284000" />
+      <workItem from="1482041135503" duration="777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77071000" />
+    <option name="totallyTimeSpent" value="77564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -622,13 +691,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/proba.html" />
     <entry file="file://$PROJECT_DIR$/mysql_start.bat" />
     <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Repository/StatisticsRepository.php" />
     <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/StatisticsType.php" />
     <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Statistics.php" />
     <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/StatisticsController.php" />
-    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/statistics/create.html.twig" />
     <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/statistics/show.html.twig" />
     <entry file="file://$PROJECT_DIR$/Blog/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -637,7 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/statistics/edit.html.twig" />
     <entry file="file://$PROJECT_DIR$/Blog/web/css/articleCreate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -757,6 +823,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/proba.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/statistics/create.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/statistics/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
