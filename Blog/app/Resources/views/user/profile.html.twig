@@ -10,9 +10,22 @@
     </div>
     <div>
         <label>
-            <button type="submit" class="button" style="margin: 0% 2% 0% 0%;"><a class="button" href="{{ path('admin_users_all') }}">Потребители</a></button>
-        <button type="submit" class="button" style="margin: 0% 2% 0% 0%;"><a class="button" href="{{ path('contacts_create') }}">Нов Контакт</a></button>
+            <button type="submit" class="button" style="margin: 0% 2% 0% 0%;">
+                <a class="button" href="{{ path('article_create') }}">Добави Статия</a>
+                </button>
 
+            <button type="submit" class="button" style="margin: 0% 2% 0% 0%;">
+                <a class="button" href="{{ path('admin_users_all') }}">Потребители</a>
+            </button>
+        <button type="submit" class="button" style="margin: 0% 2% 0% 0%;">
+                <a class="button" href="{{ path('contacts_create') }}">Нов Контакт</a>
+            </button>
+            <button type="submit" class="button" style="margin: 0% 2% 0% 0%;">
+                <a class="button" href="{{ path('statistics_create') }}">Нова Статистика</a>
+            </button>
+            <button type="submit" class="button" style="margin: 0% 2% 0% 0%;">
+                <a class="button" href="{{ path('about_create') }}">Добави за Нас</a>
+            </button>
             </label>
     </div>
 {% endblock %}
