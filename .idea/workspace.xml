@@ -1,7 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e21fdb3a-de79-44dc-8656-f19510a1323f" name="Default" comment="" />
+    <list default="true" id="e21fdb3a-de79-44dc-8656-f19510a1323f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/article/prb.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/comment/create.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/comment/delete.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/CommentController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/CommentType.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/var/sessions/dev/sess_532cc6tt2erat6haic9g7mdn94" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/ib_logfile0" afterPath="$PROJECT_DIR$/mysql/data/ib_logfile0" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/ibdata1" afterPath="$PROJECT_DIR$/mysql/data/ibdata1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/mysql/innodb_index_stats.ibd" afterPath="$PROJECT_DIR$/mysql/data/mysql/innodb_index_stats.ibd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/mysql/innodb_table_stats.ibd" afterPath="$PROJECT_DIR$/mysql/data/mysql/innodb_table_stats.ibd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ArticleController.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ArticleController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Article.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Article.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/01/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23676574506172656e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/01/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23676574506172656e74405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/01/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d24706172656e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/01/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d24706172656e74405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/04/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523676574457874726144617461405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/04/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523676574457874726144617461405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/05/5b5b435d53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/05/5b5b435d53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/06/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c65722365646974636f6e7461637473405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/06/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c65722365646974636f6e7461637473405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/06/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/06/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/09/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/09/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/0a/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d237375626d6974405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/0a/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d237375626d6974405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/0a/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523697356616c6964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/0a/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523697356616c6964405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/0b/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/0b/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/0f/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d247669657744617461405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/0f/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d247669657744617461405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/11/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23697344697361626c6564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/11/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23697344697361626c6564405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/14/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c65722365646974416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/14/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c65722365646974416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/14/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c55736572436f6e74726f6c6c65722370726f66696c65416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/14/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c55736572436f6e74726f6c6c65722370726f66696c65416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/14/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722372656e64657256696577405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/14/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722372656e64657256696577405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/16/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236765744e6f726d44617461405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/16/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236765744e6f726d44617461405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/17/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236164644572726f72405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/17/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236164644572726f72405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/18/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41626f757424636f6e74656e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/18/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41626f757424636f6e74656e74405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/18/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236765744e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/18/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236765744e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/1a/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365236973456d707479405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/1a/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365236973456d707479405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/1e/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c53746174697374696373246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/1e/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c53746174697374696373246964405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/1e/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c5573657224726f6c6573405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/1e/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c5573657224726f6c6573405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/21/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524617574686f724964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/21/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524617574686f724964405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/22/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574506172616d65746572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/22/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574506172616d65746572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/22/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236e6f726d546f56696577405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/22/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236e6f726d546f56696577405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/23/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c6572236564697453746174697374696373405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/23/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c6572236564697453746174697374696373405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/25/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170236f6666736574536574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/25/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170236f6666736574536574405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/26/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d247472616e73666f726d6174696f6e4661696c757265405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/26/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d247472616e73666f726d6174696f6e4661696c757265405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/27/5b5b435d53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c65722373686f77416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/27/5b5b435d53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c65722373686f77416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/27/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2372656d6f7665405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/27/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2372656d6f7665405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/28/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d24657874726144617461405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/28/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d24657874726144617461405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/2b/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c65722376696577416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/2b/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c65722376696577416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/2f/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/2f/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c65405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/31/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c65247469746c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/31/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c65247469746c65405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/32/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/32/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/34/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722367657455736572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/34/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722367657455736572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/34/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365236765745472616e73666f726d6174696f6e4661696c757265405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/34/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365236765745472616e73666f726d6174696f6e4661696c757265405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/34/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523736574506172656e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/34/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523736574506172656e74405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/34/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170236f6666736574457869737473405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/34/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170236f6666736574457869737473405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/35/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223686173405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/35/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223686173405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/38/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d246e6f726d44617461405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/38/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d246e6f726d44617461405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/3a/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2376696577546f4e6f726d405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/3a/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2376696577546f4e6f726d405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/3a/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170236f6666736574556e736574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/3a/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170236f6666736574556e736574405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/3b/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2367657444617461405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/3b/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2367657444617461405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/3e/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c526f6c65246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/3e/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c526f6c65246964405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/40/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722369734772616e746564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/40/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722369734772616e746564405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/40/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523676574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/40/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523676574405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/40/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523676574436f6e666967405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/40/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523676574436f6e666967405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/41/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d246572726f7273405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/41/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d246572726f7273405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/42/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23676574436c69636b6564427574746f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/42/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23676574436c69636b6564427574746f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/42/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23696e697469616c697a65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/42/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23696e697469616c697a65405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/42/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/42/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/46/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23616c6c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/46/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23616c6c405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/46/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2369735375626d6974746564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/46/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2369735375626d6974746564405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/49/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572236c6f67696e416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/49/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572236c6f67696e416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/49/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365236765744572726f7273405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/49/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365236765744572726f7273405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/4a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/4a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/4a/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572237265646972656374546f526f757465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/4a/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572237265646972656374546f526f757465405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/4c/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236f6666736574536574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/4c/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236f6666736574536574405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/4d/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c65722376696577416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/4d/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c65722376696577416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/4f/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2368616e646c6552657175657374405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/4f/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2368616e646c6552657175657374405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/54/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236765745669657744617461405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/54/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236765745669657744617461405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/55/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722363726561746541636365737344656e696564457863657074696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/55/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722363726561746541636365737344656e696564457863657074696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/55/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e746572666163652373657444617461405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/55/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e746572666163652373657444617461405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/57/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c55736572436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/57/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c55736572436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/57/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/57/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/59/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722364656e79416363657373556e6c6573734772616e746564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/59/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722364656e79416363657373556e6c6573734772616e746564405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5a/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c557365722466756c6c4e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5a/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c557365722466756c6c4e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5c/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524646174654164646564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5c/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524646174654164646564405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5d/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d235f5f636f6e737472756374405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5d/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d235f5f636f6e737472756374405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5e/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2367657450726f706572747950617468405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5e/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2367657450726f706572747950617468405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/62/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572237669657741727469636c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/62/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572237669657741727469636c65405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/63/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/63/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/63/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2373657444617461405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/63/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2373657444617461405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/65/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c65722367616c6c657279405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/65/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c65722367616c6c657279405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/65/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524636f76657250686f746f405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/65/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524636f76657250686f746f405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/65/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23676574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/65/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23676574405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/65/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d246368696c6472656e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/65/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d246368696c6472656e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/65/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365236765745669657744617461405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/65/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365236765745669657744617461405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/66/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e746572666163652372656d6f7665405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/66/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e746572666163652372656d6f7665405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/67/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e746572666163652368616e646c6552657175657374405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/67/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e746572666163652368616e646c6552657175657374405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/68/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d617023636f756e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/68/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d617023636f756e74405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/69/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523676574506172656e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/69/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523676574506172656e74405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/6a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572236564697441727469636c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/6a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572236564697441727469636c65405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/6b/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236f6666736574556e736574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/6b/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236f6666736574556e736574405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/6e/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236765745472616e73666f726d6174696f6e4661696c757265405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/6e/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236765745472616e73666f726d6174696f6e4661696c757265405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/6f/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236d6f64656c546f4e6f726d405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/6f/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236d6f64656c546f4e6f726d405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/70/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523676574526f6f74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/70/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523676574526f6f74405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/71/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223697343737266546f6b656e56616c6964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/71/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223697343737266546f6b656e56616c6964405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/73/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/73/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/73/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523697353796e6368726f6e697a6564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/73/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523697353796e6368726f6e697a6564405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/75/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d617024656c656d656e7473405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/75/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d617024656c656d656e7473405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/78/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/78/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/79/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c55736572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/79/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c55736572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/79/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236f6666736574457869737473405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/79/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236f6666736574457869737473405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/79/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170235f5f636f6e737472756374405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/79/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170235f5f636f6e737472756374405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7a/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365236765744e6f726d44617461405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7a/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365236765744e6f726d44617461405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7b/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d246d6f64656c44617461405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7b/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d246d6f64656c44617461405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7c/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2363726561746556696577405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7c/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2363726561746556696577405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7c/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523686173405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7c/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523686173405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7d/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572236a736f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7d/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572236a736f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7d/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2464656661756c7444617461536574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7d/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2464656661756c7444617461536574405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/83/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c55736572436f6e74726f6c6c65722365646974416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/83/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c55736572436f6e74726f6c6c65722365646974416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/84/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524617574686f72405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/84/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524617574686f72405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/84/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/84/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/85/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572237265646972656374405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/85/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572237265646972656374405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/86/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c55736572246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/86/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c55736572246964405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/86/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236973456d707479405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/86/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236973456d707479405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/87/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c55736572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/87/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c55736572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/87/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722372656e646572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/87/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722372656e646572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8b/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523696e697469616c697a65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8b/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523696e697469616c697a65405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8c/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223666f7277617264405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8c/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223666f7277617264405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8c/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d235f5f636c6f6e65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8c/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d235f5f636c6f6e65405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8c/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236765744572726f7273405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8c/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236765744572726f7273405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8d/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223616464466c617368405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8d/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223616464466c617368405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8d/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e746572666163652363726561746556696577405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8d/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e746572666163652363726561746556696577405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8d/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365236973526f6f74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8d/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365236973526f6f74405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8f/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23616464405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8f/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23616464405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8f/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23676574436f6e666967405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/8f/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23676574436f6e666967405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/91/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23676574457874726144617461405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/91/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23676574457874726144617461405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/96/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/96/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/96/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722373747265616d405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/96/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722373747265616d405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/98/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e746572666163652369735265717569726564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/98/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e746572666163652369735265717569726564405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9b/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c657223637265617465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9b/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c657223637265617465405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9b/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23697356616c6964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9b/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23697356616c6964405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9b/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d24636f6e666967405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9b/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d24636f6e666967405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9d/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c436f6e7461637473405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9d/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c436f6e7461637473405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9d/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c657223746f6f6c626172416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9d/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c657223746f6f6c626172416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9d/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523616c6c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9d/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523616c6c405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9e/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523616464405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9e/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523616464405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9f/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c652473756d6d617279405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9f/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c652473756d6d617279405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/a0/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236765744974657261746f72405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/a0/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236765744974657261746f72405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/a1/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524636f6e74656e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/a1/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c6524636f6e74656e74405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/a5/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223637265617465466f726d4275696c646572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/a5/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223637265617465466f726d4275696c646572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/aa/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236e6f726d546f4d6f64656c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/aa/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236e6f726d546f4d6f64656c405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ac/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23636f756e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ac/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23636f756e74405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ae/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c557365722470617373776f7264405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ae/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c557365722470617373776f7264405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b0/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223637265617465466f726d405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b0/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223637265617465466f726d405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b0/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223736574436f6e7461696e6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b0/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223736574436f6e7461696e6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b7/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c557365722461727469636c6573405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b7/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c557365722461727469636c6573405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b7/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170246f7264657265644b657973405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b7/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170246f7264657265644b657973405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b8/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c436f6e746163747324636f6e74656e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b8/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c436f6e746163747324636f6e74656e74405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b8/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/b8/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ba/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c65722376696577416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ba/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c65722376696577416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ba/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ba/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ba/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41626f7574246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ba/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41626f7574246964405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/bb/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c53746174697374696373405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/bb/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c53746174697374696373405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c0/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e746572666163652369735375626d6974746564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c0/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e746572666163652369735375626d6974746564405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c65722364656c657465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c43617465676f7279436f6e74726f6c6c65722364656c657465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c65722364656c657465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c65722364656c657465405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c6/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41626f7574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c6/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41626f7574405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c6/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c436f6e7461637473246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c6/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c436f6e7461637473246964405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c7/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722367656e657261746555726c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c7/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c65722367656e657261746555726c405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c7/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365236164644572726f72405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c7/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365236164644572726f72405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c8/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c5374617469737469637324436f6e74656e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c8/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c5374617469737469637324436f6e74656e74405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c9/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c9/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/cb/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e746572666163652367657444617461405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/cb/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e746572666163652367657444617461405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ce/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d24636c69636b6564427574746f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ce/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d24636c69636b6564427574746f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ce/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d246c6f636b53657444617461405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ce/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d246c6f636b53657444617461405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d1/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23736574506172656e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d1/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23736574506172656e74405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d2/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236973526f6f74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d2/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236973526f6f74405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c55736572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c55736572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d4/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c5573657224656d61696c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d4/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c5573657224656d61696c405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d5/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c526f6c65247573657273405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d5/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c526f6c65247573657273405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d5/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c526f6c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d5/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c526f6c65405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d7/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23697353796e6368726f6e697a6564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/d7/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23697353796e6368726f6e697a6564405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/da/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c6572236564697461626f7574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/da/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c6572236564697461626f7574405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/da/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c55736572436f6e74726f6c6c6572237265676973746572416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/da/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c55736572436f6e74726f6c6c6572237265676973746572416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/db/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572236c6f676f7574416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/db/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572236c6f676f7574416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/dc/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/dc/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/dd/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23676574526f6f74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/dd/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23676574526f6f74405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/dd/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170246d616e61676564437572736f7273405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/dd/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170246d616e61676564437572736f7273405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/e0/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365236765744e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/e0/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365236765744e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/e2/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2369735265717569726564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/e2/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d2369735265717569726564405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/e7/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23686173405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/e7/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d23686173405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/e7/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523697344697361626c6564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/e7/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e7465726661636523697344697361626c6564405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/e8/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236f6666736574476574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/e8/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d236f6666736574476574405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/e9/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c65246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/e9/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c41727469636c65246964405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/e9/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e746572666163652367657450726f706572747950617468405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/e9/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e746572666163652367657450726f706572747950617468405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ed/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c55736572436f6e74726f6c6c65722364656c657465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ed/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41646d696e5c55736572436f6e74726f6c6c65722364656c657465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f1/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170236f6666736574476574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f1/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170236f6666736574476574405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f2/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f2/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f2/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c526f6c65246e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f2/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c526f6c65246e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f6/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365237375626d6974405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f6/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d496e74657266616365237375626d6974405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f6/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170236765744974657261746f72405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f6/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c5574696c5c4f726465726564486173684d6170236765744974657261746f72405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f9/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d247375626d6974746564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f9/5b5b435d53796d666f6e795c436f6d706f6e656e745c466f726d5c466f726d247375626d6974746564405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/fa/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/fa/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/fd/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572236372656174654e6f74466f756e64457863657074696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/fd/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c6572236372656174654e6f74466f756e64457863657074696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/fe/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574446f637472696e65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/fe/5b5b435d53796d666f6e795c42756e646c655c4672616d65776f726b42756e646c655c436f6e74726f6c6c65725c436f6e74726f6c6c657223676574446f637472696e65405b416e6e6f745d5d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/appDevDebugProjectContainer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/appDevDebugProjectContainer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/appDevDebugProjectContainerCompiler.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/appDevUrlGenerator.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/appDevUrlGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/appDevUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/appDevUrlGenerator.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/appDevUrlMatcher.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/appDevUrlMatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/appDevUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/appDevUrlMatcher.php.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/classes.map" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/classes.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/classes.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/classes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/doctrine/orm/Proxies/__CG__SoftUniBlogBundleEntityUser.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/doctrine/orm/Proxies/__CG__SoftUniBlogBundleEntityUser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/profiler/index.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/03/0374a1d5f8200125a892aa722be1f90bc7387819c69d62f8453024a4b0fddf16.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/03/0374a1d5f8200125a892aa722be1f90bc7387819c69d62f8453024a4b0fddf16.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/10/1084c80c802d347e354a513be2dd419b125086dc0707f93c4900323ca374f859.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/10/1084c80c802d347e354a513be2dd419b125086dc0707f93c4900323ca374f859.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/1f/1f69dbd8b498324465df53caea781d5c9683e64a8a4ed6586d3b72531c2e19df.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/1f/1f69dbd8b498324465df53caea781d5c9683e64a8a4ed6586d3b72531c2e19df.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/24/242f026f33dd6d0dcf781b9daa9279ea35ad30dc0f7eed2a2f76b6d02c93b02c.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/24/242f026f33dd6d0dcf781b9daa9279ea35ad30dc0f7eed2a2f76b6d02c93b02c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/28/28a0724d06fa239a5dc179872c3274dfb69ad88db95148642b1a651bba2a95bb.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/28/28a0724d06fa239a5dc179872c3274dfb69ad88db95148642b1a651bba2a95bb.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/29/29c1fdc042e3a46d6f16c97319839717861e9775cba17427e2d52e17a133ea97.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/29/29c1fdc042e3a46d6f16c97319839717861e9775cba17427e2d52e17a133ea97.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/2a/2a8dfb8457d9d70806eda6699fd300f4517be66b1c2a343e8fe1393c0ad5919a.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/2a/2a8dfb8457d9d70806eda6699fd300f4517be66b1c2a343e8fe1393c0ad5919a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/2c/2c271f3e1d76726c93b03d38313e5d1dec4c507c345a55a91cd65cf1dad13e3d.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/2c/2c271f3e1d76726c93b03d38313e5d1dec4c507c345a55a91cd65cf1dad13e3d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/2d/2d2cb8ad88992fa58e7805406caf3b805a9d6865edf4718e2fef5f82a8fbdd9e.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/2d/2d2cb8ad88992fa58e7805406caf3b805a9d6865edf4718e2fef5f82a8fbdd9e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/3c/3cc73f494814d6506f9800ca916b9dcccf12a7f5d5d51563545db7b6388b9ea2.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/3c/3cc73f494814d6506f9800ca916b9dcccf12a7f5d5d51563545db7b6388b9ea2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/40/4024f3b829c674c2fb6c91b6297d59457a64dbeca568c218a312af2ad247af3a.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/40/4024f3b829c674c2fb6c91b6297d59457a64dbeca568c218a312af2ad247af3a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/46/460cda9ee779e2a458c2f423601f2607d1d4279342bcdd2c78f2efaf314f821c.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/46/460cda9ee779e2a458c2f423601f2607d1d4279342bcdd2c78f2efaf314f821c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/48/483c6dbd8d39a00f201d3e95f3a6481a38fdf88866465f4d8e94786b78679844.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/48/483c6dbd8d39a00f201d3e95f3a6481a38fdf88866465f4d8e94786b78679844.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/4e/4e5f80c6f899c29c7d274a840d06e6d0f53c43e8f20087251afdd92282bb582f.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/4e/4e5f80c6f899c29c7d274a840d06e6d0f53c43e8f20087251afdd92282bb582f.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/50/50d6006db5f9e2c440d6b856f9b22c6251718bfe11b9c59576b3594fe90b4932.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/50/50d6006db5f9e2c440d6b856f9b22c6251718bfe11b9c59576b3594fe90b4932.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/56/56cfb3d4dd87142a33b894bb58fdf7eb7af9855651d89634b18b9d9cb25f3f50.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/56/56cfb3d4dd87142a33b894bb58fdf7eb7af9855651d89634b18b9d9cb25f3f50.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/57/5732674c9800bad3dbb3c06cd3d22cd27476ee05e3774ed91bb25faeb5defcb8.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/57/5732674c9800bad3dbb3c06cd3d22cd27476ee05e3774ed91bb25faeb5defcb8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/59/59e81f45fadffa4f43dd12e4243588796da379df099eaf0f7bff93b6bea71272.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/59/59e81f45fadffa4f43dd12e4243588796da379df099eaf0f7bff93b6bea71272.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/5a/5a744052d224915556366a0cc5b4b8fabe892fef4e5da264a3b8371876ac6d51.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/5a/5a744052d224915556366a0cc5b4b8fabe892fef4e5da264a3b8371876ac6d51.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/5b/5b54ba3954692e6c6b30aa1fb35e62fc8e3bdb1b768f45b1faa9303cdfbae72c.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/5b/5b54ba3954692e6c6b30aa1fb35e62fc8e3bdb1b768f45b1faa9303cdfbae72c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/5e/5e3209dc8b393634324a12474974c7f1138512858d8270717bf92cc200cc5b0e.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/5e/5e3209dc8b393634324a12474974c7f1138512858d8270717bf92cc200cc5b0e.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/64/64d56b58f30903b2a1c22d4bb7d60ff3da260b8a7732b716cb094ea8124ea94a.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/64/64d56b58f30903b2a1c22d4bb7d60ff3da260b8a7732b716cb094ea8124ea94a.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/69/699781ecd92a406ab6000df3233157c890b0091f37d36f68bf2408f05c5e4754.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/69/699781ecd92a406ab6000df3233157c890b0091f37d36f68bf2408f05c5e4754.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/6a/6a659058d6320e35beab30bfaa7a6c14dd4e1c529a927b38f877a15823ec0c00.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/6a/6a659058d6320e35beab30bfaa7a6c14dd4e1c529a927b38f877a15823ec0c00.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/6a/6adacfc7ec0fe0be2eea46b9e6fa4a76461937156c61ff725c7ec679a895fcb8.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/6a/6adacfc7ec0fe0be2eea46b9e6fa4a76461937156c61ff725c7ec679a895fcb8.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/76/76dc4059c8e283a36bbf0dd6b2a067960b116637d470a75947f80a5fd4aa0f53.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/76/76dc4059c8e283a36bbf0dd6b2a067960b116637d470a75947f80a5fd4aa0f53.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/84/8451c8010914d92523f875cd0fa55bb6585afd29a7b947815b2f4507fc460a50.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/84/8451c8010914d92523f875cd0fa55bb6585afd29a7b947815b2f4507fc460a50.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/85/855c6ee02be3efa845304e5f200255bd55a01eecc2b2c073fff850c8152f3f11.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/85/855c6ee02be3efa845304e5f200255bd55a01eecc2b2c073fff850c8152f3f11.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/91/911e4d6db2cd2af01adb20af89a300805d4655f406a95e8223f748bd1948d9dd.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/91/911e4d6db2cd2af01adb20af89a300805d4655f406a95e8223f748bd1948d9dd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/92/921ee719539a2d1cdab61854e57a89f8aadb6d7c802ba59194762eedd04578ec.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/92/921ee719539a2d1cdab61854e57a89f8aadb6d7c802ba59194762eedd04578ec.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/a7/a7f8a48a809104e09d8a87493027c74863d471318b7d6a6ae9e2e7e4ebf09781.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/a7/a7f8a48a809104e09d8a87493027c74863d471318b7d6a6ae9e2e7e4ebf09781.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/a9/a92aabb281be8d93d9be1367d74d8ae33e3b2659486ad1253cfad0ee98b3d730.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/a9/a92aabb281be8d93d9be1367d74d8ae33e3b2659486ad1253cfad0ee98b3d730.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/af/afac7a241c24c79824c0c2ed4c30b953501e282e47ade8aead17827279d2b431.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/af/afac7a241c24c79824c0c2ed4c30b953501e282e47ade8aead17827279d2b431.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/af/afb7c22a19b6e70eafba905335b459623a48a54735afd4dc410b202719733b49.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/af/afb7c22a19b6e70eafba905335b459623a48a54735afd4dc410b202719733b49.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/b5/b5ec334b677de112a832ab14cebe2880554afb89ec54935b66e4fcc02a5b1889.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/b5/b5ec334b677de112a832ab14cebe2880554afb89ec54935b66e4fcc02a5b1889.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/b9/b9c5c1aa7953f423c54e5797b61293f3e995062cf4b92739e7dd3f4f5685e626.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/b9/b9c5c1aa7953f423c54e5797b61293f3e995062cf4b92739e7dd3f4f5685e626.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/bd/bd58e31365c3607e476c9f9d8ffc7ddd53027ad9e643541e22d0dbf1c4e95859.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/bd/bd58e31365c3607e476c9f9d8ffc7ddd53027ad9e643541e22d0dbf1c4e95859.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/c3/c37a2fa3cef383dbd6b4234c3e71ec373b55010c98111061f523708fda2d8300.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/c3/c37a2fa3cef383dbd6b4234c3e71ec373b55010c98111061f523708fda2d8300.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/c9/c9309369b35d5ef44be9dcf11d7f00c02d388d710cc988c392647594f4fd8802.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/c9/c9309369b35d5ef44be9dcf11d7f00c02d388d710cc988c392647594f4fd8802.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/cf/cf85269ce452418d306ece6c5fe16d6c04b599e4eb56ebde7133311a5a42acce.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/cf/cf85269ce452418d306ece6c5fe16d6c04b599e4eb56ebde7133311a5a42acce.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/d7/d74733346f741f4d176dd329887ed31b3dd937e956cba0b4df240a88b92ea970.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/d7/d74733346f741f4d176dd329887ed31b3dd937e956cba0b4df240a88b92ea970.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/da/da2d628f3a669101e629d07cdf8ae623c1cf40d5e0745dfe4aa8b1c708983d0d.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/da/da2d628f3a669101e629d07cdf8ae623c1cf40d5e0745dfe4aa8b1c708983d0d.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/dd/dd713c35447971b24d6c7cbefc952d7c0db3dcff9afd4c21948a7e03fe828b7c.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/dd/dd713c35447971b24d6c7cbefc952d7c0db3dcff9afd4c21948a7e03fe828b7c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/de/de8cccb5647d268d7e92a2c778eb50bec8e5e8c4ff59dfeb3d7aa785aecb5719.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/de/de8cccb5647d268d7e92a2c778eb50bec8e5e8c4ff59dfeb3d7aa785aecb5719.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/e5/e53555836c64334a809fa8b5951f6fbf8fce0157790a2f99b143d0ba3b3bad85.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/e5/e53555836c64334a809fa8b5951f6fbf8fce0157790a2f99b143d0ba3b3bad85.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/ee/ee3d89d0b9e64e873ff5b00c86ec0fb1d1114a1e3f2b85311d20b76c5476a9a2.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/ee/ee3d89d0b9e64e873ff5b00c86ec0fb1d1114a1e3f2b85311d20b76c5476a9a2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/f8/f8e48293e576b81f0e8d9d02d1c5edd7d785cd015ad5c227c3e30716fc31dc80.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/f8/f8e48293e576b81f0e8d9d02d1c5edd7d785cd015ad5c227c3e30716fc31dc80.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/f9/f9c33f34d360f145b73f92fdabb1aa954331d35a7b7f68e609f3f6258c5bd4a6.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/f9/f9c33f34d360f145b73f92fdabb1aa954331d35a7b7f68e609f3f6258c5bd4a6.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/logs/dev.log" afterPath="$PROJECT_DIR$/Blog/var/logs/dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HeidiSQL_9.4_Portable/portable_settings.txt" afterPath="$PROJECT_DIR$/HeidiSQL_9.4_Portable/portable_settings.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/DESKTOP-DTA1ATJ.pid" afterPath="$PROJECT_DIR$/mysql/data/DESKTOP-DTA1ATJ.pid" />
+    </list>
     <ignored path="RK_Team.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,32 +290,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/base.html.twig">
+      <file leaf-file-name="Comment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Comment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="31" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="31" />
+            <state relative-caret-position="-1789">
+              <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/web/css/index.css">
+      <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/statistics/edit.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="47">
+              <caret line="245" column="0" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+              <folding>
+                <element signature="e#44#92#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,68 +315,85 @@
       <file leaf-file-name="article.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="14" />
+            <state relative-caret-position="186">
+              <caret line="50" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prb.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/prb.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/CommentController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-170">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
-                <marker date="1482054439169" expanded="true" signature="219:1798" ph="..." />
-                <marker date="1482054439169" expanded="true" signature="377:1241" ph="..." />
-                <marker date="1482054439169" expanded="true" signature="431:883" ph="..." />
+                <element signature="e#48#107#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ContactsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-816">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentType.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/CommentType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+              <folding>
+                <element signature="e#42#82#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ArticleController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-459">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="e#48#96#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="create.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/create.html.twig">
+        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/comment/create.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/edit.html.twig">
+      <file leaf-file-name="delete.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/comment/delete.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+            <state relative-caret-position="51">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/user/profile.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#label#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/user/register.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/Admin/UserController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
-              <folding>
-                <element signature="e#6#93#0#PHP" expanded="false" />
-                <element signature="e#143#202#0#PHP" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -152,12 +430,9 @@
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/pisane na statia.html" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/admin/category/edit.html.twig" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/article/create.html.twig" />
-        <option value="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Article.php" />
-        <option value="$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig" />
         <option value="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/ArticleType.php" />
         <option value="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/article/proba.html" />
-        <option value="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ArticleController.php" />
         <option value="$PROJECT_DIR$/Blog/web/css/index.css" />
         <option value="$PROJECT_DIR$/Blog/web/css/articleCreate.css" />
         <option value="$PROJECT_DIR$/Blog/web/css/articleView.css" />
@@ -167,6 +442,15 @@
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/article/edit.html.twig" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/user/profile.html.twig" />
+        <option value="$PROJECT_DIR$/Blog/app/Resources/views/comment/create.html.twig" />
+        <option value="$PROJECT_DIR$/Blog/app/Resources/views/comment/delete.html.twig" />
+        <option value="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ArticleController.php" />
+        <option value="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/CommentType.php" />
+        <option value="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Comment.php" />
+        <option value="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/CommentController.php" />
+        <option value="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Article.php" />
+        <option value="$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig" />
+        <option value="$PROJECT_DIR$/Blog/app/Resources/views/article/prb.html" />
       </list>
     </option>
   </component>
@@ -178,10 +462,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="width" value="1370" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -208,6 +491,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -340,6 +624,84 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SoftUniBlogBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RK_Team" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RK_Team" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoftUniBlogBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RK_Team" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RK_Team" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoftUniBlogBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RK_Team" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RK_Team" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SoftUniBlogBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -499,6 +861,36 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="comment" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RK_Team" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RK_Team" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="article" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -527,7 +919,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -543,17 +934,17 @@
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\RK_Team\Blog\src\SoftUniBlogBundle\Resources\public" />
+      <recent name="C:\RK_Team\Blog\app\Resources\views\gallery\gallery" />
+      <recent name="C:\RK_Team\Blog\web" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\RK_Team\Blog\app\Resources\views" />
       <recent name="C:\RK_Team\Blog\web\Images" />
       <recent name="C:\RK_Team\Blog\web" />
       <recent name="C:\RK_Team\Blog\src\SoftUniBlogBundle\Repository" />
       <recent name="C:\RK_Team\Blog\src\SoftUniBlogBundle\Form" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\RK_Team\Blog\src\SoftUniBlogBundle\Resources\public" />
-      <recent name="C:\RK_Team\Blog\app\Resources\views\gallery\gallery" />
-      <recent name="C:\RK_Team\Blog\web" />
     </key>
   </component>
   <component name="RunManager">
@@ -631,23 +1022,24 @@
       <workItem from="1482015274900" duration="107000" />
       <workItem from="1482041135503" duration="2451000" />
       <workItem from="1482054830168" duration="600000" />
+      <workItem from="1482108336111" duration="6909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79838000" />
+    <option name="totallyTimeSpent" value="86747000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="-7" y="0" width="1370" height="735" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2980333" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30229008" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32405892" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32392028" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -683,50 +1075,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Repository/CategoryRepository.php" />
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Repository/ArticleRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Repository/RoleRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Repository/TagRepository.php" />
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Repository/UserRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/SoftUniBlogBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/admin/user/all.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/admin/user/delete.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-459">
@@ -745,27 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/ArticleType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/UserEditType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/UserType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -859,20 +1186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ArticleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/Admin/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
@@ -888,7 +1201,6 @@
     <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Repository/ContactsRepository.php" />
     <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/contacts/edit.html.twig" />
     <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Contacts.php" />
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ContactsController.php" />
     <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/user/register.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -922,18 +1234,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="14" />
-          <folding>
-            <marker date="1482054439169" expanded="true" signature="219:1798" ph="..." />
-            <marker date="1482054439169" expanded="true" signature="377:1241" ph="..." />
-            <marker date="1482054439169" expanded="true" signature="431:883" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/create.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -944,7 +1244,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
+        <state relative-caret-position="663">
           <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding />
         </state>
@@ -960,11 +1260,137 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/user/profile.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="204">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/UserType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/UserEditType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/ArticleType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/comment/create.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/comment/delete.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#label#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="e#48#96#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ContactsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/CommentType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="e#42#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1789">
+          <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="245" column="0" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+          <folding>
+            <element signature="e#44#92#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/CommentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#48#107#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="50" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="83" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/prb.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

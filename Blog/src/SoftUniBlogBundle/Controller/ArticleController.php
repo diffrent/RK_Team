@@ -6,8 +6,6 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 use SoftUniBlogBundle\Entity\Article;
-use SoftUniBlogBundle\Entity\Category;
-use SoftUniBlogBundle\Entity\Tag;
 use SoftUniBlogBundle\Form\ArticleType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
@@ -27,12 +25,17 @@ class ArticleController extends Controller
      */
     public function create(Request $request)
     {
+        $currentUser = $this->getUser();
+
+        if(!$currentUser->isAdmin())
+        {
+            return $this->redirectToRoute("blog_index");
+        }
+
         $article = new Article();
         $form = $this->createForm(ArticleType::class, $article);
 
         $form->handleRequest($request);
-
-
 
 
         if ($form->isSubmitted() && $form->isValid()) {
@@ -70,8 +73,12 @@ class ArticleController extends Controller
     public function viewArticle($id)
     {
         $article = $this->getDoctrine()->getRepository(Article::class)->find($id);
+        $comments = $article->getComments();
 
-        return $this->render('article/article.html.twig', ['article' => $article]);
+        return $this->render('article/article.html.twig', array(
+            'article' => $article,
+            'comments' => $comments
+        ));
     }
 
     /**
@@ -92,7 +99,7 @@ class ArticleController extends Controller
 
         $currentUser = $this->getUser();
 
-        if(!$currentUser->isAuthor($article) && !$currentUser->isAdmin())
+        if(!$currentUser->isAdmin())
         {
             return $this->redirectToRoute("blog_index");
         }
