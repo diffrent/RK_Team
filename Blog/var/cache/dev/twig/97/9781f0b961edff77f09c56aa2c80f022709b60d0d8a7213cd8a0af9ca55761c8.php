@@ -21,64 +21,60 @@ class __TwigTemplate_8349f92ddda21445e950b6730ec197e1da7cffc8fc08d499c06d7e36fbe
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_367222630052d567d777a4a4d63be0fb98dbd7659864e43399c68045fe35fd83 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_367222630052d567d777a4a4d63be0fb98dbd7659864e43399c68045fe35fd83->enter($__internal_367222630052d567d777a4a4d63be0fb98dbd7659864e43399c68045fe35fd83_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "comment/create.html.twig"));
+        $__internal_bacf2c29c84014dc3075cba460a5ef4fd0dd4fa0c3430808d43200eded34541f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_bacf2c29c84014dc3075cba460a5ef4fd0dd4fa0c3430808d43200eded34541f->enter($__internal_bacf2c29c84014dc3075cba460a5ef4fd0dd4fa0c3430808d43200eded34541f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "comment/create.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_367222630052d567d777a4a4d63be0fb98dbd7659864e43399c68045fe35fd83->leave($__internal_367222630052d567d777a4a4d63be0fb98dbd7659864e43399c68045fe35fd83_prof);
+        $__internal_bacf2c29c84014dc3075cba460a5ef4fd0dd4fa0c3430808d43200eded34541f->leave($__internal_bacf2c29c84014dc3075cba460a5ef4fd0dd4fa0c3430808d43200eded34541f_prof);
 
     }
 
     // line 3
     public function block_main($context, array $blocks = array())
     {
-        $__internal_57159c7e98c2fd3415f91b7ba39dd96871903e1ca0584dec1956721cbb99f303 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_57159c7e98c2fd3415f91b7ba39dd96871903e1ca0584dec1956721cbb99f303->enter($__internal_57159c7e98c2fd3415f91b7ba39dd96871903e1ca0584dec1956721cbb99f303_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+        $__internal_5080f8dc6727962f12dcc221fdc58c2b0d3eb6e7a6c93ae8231b9e92f0a29d39 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_5080f8dc6727962f12dcc221fdc58c2b0d3eb6e7a6c93ae8231b9e92f0a29d39->enter($__internal_5080f8dc6727962f12dcc221fdc58c2b0d3eb6e7a6c93ae8231b9e92f0a29d39_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
 
         // line 4
-        echo "
-    <div class=\"container body-content span=8 offset=2\">
-        <div class=\"well\">
-            <form class=\"form-horizontal\" action=\"";
-        // line 7
+        echo "    <link rel=\"stylesheet\" href=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/articleCreate.css"), "html", null, true);
+        echo "\">
+
+    <div class=\"main\">
+        <div class=\"one\">
+            <form class=\"register\" action=\"";
+        // line 8
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("comment_create", array("id" => $this->getAttribute((isset($context["article"]) ? $context["article"] : $this->getContext($context, "article")), "id", array()))), "html", null, true);
         echo "\" method=\"POST\">
-                <fieldset>
-                    <legend>New Comment</legend>
+                <h3>Напиши Коментар</h3>
+
+                <label for=\"comment_content\">Съдържание</label>
+                <textarea style=\"margin-bottom: 40px\" class=\"form-control\" rows=\"6\" id=\"comment_content\"
+                          name=\"comment[content]\" required></textarea>
 
 
-                    <div class=\"form-group\">
-                        <label class=\"col-sm-4 control-label\" for=\"comment_content\">Comment*</label>
-                        <div class=\"col-sm-6\">
-                        <textarea class=\"form-control\" rows=\"6\" id=\"comment_content\"
-                                  name=\"comment[content]\"></textarea>
-                        </div>
-                    </div>
-
-                    ";
-        // line 20
+                ";
+        // line 16
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "_token", array()), 'row');
         echo "
-
-                    <div class=\"form-group\">
-                        <div class=\"col-sm-4 col-sm-offset-4\">
-                            <a class=\"btn btn-default\" href=\"";
-        // line 24
+                <div>
+                    <div>
+                        <label></label>
+                        <a class=\"button\" style=\"float: right; padding: 14px; \" href=\"";
+        // line 20
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("article_view", array("id" => $this->getAttribute((isset($context["article"]) ? $context["article"] : $this->getContext($context, "article")), "id", array()))), "html", null, true);
-        echo "\">Cancel</a>
-                            <button type=\"submit\" class=\"btn btn-success\">Comment</button>
-                        </div>
+        echo "\">Отказ</a>
+                        <button type=\"submit\" style=\"float: right;\" class=\"button\">Готово</button>
                     </div>
-                    <p>* Requred fields</p>
-                </fieldset>
+                </div>
             </form>
         </div>
     </div>
 
 ";
         
-        $__internal_57159c7e98c2fd3415f91b7ba39dd96871903e1ca0584dec1956721cbb99f303->leave($__internal_57159c7e98c2fd3415f91b7ba39dd96871903e1ca0584dec1956721cbb99f303_prof);
+        $__internal_5080f8dc6727962f12dcc221fdc58c2b0d3eb6e7a6c93ae8231b9e92f0a29d39->leave($__internal_5080f8dc6727962f12dcc221fdc58c2b0d3eb6e7a6c93ae8231b9e92f0a29d39_prof);
 
     }
 
@@ -94,7 +90,7 @@ class __TwigTemplate_8349f92ddda21445e950b6730ec197e1da7cffc8fc08d499c06d7e36fbe
 
     public function getDebugInfo()
     {
-        return array (  68 => 24,  61 => 20,  45 => 7,  40 => 4,  34 => 3,  11 => 1,);
+        return array (  66 => 20,  59 => 16,  48 => 8,  40 => 4,  34 => 3,  11 => 1,);
     }
 
     public function getSource()
@@ -102,36 +98,33 @@ class __TwigTemplate_8349f92ddda21445e950b6730ec197e1da7cffc8fc08d499c06d7e36fbe
         return "{% extends 'base.html.twig' %}
 
 {% block main %}
+    <link rel=\"stylesheet\" href=\"{{ asset('css/articleCreate.css') }}\">
 
-    <div class=\"container body-content span=8 offset=2\">
-        <div class=\"well\">
-            <form class=\"form-horizontal\" action=\"{{ path('comment_create', {id: article.id}) }}\" method=\"POST\">
-                <fieldset>
-                    <legend>New Comment</legend>
+    <div class=\"main\">
+        <div class=\"one\">
+            <form class=\"register\" action=\"{{ path('comment_create', {id: article.id}) }}\" method=\"POST\">
+                <h3>Напиши Коментар</h3>
+
+                <label for=\"comment_content\">Съдържание</label>
+                <textarea style=\"margin-bottom: 40px\" class=\"form-control\" rows=\"6\" id=\"comment_content\"
+                          name=\"comment[content]\" required></textarea>
 
 
-                    <div class=\"form-group\">
-                        <label class=\"col-sm-4 control-label\" for=\"comment_content\">Comment*</label>
-                        <div class=\"col-sm-6\">
-                        <textarea class=\"form-control\" rows=\"6\" id=\"comment_content\"
-                                  name=\"comment[content]\"></textarea>
-                        </div>
+                {{ form_row(form._token) }}
+                <div>
+                    <div>
+                        <label></label>
+                        <a class=\"button\" style=\"float: right; padding: 14px; \" href=\"{{ path('article_view', {id: article.id}) }}\">Отказ</a>
+                        <button type=\"submit\" style=\"float: right;\" class=\"button\">Готово</button>
                     </div>
-
-                    {{ form_row(form._token) }}
-
-                    <div class=\"form-group\">
-                        <div class=\"col-sm-4 col-sm-offset-4\">
-                            <a class=\"btn btn-default\" href=\"{{ path('article_view', {id: article.id}) }}\">Cancel</a>
-                            <button type=\"submit\" class=\"btn btn-success\">Comment</button>
-                        </div>
-                    </div>
-                    <p>* Requred fields</p>
-                </fieldset>
+                </div>
             </form>
         </div>
     </div>
 
-{% endblock %}";
+{% endblock %}
+
+
+";
     }
 }

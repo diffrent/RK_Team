@@ -1,34 +1,30 @@
 {% extends 'base.html.twig' %}
 
 {% block main %}
+    <link rel="stylesheet" href="{{ asset('css/articleCreate.css') }}">
 
-    <div class="container body-content span=8 offset=2">
-        <div class="well">
-            <form class="form-horizontal" action="{{ path('comment_create', {id: article.id}) }}" method="POST">
-                <fieldset>
-                    <legend>New Comment</legend>
+    <div class="main">
+        <div class="one">
+            <form class="register" action="{{ path('comment_create', {id: article.id}) }}" method="POST">
+                <h3>Напиши Коментар</h3>
+
+                <label for="comment_content">Съдържание</label>
+                <textarea style="margin-bottom: 40px" class="form-control" rows="6" id="comment_content"
+                          name="comment[content]" required></textarea>
 
 
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label" for="comment_content">Comment*</label>
-                        <div class="col-sm-6">
-                        <textarea class="form-control" rows="6" id="comment_content"
-                                  name="comment[content]"></textarea>
-                        </div>
+                {{ form_row(form._token) }}
+                <div>
+                    <div>
+                        <label></label>
+                        <a class="button" style="float: right; padding: 14px; " href="{{ path('article_view', {id: article.id}) }}">Отказ</a>
+                        <button type="submit" style="float: right;" class="button">Готово</button>
                     </div>
-
-                    {{ form_row(form._token) }}
-
-                    <div class="form-group">
-                        <div class="col-sm-4 col-sm-offset-4">
-                            <a class="btn btn-default" href="{{ path('article_view', {id: article.id}) }}">Cancel</a>
-                            <button type="submit" class="btn btn-success">Comment</button>
-                        </div>
-                    </div>
-                    <p>* Requred fields</p>
-                </fieldset>
+                </div>
             </form>
         </div>
     </div>
 
 {% endblock %}
+
+

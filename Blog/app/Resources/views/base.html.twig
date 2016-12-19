@@ -26,7 +26,7 @@ See http://symfony.com/doc/current/book/templating.html#template-inheritance-and
                 <li><a class="active" href="{{ path('blog_index') }}">Начало</a></li>
                 <li><a href="{{ path('church_gallery') }}">Галерия</a></li>
                 <li><a href="{{ path('statistics_view',{'id': 1}) }}">Статистика</a></li>
-                <li><a href="{{ path('user_profile') }}">За Нас</a></li>
+                <li><a href="{{ path('about_view',{'id':1}) }}">За Нас</a></li>
                 <li><a href="{{ path('contacts_view',{id:1}) }}">Контакти</a></li>
                 {% if app.user %}
                     {% if app.user.isAdmin() %}

@@ -21,20 +21,20 @@ class __TwigTemplate_d1270af036a329894d26f9e53697a22fb47856d615934f92941b6d01324
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_d1c58cfa9517d4c44a6904b42d084fb4430dce4a9654b28d9a38419d6ffcbd7f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_d1c58cfa9517d4c44a6904b42d084fb4430dce4a9654b28d9a38419d6ffcbd7f->enter($__internal_d1c58cfa9517d4c44a6904b42d084fb4430dce4a9654b28d9a38419d6ffcbd7f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "article/article.html.twig"));
+        $__internal_c57fdee9b89f2d01f2c5d8963d9a4783ba85d13a528438b8cab5032604294ea1 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_c57fdee9b89f2d01f2c5d8963d9a4783ba85d13a528438b8cab5032604294ea1->enter($__internal_c57fdee9b89f2d01f2c5d8963d9a4783ba85d13a528438b8cab5032604294ea1_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "article/article.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_d1c58cfa9517d4c44a6904b42d084fb4430dce4a9654b28d9a38419d6ffcbd7f->leave($__internal_d1c58cfa9517d4c44a6904b42d084fb4430dce4a9654b28d9a38419d6ffcbd7f_prof);
+        $__internal_c57fdee9b89f2d01f2c5d8963d9a4783ba85d13a528438b8cab5032604294ea1->leave($__internal_c57fdee9b89f2d01f2c5d8963d9a4783ba85d13a528438b8cab5032604294ea1_prof);
 
     }
 
     // line 3
     public function block_main($context, array $blocks = array())
     {
-        $__internal_40464fb3e0f12d0df1cf2ca85f0fce4871187187c8138146180da8fecc627cbc = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_40464fb3e0f12d0df1cf2ca85f0fce4871187187c8138146180da8fecc627cbc->enter($__internal_40464fb3e0f12d0df1cf2ca85f0fce4871187187c8138146180da8fecc627cbc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+        $__internal_1771e83ff225f600fabd04a3d88d5fffd7f578936a7648a18bdaa1eecbe00ce6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1771e83ff225f600fabd04a3d88d5fffd7f578936a7648a18bdaa1eecbe00ce6->enter($__internal_1771e83ff225f600fabd04a3d88d5fffd7f578936a7648a18bdaa1eecbe00ce6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
 
         // line 4
         echo "    <link rel=\"stylesheet\" href=\"";
@@ -69,34 +69,32 @@ class __TwigTemplate_d1270af036a329894d26f9e53697a22fb47856d615934f92941b6d01324
                             </a>
                            </div>
                         </div>
-                        <textarea class=\"form-control\" rows=\"12\">
-                        ";
-        // line 23
+                        <textarea class=\"form-control\" rows=\"12\">";
+        // line 22
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["article"]) ? $context["article"] : $this->getContext($context, "article")), "content", array()), "html", null, true);
-        echo "
-                            </textarea>
+        echo "</textarea>
                         <h1 style=\"font-family: 'Calibri Light';font-style: italic;
                          font-size: smaller\">Този пост бе написан от ";
-        // line 26
+        // line 24
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["article"]) ? $context["article"] : $this->getContext($context, "article")), "author", array()), "html", null, true);
         echo "</h1>
                     </div>
                             <label></label>
 
                             ";
-        // line 30
+        // line 28
         if (($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "getUser", array(), "method") && ($this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "getUser", array(), "method"), "isAuthor", array(0 => (isset($context["article"]) ? $context["article"] : $this->getContext($context, "article"))), "method") || $this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "getUser", array(), "method"), "isAdmin", array(), "method")))) {
-            // line 31
+            // line 29
             echo "                                <a class=\"button\" href=\"";
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("article_delete", array("id" => $this->getAttribute((isset($context["article"]) ? $context["article"] : $this->getContext($context, "article")), "id", array()))), "html", null, true);
             echo "\">Изтрий</a>
                                 <a class=\"button\" href=\"";
-            // line 32
+            // line 30
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("article_edit", array("id" => $this->getAttribute((isset($context["article"]) ? $context["article"] : $this->getContext($context, "article")), "id", array()))), "html", null, true);
             echo "\">Редактирай</a>
                             ";
         }
-        // line 34
+        // line 32
         echo "                                <a class=\"button\" href=\"";
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("blog_index");
         echo "\">Назад &raquo;</a>
@@ -104,83 +102,59 @@ class __TwigTemplate_d1270af036a329894d26f9e53697a22fb47856d615934f92941b6d01324
 
 
 
-    <a href=\"";
+    <div class=\"mainDiv\">
+        <header><h3>Коментари</h3></header>
+       <a href=\"";
         // line 39
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("comment_create", array("id" => $this->getAttribute((isset($context["article"]) ? $context["article"] : $this->getContext($context, "article")), "id", array()))), "html", null, true);
-        echo "\" class=\"btn btn-warning\">Create Comment</a>
-
-    <hr>
-    <hr>
-    <div class=\"container body-content\">
-        <div class=\"row\">
-            <div class=\"col-md-6\">
-                <h3>Comments</h3>
-                <table class=\"table table-striped table-hover \">
-
-                    ";
-        // line 49
+        echo "\" class=\"button\">Напиши коментар</a>
+        <br>
+        <br>
+        ";
+        // line 42
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable((isset($context["comments"]) ? $context["comments"] : $this->getContext($context, "comments")));
         foreach ($context['_seq'] as $context["_key"] => $context["comment"]) {
-            // line 50
+            // line 43
             echo "
-                    <thead>
-                    <tr class=\"info\">
-                        <th>Name</th>
-                        <th>Comment</th>
-                        <th>Date</th>
-                    </tr>
-                    </thead>
+            <div class=\"white-div\" style=\"margin-top: 5%; margin-bottom: -20px\">
 
-                    <tbody>
-                    <tr>
-                    <tr class=\"active\">
-                        <td>
-                            ";
-            // line 63
-            echo twig_escape_filter($this->env, $this->getAttribute($context["comment"], "author", array()), "html", null, true);
-            echo "
-                        </td>
-                        <td>
-                            ";
-            // line 66
+            <p style=\"width: 100%\">
+                ";
+            // line 47
             echo twig_escape_filter($this->env, $this->getAttribute($context["comment"], "content", array(), "method"), "html", null, true);
             echo "
-                        </td>
-                        <td>
-                            ";
-            // line 69
+            </p>
+
+                <footer>
+                    <p class=\"post-info\">Написано от ";
+            // line 51
+            echo twig_escape_filter($this->env, $this->getAttribute($context["comment"], "author", array()), "html", null, true);
+            echo " на ";
             echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute($context["comment"], "dateAdded", array()), "d-m-Y H:i"), "html", null, true);
-            echo "
-                            ";
-            // line 70
+            echo " </p>
+                </footer>
+            </div>
+            ";
+            // line 54
             if (($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "getUser", array(), "method") && $this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "getUser", array(), "method"), "isAdmin", array(), "method"))) {
-                // line 71
-                echo "                                <a class=\"btn btn-danger btn-xs\" href=\"";
+                // line 55
+                echo "            <a class=\"button\" style=\"padding: 5px\" href=\"";
                 echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("comment_delete", array("id" => $this->getAttribute($context["comment"], "id", array()))), "html", null, true);
-                echo "\">Delete</a>
-                            ";
+                echo "\">Изтрии</a>
+            ";
             }
-            // line 73
-            echo "                        </td>
-                    </tr>
-                    ";
+            // line 57
+            echo "        ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['comment'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 76
-        echo "                    </tbody>
-                </table>
-
-            </div>
-        </div>
-    </div>
-
-
+        // line 58
+        echo "    </div>
 ";
         
-        $__internal_40464fb3e0f12d0df1cf2ca85f0fce4871187187c8138146180da8fecc627cbc->leave($__internal_40464fb3e0f12d0df1cf2ca85f0fce4871187187c8138146180da8fecc627cbc_prof);
+        $__internal_1771e83ff225f600fabd04a3d88d5fffd7f578936a7648a18bdaa1eecbe00ce6->leave($__internal_1771e83ff225f600fabd04a3d88d5fffd7f578936a7648a18bdaa1eecbe00ce6_prof);
 
     }
 
@@ -196,7 +170,7 @@ class __TwigTemplate_d1270af036a329894d26f9e53697a22fb47856d615934f92941b6d01324
 
     public function getDebugInfo()
     {
-        return array (  173 => 76,  165 => 73,  159 => 71,  157 => 70,  153 => 69,  147 => 66,  141 => 63,  126 => 50,  122 => 49,  109 => 39,  100 => 34,  95 => 32,  90 => 31,  88 => 30,  81 => 26,  75 => 23,  67 => 18,  62 => 16,  52 => 9,  45 => 5,  40 => 4,  34 => 3,  11 => 1,);
+        return array (  154 => 58,  148 => 57,  142 => 55,  140 => 54,  132 => 51,  125 => 47,  119 => 43,  115 => 42,  109 => 39,  98 => 32,  93 => 30,  88 => 29,  86 => 28,  79 => 24,  74 => 22,  67 => 18,  62 => 16,  52 => 9,  45 => 5,  40 => 4,  34 => 3,  11 => 1,);
     }
 
     public function getSource()
@@ -222,9 +196,7 @@ class __TwigTemplate_d1270af036a329894d26f9e53697a22fb47856d615934f92941b6d01324
                             </a>
                            </div>
                         </div>
-                        <textarea class=\"form-control\" rows=\"12\">
-                        {{ article.content }}
-                            </textarea>
+                        <textarea class=\"form-control\" rows=\"12\">{{ article.content }}</textarea>
                         <h1 style=\"font-family: 'Calibri Light';font-style: italic;
                          font-size: smaller\">Този пост бе написан от {{ article.author }}</h1>
                     </div>
@@ -239,51 +211,28 @@ class __TwigTemplate_d1270af036a329894d26f9e53697a22fb47856d615934f92941b6d01324
 
 
 
-    <a href=\"{{ path('comment_create', {'id':article.id}) }}\" class=\"btn btn-warning\">Create Comment</a>
+    <div class=\"mainDiv\">
+        <header><h3>Коментари</h3></header>
+       <a href=\"{{ path('comment_create', {'id':article.id}) }}\" class=\"button\">Напиши коментар</a>
+        <br>
+        <br>
+        {% for comment in comments %}
 
-    <hr>
-    <hr>
-    <div class=\"container body-content\">
-        <div class=\"row\">
-            <div class=\"col-md-6\">
-                <h3>Comments</h3>
-                <table class=\"table table-striped table-hover \">
+            <div class=\"white-div\" style=\"margin-top: 5%; margin-bottom: -20px\">
 
-                    {% for comment in comments %}
+            <p style=\"width: 100%\">
+                {{ comment.content() }}
+            </p>
 
-                    <thead>
-                    <tr class=\"info\">
-                        <th>Name</th>
-                        <th>Comment</th>
-                        <th>Date</th>
-                    </tr>
-                    </thead>
-
-                    <tbody>
-                    <tr>
-                    <tr class=\"active\">
-                        <td>
-                            {{ comment.author }}
-                        </td>
-                        <td>
-                            {{ comment.content() }}
-                        </td>
-                        <td>
-                            {{ comment.dateAdded|date('d-m-Y H:i') }}
-                            {% if app.getUser() and app.getUser().isAdmin() %}
-                                <a class=\"btn btn-danger btn-xs\" href=\"{{ path('comment_delete', {'id':comment.id}) }}\">Delete</a>
-                            {% endif %}
-                        </td>
-                    </tr>
-                    {% endfor %}
-                    </tbody>
-                </table>
-
+                <footer>
+                    <p class=\"post-info\">Написано от {{ comment.author }} на {{ comment.dateAdded|date('d-m-Y H:i') }} </p>
+                </footer>
             </div>
-        </div>
+            {% if app.getUser() and app.getUser().isAdmin() %}
+            <a class=\"button\" style=\"padding: 5px\" href=\"{{ path('comment_delete', {'id':comment.id}) }}\">Изтрии</a>
+            {% endif %}
+        {% endfor %}
     </div>
-
-
 {% endblock %}";
     }
 }

@@ -1,30 +1,26 @@
 {% extends 'base.html.twig' %}
 
 {% block main %}
-    <div class="container body-content span=8 offset=2">
-        <div class="well">
-            <form class="form-horizontal" action="{{ path('comment_delete', {id: comment.id}) }}" method="POST">
-                <fieldset>
-                    <legend>Delete Comment</legend>
+    <link rel="stylesheet" href="{{ asset('css/articleCreate.css') }}">
 
+    <div class="main">
+        <div class="one">
+            <form class="register" action="{{ path('comment_delete', {id: comment.id}) }}" method="POST">
+                <h3>Изтрии коментар</h3>
 
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label" for="comment_content">Content</label>
-                        <div class="col-sm-6">
-                        <textarea class="form-control" rows="6" id="comment_content"
-                                  name="comment[content]" disabled>{{ comment.content }}</textarea>
-                        </div>
+                <label class="col-sm-4 control-label" for="comment_content">Съдържание</label>
+                <textarea style="margin: 40px" class="form-control" rows="6" id="comment_content"
+                          name="comment[content]" disabled>{{ comment.content }}</textarea>
+
+                {{ form_row(form._token) }}
+
+                <div>
+                    <div>
+                        <label></label>
+                        <a class="button" style="float: right; padding: 14px; margin: -4% 3% 5% 0%;" href="{{ path('article_view', {id: article.id}) }}">Отказ</a>
+                        <button type="submit" style="float: right;" class="button">Изтрии!!!</button>
                     </div>
-
-                    {{ form_row(form._token) }}
-
-                    <div class="form-group">
-                        <div class="col-sm-4 col-sm-offset-4">
-                            <a class="btn btn-default" href="{{ path('article_view', {id: article.id}) }}">Cancel</a>
-                            <button type="submit" class="btn btn-danger">Delete</button>
-                        </div>
-                    </div>
-                </fieldset>
+                </div>
             </form>
         </div>
     </div>

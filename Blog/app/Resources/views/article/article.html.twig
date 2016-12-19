@@ -19,9 +19,7 @@
                             </a>
                            </div>
                         </div>
-                        <textarea class="form-control" rows="12">
-                        {{ article.content }}
-                            </textarea>
+                        <textarea class="form-control" rows="12">{{ article.content }}</textarea>
                         <h1 style="font-family: 'Calibri Light';font-style: italic;
                          font-size: smaller">Този пост бе написан от {{ article.author }}</h1>
                     </div>
@@ -36,49 +34,26 @@
 
 
 
-    <a href="{{ path('comment_create', {'id':article.id}) }}" class="btn btn-warning">Create Comment</a>
+    <div class="mainDiv">
+        <header><h3>Коментари</h3></header>
+       <a href="{{ path('comment_create', {'id':article.id}) }}" class="button">Напиши коментар</a>
+        <br>
+        <br>
+        {% for comment in comments %}
 
-    <hr>
-    <hr>
-    <div class="container body-content">
-        <div class="row">
-            <div class="col-md-6">
-                <h3>Comments</h3>
-                <table class="table table-striped table-hover ">
+            <div class="white-div" style="margin-top: 5%; margin-bottom: -20px">
 
-                    {% for comment in comments %}
+            <p style="width: 100%">
+                {{ comment.content() }}
+            </p>
 
-                    <thead>
-                    <tr class="info">
-                        <th>Name</th>
-                        <th>Comment</th>
-                        <th>Date</th>
-                    </tr>
-                    </thead>
-
-                    <tbody>
-                    <tr>
-                    <tr class="active">
-                        <td>
-                            {{ comment.author }}
-                        </td>
-                        <td>
-                            {{ comment.content() }}
-                        </td>
-                        <td>
-                            {{ comment.dateAdded|date('d-m-Y H:i') }}
-                            {% if app.getUser() and app.getUser().isAdmin() %}
-                                <a class="btn btn-danger btn-xs" href="{{ path('comment_delete', {'id':comment.id}) }}">Delete</a>
-                            {% endif %}
-                        </td>
-                    </tr>
-                    {% endfor %}
-                    </tbody>
-                </table>
-
+                <footer>
+                    <p class="post-info">Написано от {{ comment.author }} на {{ comment.dateAdded|date('d-m-Y H:i') }} </p>
+                </footer>
             </div>
-        </div>
+            {% if app.getUser() and app.getUser().isAdmin() %}
+            <a class="button" style="padding: 5px" href="{{ path('comment_delete', {'id':comment.id}) }}">Изтрии</a>
+            {% endif %}
+        {% endfor %}
     </div>
-
-
 {% endblock %}

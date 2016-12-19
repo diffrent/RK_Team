@@ -21,64 +21,62 @@ class __TwigTemplate_c82931ca8c39b44d1dd7b6265b705af67ac2b4c27f8efaeecbaabe81e0d
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_472b99ab01d9a4252289a6141fb7eb01e544357bc96e4f99ad59ebfe513e36ee = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_472b99ab01d9a4252289a6141fb7eb01e544357bc96e4f99ad59ebfe513e36ee->enter($__internal_472b99ab01d9a4252289a6141fb7eb01e544357bc96e4f99ad59ebfe513e36ee_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "comment/delete.html.twig"));
+        $__internal_c4770d39f207785fce353922f678ce32999281f9768d44a63c841d0b7c1b863e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_c4770d39f207785fce353922f678ce32999281f9768d44a63c841d0b7c1b863e->enter($__internal_c4770d39f207785fce353922f678ce32999281f9768d44a63c841d0b7c1b863e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "comment/delete.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_472b99ab01d9a4252289a6141fb7eb01e544357bc96e4f99ad59ebfe513e36ee->leave($__internal_472b99ab01d9a4252289a6141fb7eb01e544357bc96e4f99ad59ebfe513e36ee_prof);
+        $__internal_c4770d39f207785fce353922f678ce32999281f9768d44a63c841d0b7c1b863e->leave($__internal_c4770d39f207785fce353922f678ce32999281f9768d44a63c841d0b7c1b863e_prof);
 
     }
 
     // line 3
     public function block_main($context, array $blocks = array())
     {
-        $__internal_452c1d396459099c89ba272c2b89b1c532acdb3579e4f3f96c3f655f464ec1a8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_452c1d396459099c89ba272c2b89b1c532acdb3579e4f3f96c3f655f464ec1a8->enter($__internal_452c1d396459099c89ba272c2b89b1c532acdb3579e4f3f96c3f655f464ec1a8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+        $__internal_1af69192438527fe5b69c06c8a4b2302b971938b837c2bf8fecd5973030cb497 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1af69192438527fe5b69c06c8a4b2302b971938b837c2bf8fecd5973030cb497->enter($__internal_1af69192438527fe5b69c06c8a4b2302b971938b837c2bf8fecd5973030cb497_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
 
         // line 4
-        echo "    <div class=\"container body-content span=8 offset=2\">
-        <div class=\"well\">
-            <form class=\"form-horizontal\" action=\"";
-        // line 6
+        echo "    <link rel=\"stylesheet\" href=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/articleCreate.css"), "html", null, true);
+        echo "\">
+
+    <div class=\"main\">
+        <div class=\"one\">
+            <form class=\"register\" action=\"";
+        // line 8
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("comment_delete", array("id" => $this->getAttribute((isset($context["comment"]) ? $context["comment"] : $this->getContext($context, "comment")), "id", array()))), "html", null, true);
         echo "\" method=\"POST\">
-                <fieldset>
-                    <legend>Delete Comment</legend>
+                <h3>Изтрии коментар</h3>
 
-
-                    <div class=\"form-group\">
-                        <label class=\"col-sm-4 control-label\" for=\"comment_content\">Content</label>
-                        <div class=\"col-sm-6\">
-                        <textarea class=\"form-control\" rows=\"6\" id=\"comment_content\"
-                                  name=\"comment[content]\" disabled>";
-        // line 15
+                <label class=\"col-sm-4 control-label\" for=\"comment_content\">Съдържание</label>
+                <textarea style=\"margin: 40px\" class=\"form-control\" rows=\"6\" id=\"comment_content\"
+                          name=\"comment[content]\" disabled>";
+        // line 13
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["comment"]) ? $context["comment"] : $this->getContext($context, "comment")), "content", array()), "html", null, true);
         echo "</textarea>
-                        </div>
-                    </div>
 
-                    ";
-        // line 19
+                ";
+        // line 15
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "_token", array()), 'row');
         echo "
 
-                    <div class=\"form-group\">
-                        <div class=\"col-sm-4 col-sm-offset-4\">
-                            <a class=\"btn btn-default\" href=\"";
-        // line 23
+                <div>
+                    <div>
+                        <label></label>
+                        <a class=\"button\" style=\"float: right; padding: 14px; margin: -4% 3% 5% 0%;\" href=\"";
+        // line 20
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("article_view", array("id" => $this->getAttribute((isset($context["article"]) ? $context["article"] : $this->getContext($context, "article")), "id", array()))), "html", null, true);
-        echo "\">Cancel</a>
-                            <button type=\"submit\" class=\"btn btn-danger\">Delete</button>
-                        </div>
+        echo "\">Отказ</a>
+                        <button type=\"submit\" style=\"float: right;\" class=\"button\">Изтрии!!!</button>
                     </div>
-                </fieldset>
+                </div>
             </form>
         </div>
     </div>
 ";
         
-        $__internal_452c1d396459099c89ba272c2b89b1c532acdb3579e4f3f96c3f655f464ec1a8->leave($__internal_452c1d396459099c89ba272c2b89b1c532acdb3579e4f3f96c3f655f464ec1a8_prof);
+        $__internal_1af69192438527fe5b69c06c8a4b2302b971938b837c2bf8fecd5973030cb497->leave($__internal_1af69192438527fe5b69c06c8a4b2302b971938b837c2bf8fecd5973030cb497_prof);
 
     }
 
@@ -94,7 +92,7 @@ class __TwigTemplate_c82931ca8c39b44d1dd7b6265b705af67ac2b4c27f8efaeecbaabe81e0d
 
     public function getDebugInfo()
     {
-        return array (  70 => 23,  63 => 19,  56 => 15,  44 => 6,  40 => 4,  34 => 3,  11 => 1,);
+        return array (  69 => 20,  61 => 15,  56 => 13,  48 => 8,  40 => 4,  34 => 3,  11 => 1,);
     }
 
     public function getSource()
@@ -102,30 +100,26 @@ class __TwigTemplate_c82931ca8c39b44d1dd7b6265b705af67ac2b4c27f8efaeecbaabe81e0d
         return "{% extends 'base.html.twig' %}
 
 {% block main %}
-    <div class=\"container body-content span=8 offset=2\">
-        <div class=\"well\">
-            <form class=\"form-horizontal\" action=\"{{ path('comment_delete', {id: comment.id}) }}\" method=\"POST\">
-                <fieldset>
-                    <legend>Delete Comment</legend>
+    <link rel=\"stylesheet\" href=\"{{ asset('css/articleCreate.css') }}\">
 
+    <div class=\"main\">
+        <div class=\"one\">
+            <form class=\"register\" action=\"{{ path('comment_delete', {id: comment.id}) }}\" method=\"POST\">
+                <h3>Изтрии коментар</h3>
 
-                    <div class=\"form-group\">
-                        <label class=\"col-sm-4 control-label\" for=\"comment_content\">Content</label>
-                        <div class=\"col-sm-6\">
-                        <textarea class=\"form-control\" rows=\"6\" id=\"comment_content\"
-                                  name=\"comment[content]\" disabled>{{ comment.content }}</textarea>
-                        </div>
+                <label class=\"col-sm-4 control-label\" for=\"comment_content\">Съдържание</label>
+                <textarea style=\"margin: 40px\" class=\"form-control\" rows=\"6\" id=\"comment_content\"
+                          name=\"comment[content]\" disabled>{{ comment.content }}</textarea>
+
+                {{ form_row(form._token) }}
+
+                <div>
+                    <div>
+                        <label></label>
+                        <a class=\"button\" style=\"float: right; padding: 14px; margin: -4% 3% 5% 0%;\" href=\"{{ path('article_view', {id: article.id}) }}\">Отказ</a>
+                        <button type=\"submit\" style=\"float: right;\" class=\"button\">Изтрии!!!</button>
                     </div>
-
-                    {{ form_row(form._token) }}
-
-                    <div class=\"form-group\">
-                        <div class=\"col-sm-4 col-sm-offset-4\">
-                            <a class=\"btn btn-default\" href=\"{{ path('article_view', {id: article.id}) }}\">Cancel</a>
-                            <button type=\"submit\" class=\"btn btn-danger\">Delete</button>
-                        </div>
-                    </div>
-                </fieldset>
+                </div>
             </form>
         </div>
     </div>

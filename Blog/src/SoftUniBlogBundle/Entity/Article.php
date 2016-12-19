@@ -224,6 +224,7 @@ class Article
         return $this->dateAdded;
     }
 
+
     /**
      * @return UploadedFile
      */
