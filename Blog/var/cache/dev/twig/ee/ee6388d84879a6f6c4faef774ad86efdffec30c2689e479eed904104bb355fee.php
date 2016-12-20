@@ -22,83 +22,86 @@ class __TwigTemplate_ffaafad65f0151a0f7835ddc97fa34e047f0930484cdfd35b5d545861a8
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_a4729802be2bdc2d1bd8dc9bfa4cb07c7d526690ddf3ff22491bc0a33e37f248 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_a4729802be2bdc2d1bd8dc9bfa4cb07c7d526690ddf3ff22491bc0a33e37f248->enter($__internal_a4729802be2bdc2d1bd8dc9bfa4cb07c7d526690ddf3ff22491bc0a33e37f248_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "user/profile.html.twig"));
+        $__internal_e99a9048252df75620bc0a541652e39662ef45528b14b8ca47488c47f8a11b36 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e99a9048252df75620bc0a541652e39662ef45528b14b8ca47488c47f8a11b36->enter($__internal_e99a9048252df75620bc0a541652e39662ef45528b14b8ca47488c47f8a11b36_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "user/profile.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_a4729802be2bdc2d1bd8dc9bfa4cb07c7d526690ddf3ff22491bc0a33e37f248->leave($__internal_a4729802be2bdc2d1bd8dc9bfa4cb07c7d526690ddf3ff22491bc0a33e37f248_prof);
+        $__internal_e99a9048252df75620bc0a541652e39662ef45528b14b8ca47488c47f8a11b36->leave($__internal_e99a9048252df75620bc0a541652e39662ef45528b14b8ca47488c47f8a11b36_prof);
 
     }
 
     // line 3
     public function block_body_id($context, array $blocks = array())
     {
-        $__internal_7d3673fde71fdd2dad78ea2de9ad3034f75650a6a1a5cc709da42540271f2f99 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_7d3673fde71fdd2dad78ea2de9ad3034f75650a6a1a5cc709da42540271f2f99->enter($__internal_7d3673fde71fdd2dad78ea2de9ad3034f75650a6a1a5cc709da42540271f2f99_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body_id"));
+        $__internal_a03f55bea66fda9bab0b20df9ff9b7202979e1cd3b61a09efcc41fb1790f5dc3 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a03f55bea66fda9bab0b20df9ff9b7202979e1cd3b61a09efcc41fb1790f5dc3->enter($__internal_a03f55bea66fda9bab0b20df9ff9b7202979e1cd3b61a09efcc41fb1790f5dc3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body_id"));
 
         echo "profile";
         
-        $__internal_7d3673fde71fdd2dad78ea2de9ad3034f75650a6a1a5cc709da42540271f2f99->leave($__internal_7d3673fde71fdd2dad78ea2de9ad3034f75650a6a1a5cc709da42540271f2f99_prof);
+        $__internal_a03f55bea66fda9bab0b20df9ff9b7202979e1cd3b61a09efcc41fb1790f5dc3->leave($__internal_a03f55bea66fda9bab0b20df9ff9b7202979e1cd3b61a09efcc41fb1790f5dc3_prof);
 
     }
 
     // line 5
     public function block_main($context, array $blocks = array())
     {
-        $__internal_c6f71b8f8074008d082e43b6742cf610d703c77d46b17d3e756685985ca80c12 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c6f71b8f8074008d082e43b6742cf610d703c77d46b17d3e756685985ca80c12->enter($__internal_c6f71b8f8074008d082e43b6742cf610d703c77d46b17d3e756685985ca80c12_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+        $__internal_d455dc654ad312f3c6c02eb3ec30246ed1337cab63698b37ff2166de782b3014 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d455dc654ad312f3c6c02eb3ec30246ed1337cab63698b37ff2166de782b3014->enter($__internal_d455dc654ad312f3c6c02eb3ec30246ed1337cab63698b37ff2166de782b3014_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
 
         // line 6
-        echo "    <div>
-        ";
-        // line 7
+        echo "    <link rel=\"stylesheet\" href=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("css/profile.css"), "html", null, true);
+        echo "\">
+    <div class=\"mainDiv\" style=\"height: auto\">
+        <header><h3>Потребителски емаил: ";
+        // line 8
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["user"]) ? $context["user"] : $this->getContext($context, "user")), "email", array()), "html", null, true);
-        echo "
-        <br>
-        ";
+        echo "</h3></header>
+        <header><h3>Потребителско име: ";
         // line 9
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["user"]) ? $context["user"] : $this->getContext($context, "user")), "fullName", array()), "html", null, true);
-        echo "
-    </div>
-    <div>
-        <label>
-            <button type=\"submit\" class=\"button\" style=\"margin: 0% 2% 0% 0%;\">
-                <a class=\"button\" href=\"";
-        // line 14
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("article_create");
-        echo "\">Добави Статия</a>
-                </button>
-
-            <button type=\"submit\" class=\"button\" style=\"margin: 0% 2% 0% 0%;\">
-                <a class=\"button\" href=\"";
-        // line 18
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("admin_users_all");
-        echo "\">Потребители</a>
-            </button>
-        <button type=\"submit\" class=\"button\" style=\"margin: 0% 2% 0% 0%;\">
-                <a class=\"button\" href=\"";
-        // line 21
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("contacts_create");
-        echo "\">Нов Контакт</a>
-            </button>
-            <button type=\"submit\" class=\"button\" style=\"margin: 0% 2% 0% 0%;\">
-                <a class=\"button\" href=\"";
-        // line 24
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("statistics_create");
-        echo "\">Нова Статистика</a>
-            </button>
-            <button type=\"submit\" class=\"button\" style=\"margin: 0% 2% 0% 0%;\">
-                <a class=\"button\" href=\"";
-        // line 27
-        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("about_create");
-        echo "\">Добави за Нас</a>
-            </button>
-            </label>
+        echo "</h3></header>
+        <div class=\"conteiner\">
+            <div class=\"white-div-right\">
+                ";
+        // line 12
+        if (($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "getUser", array(), "method") && $this->getAttribute($this->getAttribute((isset($context["app"]) ? $context["app"] : $this->getContext($context, "app")), "getUser", array(), "method"), "isAdmin", array(), "method"))) {
+            // line 13
+            echo "
+                    <a class=\"button\" href=\"";
+            // line 14
+            echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("article_create");
+            echo "\">Добави Статия</a>
+                    <a class=\"button\" href=\"";
+            // line 15
+            echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("messages_index");
+            echo "\">Четене на поща</a>
+                    <a class=\"button\" href=\"";
+            // line 16
+            echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("admin_users_all");
+            echo "\">Потребители</a>
+                    <a class=\"button\" href=\"";
+            // line 17
+            echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("contacts_edit", array("id" => 1));
+            echo "\">Редакция Контакти</a>
+                    <a class=\"button\" href=\"";
+            // line 18
+            echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("statistics_edit", array("id" => 1));
+            echo "\">Редакция Статистика</a>
+                    <a class=\"button\" href=\"";
+            // line 19
+            echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("about_edit", array("id" => 1));
+            echo "\">Редакция За Нас</a>
+            </div>
+                ";
+        }
+        // line 22
+        echo "        </div>
     </div>
 ";
         
-        $__internal_c6f71b8f8074008d082e43b6742cf610d703c77d46b17d3e756685985ca80c12->leave($__internal_c6f71b8f8074008d082e43b6742cf610d703c77d46b17d3e756685985ca80c12_prof);
+        $__internal_d455dc654ad312f3c6c02eb3ec30246ed1337cab63698b37ff2166de782b3014->leave($__internal_d455dc654ad312f3c6c02eb3ec30246ed1337cab63698b37ff2166de782b3014_prof);
 
     }
 
@@ -114,7 +117,7 @@ class __TwigTemplate_ffaafad65f0151a0f7835ddc97fa34e047f0930484cdfd35b5d545861a8
 
     public function getDebugInfo()
     {
-        return array (  94 => 27,  88 => 24,  82 => 21,  76 => 18,  69 => 14,  61 => 9,  56 => 7,  53 => 6,  47 => 5,  35 => 3,  11 => 1,);
+        return array (  100 => 22,  94 => 19,  90 => 18,  86 => 17,  82 => 16,  78 => 15,  74 => 14,  71 => 13,  69 => 12,  63 => 9,  59 => 8,  53 => 6,  47 => 5,  35 => 3,  11 => 1,);
     }
 
     public function getSource()
@@ -124,30 +127,23 @@ class __TwigTemplate_ffaafad65f0151a0f7835ddc97fa34e047f0930484cdfd35b5d545861a8
 {% block body_id 'profile' %}
 
 {% block main %}
-    <div>
-        {{ user.email }}
-        <br>
-        {{ user.fullName }}
-    </div>
-    <div>
-        <label>
-            <button type=\"submit\" class=\"button\" style=\"margin: 0% 2% 0% 0%;\">
-                <a class=\"button\" href=\"{{ path('article_create') }}\">Добави Статия</a>
-                </button>
+    <link rel=\"stylesheet\" href=\"{{ asset('css/profile.css') }}\">
+    <div class=\"mainDiv\" style=\"height: auto\">
+        <header><h3>Потребителски емаил: {{ user.email }}</h3></header>
+        <header><h3>Потребителско име: {{ user.fullName }}</h3></header>
+        <div class=\"conteiner\">
+            <div class=\"white-div-right\">
+                {% if app.getUser() and app.getUser().isAdmin()  %}
 
-            <button type=\"submit\" class=\"button\" style=\"margin: 0% 2% 0% 0%;\">
-                <a class=\"button\" href=\"{{ path('admin_users_all') }}\">Потребители</a>
-            </button>
-        <button type=\"submit\" class=\"button\" style=\"margin: 0% 2% 0% 0%;\">
-                <a class=\"button\" href=\"{{ path('contacts_create') }}\">Нов Контакт</a>
-            </button>
-            <button type=\"submit\" class=\"button\" style=\"margin: 0% 2% 0% 0%;\">
-                <a class=\"button\" href=\"{{ path('statistics_create') }}\">Нова Статистика</a>
-            </button>
-            <button type=\"submit\" class=\"button\" style=\"margin: 0% 2% 0% 0%;\">
-                <a class=\"button\" href=\"{{ path('about_create') }}\">Добави за Нас</a>
-            </button>
-            </label>
+                    <a class=\"button\" href=\"{{ path('article_create') }}\">Добави Статия</a>
+                    <a class=\"button\" href=\"{{ path('messages_index') }}\">Четене на поща</a>
+                    <a class=\"button\" href=\"{{ path('admin_users_all') }}\">Потребители</a>
+                    <a class=\"button\" href=\"{{ path('contacts_edit',{'id': 1}) }}\">Редакция Контакти</a>
+                    <a class=\"button\" href=\"{{ path('statistics_edit',{'id': 1}) }}\">Редакция Статистика</a>
+                    <a class=\"button\" href=\"{{ path('about_edit',{'id': 1}) }}\">Редакция За Нас</a>
+            </div>
+                {% endif %}
+        </div>
     </div>
 {% endblock %}
 ";

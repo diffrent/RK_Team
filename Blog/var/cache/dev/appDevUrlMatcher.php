@@ -256,6 +256,30 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
         }
         not_church_gallery:
 
+        if (0 === strpos($pathinfo, '/message')) {
+            // message_create
+            if ($pathinfo === '/message/create') {
+                return array (  '_controller' => 'SoftUniBlogBundle\\Controller\\MessageController::create',  '_route' => 'message_create',);
+            }
+
+            // message_delete
+            if (0 === strpos($pathinfo, '/message/delete') && preg_match('#^/message/delete/(?P<id>[^/]++)$#s', $pathinfo, $matches)) {
+                return $this->mergeDefaults(array_replace($matches, array('_route' => 'message_delete')), array (  '_controller' => 'SoftUniBlogBundle\\Controller\\MessageController::deleteMessage',));
+            }
+
+        }
+
+        // messages_index
+        if ($pathinfo === '/admin/messages') {
+            if (!in_array($this->context->getMethod(), array('GET', 'HEAD'))) {
+                $allow = array_merge($allow, array('GET', 'HEAD'));
+                goto not_messages_index;
+            }
+
+            return array (  '_controller' => 'SoftUniBlogBundle\\Controller\\MessageController::indexAction',  '_route' => 'messages_index',);
+        }
+        not_messages_index:
+
         if (0 === strpos($pathinfo, '/log')) {
             // security_login
             if ($pathinfo === '/login') {

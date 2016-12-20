@@ -3,29 +3,22 @@
 {% block body_id 'profile' %}
 
 {% block main %}
-    <div>
-        {{ user.email }}
-        <br>
-        {{ user.fullName }}
-    </div>
-    <div>
-        <label>
-            <button type="submit" class="button" style="margin: 0% 2% 0% 0%;">
-                <a class="button" href="{{ path('article_create') }}">Добави Статия</a>
-                </button>
+    <link rel="stylesheet" href="{{ asset('css/profile.css') }}">
+    <div class="mainDiv" style="height: auto">
+        <header><h3>Потребителски емаил: {{ user.email }}</h3></header>
+        <header><h3>Потребителско име: {{ user.fullName }}</h3></header>
+        <div class="conteiner">
+            <div class="white-div-right">
+                {% if app.getUser() and app.getUser().isAdmin()  %}
 
-            <button type="submit" class="button" style="margin: 0% 2% 0% 0%;">
-                <a class="button" href="{{ path('admin_users_all') }}">Потребители</a>
-            </button>
-        <button type="submit" class="button" style="margin: 0% 2% 0% 0%;">
-                <a class="button" href="{{ path('contacts_create') }}">Нов Контакт</a>
-            </button>
-            <button type="submit" class="button" style="margin: 0% 2% 0% 0%;">
-                <a class="button" href="{{ path('statistics_create') }}">Нова Статистика</a>
-            </button>
-            <button type="submit" class="button" style="margin: 0% 2% 0% 0%;">
-                <a class="button" href="{{ path('about_create') }}">Добави за Нас</a>
-            </button>
-            </label>
+                    <a class="button" href="{{ path('article_create') }}">Добави Статия</a>
+                    <a class="button" href="{{ path('messages_index') }}">Четене на поща</a>
+                    <a class="button" href="{{ path('admin_users_all') }}">Потребители</a>
+                    <a class="button" href="{{ path('contacts_edit',{'id': 1}) }}">Редакция Контакти</a>
+                    <a class="button" href="{{ path('statistics_edit',{'id': 1}) }}">Редакция Статистика</a>
+                    <a class="button" href="{{ path('about_edit',{'id': 1}) }}">Редакция За Нас</a>
+            </div>
+                {% endif %}
+        </div>
     </div>
 {% endblock %}

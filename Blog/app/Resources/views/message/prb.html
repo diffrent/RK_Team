@@ -1,0 +1,60 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+<link rel="stylesheet" href="{{ asset('css/articleView.css') }}">
+<link rel="stylesheet" href="{{ asset('css/lightbox.css') }}">
+
+<div class="mainDiv">
+    <header><h3>Коментари</h3></header>
+    <a href="{{ path('comment_create', {'id':article.id}) }}" class="button">Напиши коментар</a>
+    <br>
+    <br>
+    {% for comment in comments %}
+
+    <div class="white-div" style="margin-top: 5%; margin-bottom: -20px">
+
+        <p style="width: 100%">
+            {{ comment.content() }}
+        </p>
+
+        <footer>
+            <p class="post-info">Написано от {{ comment.author }} на {{ comment.dateAdded|date('d-m-Y H:i') }} </p>
+        </footer>
+    </div>
+    {% if app.getUser() and app.getUser().isAdmin() %}
+    <a class="button" style="padding: 5px" href="{{ path('comment_delete', {'id':comment.id}) }}">Изтрии</a>
+    {% endif %}
+    {% endfor %}
+</div>
+{% endblock %}
+
+
+
+
+{% extends 'base.html.twig' %}
+
+{% block main %}
+<link rel="stylesheet" href="{{ asset('css/articleView.css') }}">
+<link rel="stylesheet" href="{{ asset('css/lightbox.css') }}">
+
+<div class="mainDiv">
+            <h3>Съобщения</h3>
+
+
+                {% for message in messages %}
+                <div class="white-div" style="margin-top: 5%; margin-bottom: -20px">
+
+                    <p style="width: 100%">
+                        {{ message.content() }}
+                    </p>
+
+                    <footer>
+                        <p class="post-info">Написано от "{{ message.name }}" с Емаил "{{ message.email }}" на "{{ message.dateAdded|date('d-m-Y H:i') }}" </p>
+                    </footer>
+                </div>
+                        {% if app.getUser() and app.getUser().isAdmin() %}
+                        <a class="button" style="padding: 5px"  href="{{ path('message_delete', {'id':message.id}) }}">Изтрии</a>
+                        {% endif %}
+                {% endfor %}
+</div>
+{% endblock %}
