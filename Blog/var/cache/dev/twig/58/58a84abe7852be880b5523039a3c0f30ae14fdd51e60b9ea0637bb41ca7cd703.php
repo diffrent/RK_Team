@@ -21,20 +21,20 @@ class __TwigTemplate_c19e82a74558a186953000dea76500b7b47280adfce09ae1985510a82ad
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_65b96b304de5eed7ffe3d553c810ce5542617b3ea3c494065df2e244c1ca097b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_65b96b304de5eed7ffe3d553c810ce5542617b3ea3c494065df2e244c1ca097b->enter($__internal_65b96b304de5eed7ffe3d553c810ce5542617b3ea3c494065df2e244c1ca097b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "about/create.html.twig"));
+        $__internal_4d078f5b4d6b37cc856c50e3d9a0e708393d84cf73cc703df9008dc1423fe310 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_4d078f5b4d6b37cc856c50e3d9a0e708393d84cf73cc703df9008dc1423fe310->enter($__internal_4d078f5b4d6b37cc856c50e3d9a0e708393d84cf73cc703df9008dc1423fe310_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "about/create.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_65b96b304de5eed7ffe3d553c810ce5542617b3ea3c494065df2e244c1ca097b->leave($__internal_65b96b304de5eed7ffe3d553c810ce5542617b3ea3c494065df2e244c1ca097b_prof);
+        $__internal_4d078f5b4d6b37cc856c50e3d9a0e708393d84cf73cc703df9008dc1423fe310->leave($__internal_4d078f5b4d6b37cc856c50e3d9a0e708393d84cf73cc703df9008dc1423fe310_prof);
 
     }
 
     // line 4
     public function block_main($context, array $blocks = array())
     {
-        $__internal_30e97e74e4f8c9fb17407c06c308d19f4146acb0f015783b81abc7ddb51d95be = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_30e97e74e4f8c9fb17407c06c308d19f4146acb0f015783b81abc7ddb51d95be->enter($__internal_30e97e74e4f8c9fb17407c06c308d19f4146acb0f015783b81abc7ddb51d95be_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
+        $__internal_6a5d30cc142ff16aee34163e3de820b5fd9d5ef0cf2ec7e2975b4771a896e20d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_6a5d30cc142ff16aee34163e3de820b5fd9d5ef0cf2ec7e2975b4771a896e20d->enter($__internal_6a5d30cc142ff16aee34163e3de820b5fd9d5ef0cf2ec7e2975b4771a896e20d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "main"));
 
         // line 5
         echo "    <link rel=\"stylesheet\" href=\"";
@@ -50,14 +50,30 @@ class __TwigTemplate_c19e82a74558a186953000dea76500b7b47280adfce09ae1985510a82ad
                 <h3>Качване на ново За Нас</h3>
 
                 <div>
-                    <label class=\"col-sm-4 control-label\" for=\"about_content\">Съдържание</label>
+                    <label class=\"col-sm-4 control-label\" for=\"about_biography1\">Биография на първия отец:</label>
+                    <div class=\"col-sm-6\">
+                            <textarea class=\"form-control\" rows=\"7\" id=\"about_biography1\"
+                                      name=\"about[biography1]\"></textarea>
+                    </div>
+                </div>
+
+                <div>
+                    <label class=\"col-sm-4 control-label\" for=\"about_biography2\">Биография на втория отец:</label>
+                    <div class=\"col-sm-6\">
+                            <textarea class=\"form-control\" rows=\"7\" id=\"about_biography2\"
+                                      name=\"about[biography2]\"></textarea>
+                    </div>
+                </div>
+
+                <div>
+                    <label class=\"col-sm-4 control-label\" for=\"about_content\">Кратка история на църквата:</label>
                     <div class=\"col-sm-6\">
                             <textarea class=\"form-control\" rows=\"17\" id=\"about_content\"
                                       name=\"about[content]\"></textarea>
                     </div>
                 </div>
                 ";
-        // line 19
+        // line 35
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\FormExtension')->renderer->searchAndRenderBlock($this->getAttribute((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), "_token", array()), 'row');
         echo "
 
@@ -66,7 +82,7 @@ class __TwigTemplate_c19e82a74558a186953000dea76500b7b47280adfce09ae1985510a82ad
                         <label></label>
                         <button style=\"float: right;\" type=\"submit\" class=\"button\">Изпрати</button>
                         <a style=\"float: right; padding: 14px; margin: -4% 3% 5% 0%; background-color: tomato;\" class=\"button\" href=\"";
-        // line 25
+        // line 41
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("blog_index");
         echo "\">Отказ</a>
                     </div>
@@ -76,7 +92,7 @@ class __TwigTemplate_c19e82a74558a186953000dea76500b7b47280adfce09ae1985510a82ad
     </div>
 ";
         
-        $__internal_30e97e74e4f8c9fb17407c06c308d19f4146acb0f015783b81abc7ddb51d95be->leave($__internal_30e97e74e4f8c9fb17407c06c308d19f4146acb0f015783b81abc7ddb51d95be_prof);
+        $__internal_6a5d30cc142ff16aee34163e3de820b5fd9d5ef0cf2ec7e2975b4771a896e20d->leave($__internal_6a5d30cc142ff16aee34163e3de820b5fd9d5ef0cf2ec7e2975b4771a896e20d_prof);
 
     }
 
@@ -92,7 +108,7 @@ class __TwigTemplate_c19e82a74558a186953000dea76500b7b47280adfce09ae1985510a82ad
 
     public function getDebugInfo()
     {
-        return array (  70 => 25,  61 => 19,  48 => 9,  40 => 5,  34 => 4,  11 => 2,);
+        return array (  86 => 41,  77 => 35,  48 => 9,  40 => 5,  34 => 4,  11 => 2,);
     }
 
     public function getSource()
@@ -109,7 +125,23 @@ class __TwigTemplate_c19e82a74558a186953000dea76500b7b47280adfce09ae1985510a82ad
                 <h3>Качване на ново За Нас</h3>
 
                 <div>
-                    <label class=\"col-sm-4 control-label\" for=\"about_content\">Съдържание</label>
+                    <label class=\"col-sm-4 control-label\" for=\"about_biography1\">Биография на първия отец:</label>
+                    <div class=\"col-sm-6\">
+                            <textarea class=\"form-control\" rows=\"7\" id=\"about_biography1\"
+                                      name=\"about[biography1]\"></textarea>
+                    </div>
+                </div>
+
+                <div>
+                    <label class=\"col-sm-4 control-label\" for=\"about_biography2\">Биография на втория отец:</label>
+                    <div class=\"col-sm-6\">
+                            <textarea class=\"form-control\" rows=\"7\" id=\"about_biography2\"
+                                      name=\"about[biography2]\"></textarea>
+                    </div>
+                </div>
+
+                <div>
+                    <label class=\"col-sm-4 control-label\" for=\"about_content\">Кратка история на църквата:</label>
                     <div class=\"col-sm-6\">
                             <textarea class=\"form-control\" rows=\"17\" id=\"about_content\"
                                       name=\"about[content]\"></textarea>

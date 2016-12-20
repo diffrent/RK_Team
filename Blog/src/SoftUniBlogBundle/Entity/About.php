@@ -62,5 +62,67 @@ class About
     {
         return $this->content;
     }
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="biography1", type="text")
+     */
+    private $biography1;
+
+    /**
+     * Set biography1
+     *
+     * @param string $biography1
+     *
+     * @return About
+     */
+    public function setBiography1($biography1)
+    {
+        $this->biography1 = $biography1;
+
+        return $this;
+    }
+
+    /**
+     * Get biography1
+     *
+     * @return string
+     */
+    public function getBiography1()
+    {
+        return $this->biography1;
+    }
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="biography2", type="text")
+     */
+    private $biography2;
+
+    /**
+     * Set biography2
+     *
+     * @param string $biography2
+     *
+     * @return About
+     */
+    public function setBiography2($biography2)
+    {
+        $this->biography2 = $biography2;
+
+        return $this;
+    }
+
+    /**
+     * Get biography1
+     *
+     * @return string
+     */
+    public function getBiography2()
+    {
+        return $this->biography2;
+    }
 }
 

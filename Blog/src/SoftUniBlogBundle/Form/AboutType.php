@@ -13,6 +13,8 @@ class AboutType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
+            ->add('biography1', TextType::class)
+            ->add('biography2', TextType::class)
             ->add('content', TextType::class);
     }
 
