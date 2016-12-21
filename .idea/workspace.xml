@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e21fdb3a-de79-44dc-8656-f19510a1323f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/web/Images/OtecBoris.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/web/Images/OtecRumen.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/web/Images/cyrkvaAbout.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blog/web/Images/cyrkvaContacts.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/category/articles.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/message/prb.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/tags/articles.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/var/sessions/dev/sess_aqi1sh843q2f1ua4skops5c7p3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/web/Images/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/web/uploads/articles/10252e0a3bdf2c37280c412fdd8e6a9b.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/web/uploads/articles/18cd294b4c2a2691e0ba394df93166c8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/web/uploads/articles/1d52c4e0e1cc618affae7b2276203e0a.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/web/uploads/articles/3ab5a2e25de19ec01574b1c09bf853a4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/web/uploads/articles/553a039de68748678d4763ecaf4c5e33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/web/uploads/articles/675e4c93223716b3cc07b768c80b4e57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/web/uploads/articles/7de36c77834b9e4c9e0a8c47d1c34f53.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/web/uploads/articles/7e371b38d5888eb0720129dd6f5f1b08.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/web/uploads/articles/b0ddbb8990dac1bf6f2a6af5ce741061.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/web/uploads/articles/b7e4c98c40fc6be754965fb685262db8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/web/uploads/articles/cc9cbbb61a4b0522b610062809e8fa49.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/web/uploads/articles/cfa134c4fad001b8118a3195ea35a562.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/web/uploads/articles/e8ce490d2a650ae9f9fe15270f9121cb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/web/uploads/articles/ee4625c917e096fe443553ffcdfb421a.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/blog/about.ibd" afterPath="$PROJECT_DIR$/mysql/data/blog/about.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/blog/articles.ibd" afterPath="$PROJECT_DIR$/mysql/data/blog/articles.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/blog/comment.ibd" afterPath="$PROJECT_DIR$/mysql/data/blog/comment.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/blog/contacts.ibd" afterPath="$PROJECT_DIR$/mysql/data/blog/contacts.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/blog/message.ibd" afterPath="$PROJECT_DIR$/mysql/data/blog/message.ibd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/blog/statistics.ibd" afterPath="$PROJECT_DIR$/mysql/data/blog/statistics.ibd" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Blog/var/sessions/dev/sess_c5ihoendud5ec42e459623g604" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/blog/users.ibd" afterPath="$PROJECT_DIR$/mysql/data/blog/users.ibd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/blog/users_roles.ibd" afterPath="$PROJECT_DIR$/mysql/data/blog/users_roles.ibd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/ib_logfile0" afterPath="$PROJECT_DIR$/mysql/data/ib_logfile0" />
@@ -38,78 +10,19 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/mysql/innodb_index_stats.ibd" afterPath="$PROJECT_DIR$/mysql/data/mysql/innodb_index_stats.ibd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/mysql/innodb_table_stats.ibd" afterPath="$PROJECT_DIR$/mysql/data/mysql/innodb_table_stats.ibd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/about/edit.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/about/edit.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/about/show.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/about/show.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/admin/user/all.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/admin/user/all.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/admin/user/delete.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/admin/user/delete.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/admin/user/edit.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/admin/user/edit.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/article/delete.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/article/delete.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/article/edit.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/article/edit.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/blog/index.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/blog/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/contacts/edit.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/contacts/edit.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/contacts/show.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/contacts/show.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/article/create.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/article/create.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/comment/create.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/comment/create.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/comment/delete.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/comment/delete.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/message/create.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/message/create.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/message/show.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/message/show.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/AboutController.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/AboutController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ArticleController.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ArticleController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ContactsController.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ContactsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/HomeController.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/MessageController.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/MessageController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/SecurityController.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/SecurityController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/StatisticsController.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/StatisticsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Statistics.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Statistics.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/AboutType.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/AboutType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/ArticleType.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/ArticleType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/ContactsType.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/ContactsType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/StatisticsType.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/StatisticsType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/UserEditType.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/UserEditType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/06/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c65722365646974636f6e7461637473405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/06/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c65722365646974636f6e7461637473405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/09/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/09/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/0b/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/0b/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/1e/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c53746174697374696373246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/1e/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c53746174697374696373246964405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/23/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c6572236564697453746174697374696373405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/23/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c6572236564697453746174697374696373405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/2b/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c65722376696577416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/2b/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c65722376696577416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/32/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/32/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/49/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572236c6f67696e416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/49/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572236c6f67696e416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/4a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/4a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/4d/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c65722376696577416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/4d/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c65722376696577416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/57/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/57/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/5a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/62/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572237669657741727469636c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/62/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572237669657741727469636c65405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/63/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/63/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/65/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c65722367616c6c657279405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/65/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c65722367616c6c657279405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/6a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572236564697441727469636c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/6a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c6572236564697441727469636c65405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/7a/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c436f6e7461637473436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9b/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c657223637265617465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/9b/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c657223637265617465405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/a6/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c4d657373616765436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/a6/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c4d657373616765436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ba/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c65722376696577416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ba/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c65722376696577416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ba/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/ba/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c486f6d65436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/bb/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c53746174697374696373405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/bb/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c53746174697374696373405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c3/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c4d657373616765436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c3/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c4d657373616765436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c65722364656c657465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c4/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41727469636c65436f6e74726f6c6c65722364656c657465405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c8/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c5374617469737469637324436f6e74656e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c8/5b5b435d536f6674556e69426c6f6742756e646c655c456e746974795c5374617469737469637324436f6e74656e74405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c9/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/c9/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/da/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c6572236564697461626f7574405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/da/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c6572236564697461626f7574405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/db/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572236c6f676f7574416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/db/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c5365637572697479436f6e74726f6c6c6572236c6f676f7574416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/dc/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/dc/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c53746174697374696373436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f2/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f2/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c657223637265617465416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f3/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c4d657373616765436f6e74726f6c6c657223637265617465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/f3/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c4d657373616765436f6e74726f6c6c657223637265617465405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/fa/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/fa/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c41626f7574436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/fb/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c4d657373616765436f6e74726f6c6c65722364656c6574654d657373616765405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/annotations/fb/5b5b435d536f6674556e69426c6f6742756e646c655c436f6e74726f6c6c65725c4d657373616765436f6e74726f6c6c65722364656c6574654d657373616765405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/40/4024f3b829c674c2fb6c91b6297d59457a64dbeca568c218a312af2ad247af3a.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/40/4024f3b829c674c2fb6c91b6297d59457a64dbeca568c218a312af2ad247af3a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/52/52bfc3832697c7248bc87ace40e33d40a9d44ae0c25bd76a2faed608ebc4dfe7.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/52/52bfc3832697c7248bc87ace40e33d40a9d44ae0c25bd76a2faed608ebc4dfe7.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/56/56807a1da66505483ed38d2c09643b9365bc42709ea269ad07bf6009d1ef48b6.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/56/56807a1da66505483ed38d2c09643b9365bc42709ea269ad07bf6009d1ef48b6.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/68/68b2174811e451a3010bfaa9588b3482463c4bbd4e4b8ee90074d074cd6a9691.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/68/68b2174811e451a3010bfaa9588b3482463c4bbd4e4b8ee90074d074cd6a9691.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/8f/8fd50baed80935235f437fc449df1a1f1b02783ef5ba6be615706b48dab41f06.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/8f/8fd50baed80935235f437fc449df1a1f1b02783ef5ba6be615706b48dab41f06.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/a3/a339810e679ee0b0d0869e1d4f46218b6949541b7df7028dd221d662b3b5eabf.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/a3/a339810e679ee0b0d0869e1d4f46218b6949541b7df7028dd221d662b3b5eabf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/a5/a5dd395ac185b7cd0786fbaa9e69c910224d702b11ab3bb9e6fb1cf836b5dff8.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/a5/a5dd395ac185b7cd0786fbaa9e69c910224d702b11ab3bb9e6fb1cf836b5dff8.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/b6/b6eab13603013c82e0e0f9b24bed2e708ee429c2d89b88316cc58b66f84d9bad.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/b6/b6eab13603013c82e0e0f9b24bed2e708ee429c2d89b88316cc58b66f84d9bad.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/ba/bae9a09ec9984a2c2a0930efadddf1fc90b3517c52a07032669ac52fd7e7ec09.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/ba/bae9a09ec9984a2c2a0930efadddf1fc90b3517c52a07032669ac52fd7e7ec09.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/d1/d15126f8b95b1c9f766eb9b7ad8b7d60448ab8cd8e82a14ea118ae6ab71525de.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/d1/d15126f8b95b1c9f766eb9b7ad8b7d60448ab8cd8e82a14ea118ae6ab71525de.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/cache/dev/twig/f6/f6b9fc7bbe95c9f5bc24bd9266d598a505742e409cf356fd0358b06c5fee62dc.php" afterPath="$PROJECT_DIR$/Blog/var/cache/dev/twig/f6/f6b9fc7bbe95c9f5bc24bd9266d598a505742e409cf356fd0358b06c5fee62dc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/app/Resources/views/message/delete.html.twig" afterPath="$PROJECT_DIR$/Blog/app/Resources/views/message/delete.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/User.php" afterPath="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/User.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/var/logs/dev.log" afterPath="$PROJECT_DIR$/Blog/var/logs/dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/css/statistics.css" afterPath="$PROJECT_DIR$/Blog/web/css/statistics.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/css/articleCreate.css" afterPath="$PROJECT_DIR$/Blog/web/css/articleCreate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/css/articleView.css" afterPath="$PROJECT_DIR$/Blog/web/css/articleView.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog/web/css/register.css" afterPath="$PROJECT_DIR$/Blog/web/css/register.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HeidiSQL_9.4_Portable/portable_settings.txt" afterPath="$PROJECT_DIR$/HeidiSQL_9.4_Portable/portable_settings.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysql/data/DESKTOP-DTA1ATJ.pid" afterPath="$PROJECT_DIR$/mysql/data/DESKTOP-DTA1ATJ.pid" />
     </list>
@@ -132,44 +45,85 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="create.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/comment/create.html.twig">
+      <file leaf-file-name="about.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/web/css/about.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+            <state relative-caret-position="170">
+              <caret line="235" column="20" selection-start-line="233" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/user/register.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#1664#1692#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/web/css/about.css">
+      <file leaf-file-name="register.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/web/css/register.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="244" column="1" selection-start-line="233" selection-start-column="0" selection-end-line="244" selection-end-column="1" />
+            <state relative-caret-position="238">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articleView.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blog/web/css/articleView.css">
+      <file leaf-file-name="article.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="272">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/MessageController.php">
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/Admin/UserController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-884">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="-1483">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-204">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserType.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/UserType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-204">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <folding>
+                <element signature="e#41#81#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -178,12 +132,10 @@
       <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/about/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+            <state relative-caret-position="170">
+              <caret line="52" column="51" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="51" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,16 +162,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Blog/web/css/register.css" />
-        <option value="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/CommentType.php" />
-        <option value="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Comment.php" />
-        <option value="$PROJECT_DIR$/Blog/app/Resources/views/article/prb.html" />
         <option value="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/CommentController.php" />
-        <option value="$PROJECT_DIR$/Blog/app/Resources/views/comment/create.html.twig" />
         <option value="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Article.php" />
-        <option value="$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/comment/прб.html" />
-        <option value="$PROJECT_DIR$/Blog/app/Resources/views/comment/delete.html.twig" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/About.php" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/about/create.html.twig" />
@@ -231,14 +176,10 @@
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/user/прб.html" />
         <option value="$PROJECT_DIR$/Blog/web/css/profile.css" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/user/profile.html.twig" />
-        <option value="$PROJECT_DIR$/Blog/app/Resources/views/message/delete.html.twig" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/message/prb.html" />
-        <option value="$PROJECT_DIR$/Blog/app/Resources/views/message/create.html.twig" />
         <option value="$PROJECT_DIR$/Blog/web/css/statistics.css" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/admin/user/all.html.twig" />
-        <option value="$PROJECT_DIR$/Blog/app/Resources/views/admin/user/edit.html.twig" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/admin/user/prb.html" />
-        <option value="$PROJECT_DIR$/Blog/app/Resources/views/admin/user/delete.html.twig" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/message/show.html.twig" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/about/show.html.twig" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/about/edit.html.twig" />
@@ -260,7 +201,18 @@
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/blog/index.html.twig" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/article/edit.html.twig" />
         <option value="$PROJECT_DIR$/Blog/app/Resources/views/article/delete.html.twig" />
+        <option value="$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig" />
         <option value="$PROJECT_DIR$/Blog/web/css/articleView.css" />
+        <option value="$PROJECT_DIR$/Blog/app/Resources/views/comment/create.html.twig" />
+        <option value="$PROJECT_DIR$/Blog/web/css/articleCreate.css" />
+        <option value="$PROJECT_DIR$/Blog/app/Resources/views/comment/delete.html.twig" />
+        <option value="$PROJECT_DIR$/Blog/app/Resources/views/article/create.html.twig" />
+        <option value="$PROJECT_DIR$/Blog/app/Resources/views/admin/user/edit.html.twig" />
+        <option value="$PROJECT_DIR$/Blog/app/Resources/views/admin/user/delete.html.twig" />
+        <option value="$PROJECT_DIR$/Blog/app/Resources/views/message/delete.html.twig" />
+        <option value="$PROJECT_DIR$/Blog/app/Resources/views/message/create.html.twig" />
+        <option value="$PROJECT_DIR$/Blog/web/css/register.css" />
+        <option value="$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/User.php" />
       </list>
     </option>
   </component>
@@ -1105,18 +1057,19 @@
       <workItem from="1482108336111" duration="14695000" />
       <workItem from="1482134604760" duration="1845000" />
       <workItem from="1482194242363" duration="29883000" />
-      <workItem from="1482267351419" duration="14771000" />
+      <workItem from="1482267351419" duration="15316000" />
+      <workItem from="1482325493344" duration="7663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141032000" />
+    <option name="totallyTimeSpent" value="149240000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="1370" height="735" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3167939" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32137406" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1159,181 +1112,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/about/create.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="39" column="85" selection-start-line="39" selection-start-column="83" selection-end-line="39" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/about/edit.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/gallery/gallery.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/contacts/edit.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/AboutController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding>
-            <element signature="e#48#107#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ArticleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/CommentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#48#107#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ContactsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding>
-            <element signature="e#48#107#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-          <folding>
-            <element signature="e#279#336#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/StatisticsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding>
-            <element signature="e#48#107#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding>
-            <element signature="e#49#108#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/About.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#44#92#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" column="20" selection-start-line="86" selection-start-column="4" selection-end-line="98" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Contacts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Message.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="139" column="22" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Role.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#44#92#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Statistics.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#44#92#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1345,22 +1128,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/ArticleType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#42#82#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/CommentType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
-            <element signature="e#42#82#0#PHP" expanded="true" />
+            <element signature="e#42#82#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1378,7 +1151,7 @@
         <state relative-caret-position="68">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
-            <element signature="e#42#82#0#PHP" expanded="true" />
+            <element signature="e#42#82#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1396,17 +1169,7 @@
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#42#100#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/UserType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding>
-            <element signature="e#41#81#0#PHP" expanded="true" />
+            <element signature="e#42#100#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1459,26 +1222,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/web/Images/bg.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/web/Images/bg.jpg" />
     <entry file="file://$PROJECT_DIR$/Blog/web/Images/logo.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/web/uploads/articles/ee4625c917e096fe443553ffcdfb421a.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/web/uploads/articles/e8ce490d2a650ae9f9fe15270f9121cb.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/web/uploads/articles/ee4625c917e096fe443553ffcdfb421a.png" />
+    <entry file="file://$PROJECT_DIR$/Blog/web/uploads/articles/e8ce490d2a650ae9f9fe15270f9121cb.png" />
     <entry file="file://$PROJECT_DIR$/Blog/web/uploads/articles/f79456a942c9c18f6c69f64a046d990f.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1512,7 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="16" column="100" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1532,6 +1282,191 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/web/css/bootstrap-datetimepicker.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/ArticleType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#42#82#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/MessageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/CommentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1024">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#48#107#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1168">
+          <caret line="83" column="7" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3914">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#44#92#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1973">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/web/css/articleView.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/comment/delete.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/comment/create.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/about/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="52" column="51" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/create.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/web/css/articleCreate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/about/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/admin/user/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+          <folding>
+            <element signature="e#342#365#0#HTML" expanded="true" />
+            <element signature="e#604#627#0#HTML" expanded="true" />
+            <element signature="e#881#904#0#HTML" expanded="true" />
+            <element signature="e#1147#1170#0#HTML" expanded="true" />
+            <element signature="e#1664#1685#0#HTML" expanded="true" />
+            <element signature="e#1779#1800#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/web/css/about.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="235" column="20" selection-start-line="233" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/admin/user/delete.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/message/delete.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/message/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -1540,50 +1475,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/about/show.html.twig">
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/message/create.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+        <state relative-caret-position="323">
+          <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/comment/create.html.twig">
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/user/register.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        <state relative-caret-position="238">
+          <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#1664#1692#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/web/css/about.css">
+    <entry file="file://$PROJECT_DIR$/Blog/web/css/register.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="244" column="1" selection-start-line="233" selection-start-column="0" selection-end-line="244" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/web/css/articleView.css">
+    <entry file="file://$PROJECT_DIR$/Blog/app/Resources/views/article/article.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="31" />
+        <state relative-caret-position="272">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/MessageController.php">
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/Admin/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-884">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="-1483">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Controller/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blog/src/SoftUniBlogBundle/Form/UserType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#41#81#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

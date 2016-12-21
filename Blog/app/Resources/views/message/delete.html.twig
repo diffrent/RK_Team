@@ -7,15 +7,15 @@
             <form class="register" action="{{ path('message_delete', {id: message.id}) }}" method="POST">
                 <h3>Изтрии Съобщение:</h3>
 
-                <label for="message_email">Емаил Адрес на автора:</label>
+                <p style="margin-left: 1%" for="message_email">Емаил Адрес на автора:</p>
                 <input type="text" style="margin-bottom: 4%" class="form-control"  id="message_email"
                        name="message[email]" value="{{ message.email }}" disabled>
 
-                <label for="message_name">Име на автора:</label>
+                <p style="margin-left: 1%" for="message_name">Име на автора:</p>
                 <input type="text" style="margin-bottom: 4%" class="form-control"  id="message_name"
                        name="message[name]" value="{{ message.name }}" disabled>
 
-                <label for="message_content">Съдържание:</label>
+                <p style="margin-left: 1%" for="message_content">Съдържание:</p>
                 <textarea style="margin-bottom: 40px" class="form-control" rows="6" id="message_content"
                           name="message[content]" disabled>{{ message.content}}</textarea>
 
@@ -24,8 +24,8 @@
                 <div>
                     <div>
                         <label></label>
-                        <a class="button" style="float: right; padding: 14px;" href="{{ path('user_profile') }}">Отказ</a>
-                        <button type="submit" style="float: right;" class="button">Изтрии!!!</button>
+                        <a class="button" style="padding: 15px" href="{{ path('user_profile') }}">Отказ</a>
+                        <button type="submit" style="padding: 15px" class="button">Изтрии!!!</button>
                     </div>
                 </div>
             </form>

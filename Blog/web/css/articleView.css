@@ -10,6 +10,7 @@ body {
 a {
     text-decoration: none;
     display: inline-block;
+    background-color: #666;
 }
 label {
     display: inline-block;
@@ -20,7 +21,7 @@ label {
 }
 
 a:link, a:visited {
-    color: #CF5C3F;
+    color: black;
 }
 
 a:hover, a:active {
@@ -29,11 +30,11 @@ a:hover, a:active {
 }
 
 button:hover, button:active {
-    background-color: lightblue;
+    background-color: #CF5C3F;
     color: white;
 }
 button {
-    background-color: white;
+    background-color: #666;
 
 }
 

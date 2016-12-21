@@ -9,23 +9,24 @@ body {
 
 a {
     text-decoration: none;
+    display: inline-block;
+    background-color: #666;
 }
 
 a:link, a:visited {
     color: #CF5C3F;
 }
 
-a:hover, a:active {
-    background-color: #CF5C3F;
-    color: white;
+a:link, a:visited {
+    color: black;
 }
 
 button:hover, button:active {
-    background-color: lightblue;
+    background-color: #CF5C3F;
     color: white;
 }
 button {
-    background-color: white;
+    background-color: #666;
 }
 
 .body {

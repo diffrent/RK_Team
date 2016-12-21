@@ -8,8 +8,8 @@
             <form class="register" action="{{ path('comment_delete', {id: comment.id}) }}" method="POST">
                 <h3>Изтрии коментар</h3>
 
-                <label class="col-sm-4 control-label" for="comment_content">Съдържание</label>
-                <textarea style="margin: 40px" class="form-control" rows="6" id="comment_content"
+                <p style="margin-left: 1%" class="col-sm-4 control-label" for="comment_content">Съдържание</p>
+                <textarea style="margin-bottom: 40px" class="form-control" rows="6" id="comment_content"
                           name="comment[content]" disabled>{{ comment.content }}</textarea>
 
                 {{ form_row(form._token) }}
@@ -17,8 +17,8 @@
                 <div>
                     <div>
                         <label></label>
-                        <a class="button" style="float: right; padding: 14px; margin: -4% 3% 5% 0%;" href="{{ path('article_view', {id: article.id}) }}">Отказ</a>
-                        <button type="submit" style="float: right;" class="button">Изтрии!!!</button>
+                        <a class="button" style="padding: 15px" href="{{ path('article_view', {id: article.id}) }}">Отказ</a>
+                        <button type="submit" style="padding: 15px" class="button">Изтрии!!!</button>
                     </div>
                 </div>
             </form>
