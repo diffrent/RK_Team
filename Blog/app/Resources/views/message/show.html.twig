@@ -16,7 +16,7 @@
                 </p>
 
                 <footer>
-                    <p class="post-info">Написано от "{{ message.name }}" с Емаил "{{ message.email }}" на "{{ message.dateAdded|date('d-m-Y H:i') }}" </p>
+                    <p style="width: 100%" class="post-info">Написано от "{{ message.name }}" с Емаил "{{ message.email }}" на "{{ message.dateAdded|date('d-m-Y H:i') }}" </p>
                 </footer>
             </div>
             {% if app.getUser() and app.getUser().isAdmin() %}

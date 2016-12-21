@@ -2,17 +2,12 @@
 
 namespace SoftUniBlogBundle\Controller;
 
-use Doctrine\Common\Collections\ArrayCollection;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 use SoftUniBlogBundle\Entity\Statistics;
-use SoftUniBlogBundle\Entity\Category;
-use SoftUniBlogBundle\Entity\Tag;
 use SoftUniBlogBundle\Form\StatisticsType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
 
 class StatisticsController extends Controller
 {

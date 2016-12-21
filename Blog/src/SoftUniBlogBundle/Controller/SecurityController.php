@@ -11,12 +11,8 @@
 
 namespace SoftUniBlogBundle\Controller;
 
-use SoftUniBlogBundle\Entity\User;
-use SoftUniBlogBundle\Form\UserType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
-use Symfony\Component\HttpFoundation\Request;
 
 /**
  * Controller used to manage the application security.

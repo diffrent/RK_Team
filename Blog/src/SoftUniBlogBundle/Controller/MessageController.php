@@ -5,10 +5,8 @@ namespace SoftUniBlogBundle\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 use SoftUniBlogBundle\Entity\Message;
 use SoftUniBlogBundle\Form\MessageType;
-use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Request;
 
 class MessageController extends Controller
@@ -34,7 +32,7 @@ class MessageController extends Controller
             $em->persist($message);
             $em->flush();
 
-            return $this->redirectToRoute('user_profile');
+            return $this->redirectToRoute('contacts_view',array('id' => 1));
         }
 
         return $this->render('message/create.html.twig', array(
@@ -63,7 +61,7 @@ class MessageController extends Controller
             $em = $this->getDoctrine()->getManager();
             $em->remove($message);
             $em->flush();
-            return $this->redirectToRoute('user_profile');
+            return $this->redirectToRoute('messages_index');
         }
 
         return $this->render('message/delete.html.twig', array(
@@ -86,7 +84,6 @@ class MessageController extends Controller
          * @var $messages Message[]
          */
         $messages = $messageRepository->findAll();
-        rsort($messages);
         return $this->render('message/show.html.twig',[
             "messages" => $messages
         ]);

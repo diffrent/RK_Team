@@ -1,48 +1,41 @@
 {% extends 'base.html.twig' %}
 
 {% block main %}
-    <div class="container body-content span=8 offset=2">
-        <div class="well">
-            <form class="form-horizontal" action="{{ path('admin_user_edit', {id: user.id}) }}" method="post">
-                <fieldset>
-                    <legend>Edit user</legend>
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label" for="user_email">Email</label>
-                        <div class="col-sm-4 ">
-                            <input value="{{ user.email }}" class="form-control" id="user_1email" placeholder="Email" name="user_edit[email]" required type="email">
-                        </div>
+    <link rel="stylesheet" href="{{ asset('css/articleCreate.css') }}">
+    <div class="main">
+        <div class="one">
+
+            <form class="register" action="{{ path('admin_user_edit', {id: user.id}) }}" method="post">
+                <h3>Редактирай потребител</h3>
+
+                <label for="user_1email">Емаил Адрес:</label>
+                <input value="{{ user.email }}" type="email" style="margin-bottom: 4%" class="form-control"  id="user_1email"
+                       name="user_edit[email]" required>
+
+                <label for="user_fullName">Потребителско име:</label>
+                <input value="{{ user.fullName }}" type="text" style="margin-bottom: 4%" class="form-control"  id="user_fullName"
+                       name="user_edit[fullName]" required>
+
+                <label for="user_password_first">Потребителска Парола:</label>
+                <input type="password" style="margin-bottom: 4%" class="form-control"  id="user_password_first"
+                       name="user_edit[password][first]">
+
+                <label for="user_password_second">Потвърди Парола:</label>
+                <input type="password" style="margin-bottom: 40px" class="form-control"  id="user_password_second"
+                       name="user_edit[password][second]">
+
+                <div class="form-group">
+                    {{ form_widget(form.roles )}}
+                </div>
+                <div>
+                    <div>
+                        <label></label>
+                        <a class="button" style="float: right; padding: 14px;" href="{{ path('admin_users_all') }}">Отказ</a>
+                        <button type="submit" style="float: right;" class="button">Готово</button>
                     </div>
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label" for="user_fullName">Full Name</label>
-                        <div class="col-sm-4 ">
-                            <input value="{{ user.fullName }}" type="text" class="form-control" id="user_fullName" placeholder="Full Name" name="user_edit[fullName]" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label" for="user_password_first">Password</label>
-                        <div class="col-sm-4">
-                            <input type="password" class="form-control" id="user_password_first" placeholder="Password" name="user_edit[password][first]">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label" for="user_password_second">Confirm Password</label>
-                        <div class="col-sm-4">
-                            <input type="password" class="form-control" id="user_password_second" placeholder="Password" name="user_edit[password][second]">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        {{ form_widget(form.roles )}}
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-4 col-sm-offset-4">
-                            <a class="btn btn-default" href="{{ path('admin_users_all') }}">Cancel</a>
-                            <button type="submit" class="btn btn-primary">Save chages</button>
-                        </div>
-                    </div>
-                    {{  form_row(form._token) }}
-                </fieldset>
+                </div>
+                {{  form_row(form._token) }}
             </form>
         </div>
     </div>
 {% endblock %}
-

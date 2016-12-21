@@ -2,7 +2,7 @@
 
 namespace SoftUniBlogBundle\Controller;
 
-use Doctrine\Common\Collections\ArrayCollection;
+
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Security;
 use SoftUniBlogBundle\Entity\Article;
@@ -10,7 +10,6 @@ use SoftUniBlogBundle\Form\ArticleType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
 
 class ArticleController extends Controller
 {
@@ -152,6 +151,9 @@ class ArticleController extends Controller
         if ($form->isSubmitted() && $form->isValid())
         {
             $em = $this->getDoctrine()->getManager();
+            foreach ($article->getComments() as $comment){
+                $em->remove($comment);
+            }
             $em->remove($article);
             $em->flush();
 

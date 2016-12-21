@@ -14,7 +14,7 @@
                 </header>
 
                 <footer>
-                    <p class="post-info">This post is written by {{ article.author }}</p>
+                    <p class="post-info">Този пост бе написан от {{ article.author }} на "{{ article.dateAdded|date('d-m-Y H:i') }}"</p>
                 </footer>
                 <content>
                     <a href="{{ asset('uploads/articles/' ~ article.coverPhoto ) }}" data-lightbox="gallery">
